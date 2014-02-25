@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<!-- 
+  Copyright (C) 2012 Nethesis S.r.l.
+  @author Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>
+-->
+<comps>
+  <group>
+    <id>nethvoice</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk-based VOIP PBX</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethvoice</packagereq>
+      <packagereq type="mandatory">freepbx</packagereq>
+    </packagelist>
+  </group>
+
+  <category>
+    <id>nethservice</id>
+    <_name>NethService</_name>
+    <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>nethserver-nethvoice</groupid>
+    </grouplist>
+  </category>
+
+</comps>

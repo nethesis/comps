@@ -1,0 +1,12 @@
+
+Workflow
+========
+
+1. Edit *.xml.in
+
+2. In po/ directory: make <lang>.po
+
+3. Edit <lang>.po, adjusting fuzzy entries and missing translations
+
+4. make comps-<dist>.xml
+
