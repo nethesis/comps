@@ -17,6 +17,176 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../nethserver-groups.xml.in.h:1
+msgid "Build system"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:2
+msgid "Tools for building RPMs"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:3
+msgid "Nethesis remote administration"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:4
+msgid "Nethesis tools for monitoring and remote administration"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:5
+msgid "Backup"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:6
+msgid "Backup of configuration and data"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:7
+msgid "Additional ISO packages"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:8
+msgid "DNS and DHCP server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:9
+msgid "Daemons and tools for DHCP and DNS server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:10
+msgid "Fax server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:11
+msgid "Configure HylaFax+ and manage IAX modems"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:12
+msgid "Basic firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:13
+msgid "Configure network adapters and basic firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:14
+msgid "File server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:15
+msgid "Daemons and tools for network file sharing"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:16
+msgid "Groupware"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:17
+msgid "SOGo server and Thundebird extensions"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:18
+msgid "Email"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:19
+msgid "Email server and filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:20
+msgid "Instant messaging"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:21
+msgid "XMPP/Jabber chat server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:22
+msgid "Print server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:23
+msgid "Print management server (CUPS)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:24
+msgid "Web server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:25
+msgid "Configuration tools for Apache web server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:26
+msgid "MySQL server"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:27
+msgid "Configuration tools for MySQL"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:28
+msgid "Bandwidth monitor"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:29
+msgid "Configure and manage Ntopng"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:30
+msgid "UPS support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:31
+msgid "UPS management and monitoring configuration"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:32
+msgid "Statistics"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:33
+msgid "Collect and analyse system statistics"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:34
+msgid "Web proxy"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:35
+msgid "Squid web caching proxy configuration"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:36
+msgid "Web filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:37
+msgid "Squid web content and virus filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:38
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:39
+msgid "ownCloud"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:40
+msgid ""
+"Configure ownCloud, universal access to your files via the web, your "
+"computer or your mobile devices - wherever you are"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:41
+msgid "NethServer"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:42
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr ""
+
 #: ../nethservice-groups.xml.in.h:1
 msgid "NethVoice"
 msgstr ""
