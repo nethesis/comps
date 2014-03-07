@@ -507,7 +507,17 @@
   </group>
 
   <category>
-    <id>nethservice</id>
+    <id>NVOICENG0001</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk-based VOIP PBX</_description>
+    <display_order>2</display_order>
+    <grouplist>
+      <groupid>nethvoice</groupid>
+    </grouplist>
+  </category>
+
+  <category>
+    <id>NSERNG0001</id>
     <_name>NethService</_name>
     <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
     <display_order>1</display_order>
