@@ -1,7 +1,7 @@
 XMLINFILES=$(wildcard *.xml.in)
 XMLFILES = $(patsubst %.xml.in,%.xml,$(XMLINFILES))
 
-all: po $(XMLFILES)
+all: po $(XMLFILES) link
 
 po: $(XMLINFILES)
 	make -C po -f Makefile || exit 1
@@ -17,4 +17,5 @@ validate: $(XMLFILES) comps.rng
 	@if test ".$(CLEANUP)" == .yes; then xsltproc --novalid -o $< comps-cleanup.xsl $<; fi
 	./update-comps $@
 
-
+link:	
+	ln -sf nethserver-enterprise-groups.xml nethserver-groups.xml

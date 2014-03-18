@@ -5,6 +5,9 @@
   @author Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>
 -->
 <comps>
+
+<!-- CENTOS GROUPS START -->
+
  <group>
     <id>buildsys-build</id>
     <_name>Build system</_name>
@@ -41,237 +44,7 @@
       <packagereq type="default">xz</packagereq>
     </packagelist>
   </group>
-
-  <group>
-    <id>nethserver-backup</id>
-    <_name>Backup</_name>
-    <_description>Backup of configuration and data</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-backup-config</packagereq>
-      <packagereq type="mandatory">nethserver-backup-data</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-iso</id>
-    <name>ISO</name>
-    <_description>Additional ISO packages</_description>
-    <default>true</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
-      <packagereq type="mandatory">nethserver-ntp</packagereq>
-      <packagereq type="mandatory">nethserver-hosts</packagereq>
-      <packagereq type="mandatory">nethserver-openssh</packagereq>
-      <packagereq type="mandatory">nethserver-release</packagereq>
-      <packagereq type="mandatory">nethserver-smartd</packagereq>
-
-      <packagereq type="mandatory">lsof</packagereq>
-      <packagereq type="mandatory">man</packagereq>
-      <packagereq type="mandatory">patch</packagereq>
-      <packagereq type="mandatory">pciutils</packagereq>
-      <packagereq type="mandatory">rsync</packagereq>
-      <packagereq type="mandatory">strace</packagereq>
-      <packagereq type="mandatory">tcpdump</packagereq>
-      <packagereq type="mandatory">usbutils</packagereq>
-      <packagereq type="mandatory">screen</packagereq>
-      <packagereq type="mandatory">wget</packagereq>
-      <packagereq type="mandatory">cpuspeed</packagereq>
-      <packagereq type="mandatory">wireless-tools</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-dns-dhcp</id>
-    <_name>DNS and DHCP server</_name>
-    <_description>Daemons and tools for DHCP and DNS server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-fax-server</id>
-    <_name>Fax server</_name>
-    <_description>Configure HylaFax+ and manage IAX modems</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-hylafax</packagereq>
-      <packagereq type="mandatory">nethserver-iaxmodem</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-firewall-base</id>
-    <_name>Basic firewall</_name>
-    <_description>Configure network adapters and basic firewall</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-firewall-base</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-file-server</id>
-    <_name>File server</_name>
-    <_description>Daemons and tools for network file sharing</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="mandatory">nethserver-ibays</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-groupware</id>
-    <_name>Groupware</_name>
-    <_description>SOGo server and Thundebird extensions</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-sogo</packagereq>
-      <packagereq type="optional">nethserver-sogo-thunderbird</packagereq>
-      <packagereq type="optional">sogo-frontends</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-mail</id>
-    <_name>Email</_name>
-    <_description>Email server and filter</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
-      <packagereq type="mandatory">nethserver-mail-server</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
-      <packagereq type="optional">nethserver-fetchmail</packagereq>
-      <packagereq type="optional">mutt</packagereq>
-      <packagereq type="optional">ripole</packagereq>
-      <packagereq type="optional">lha</packagereq>
-      <packagereq type="optional">unrar</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-messaging</id>
-    <_name>Instant messaging</_name>
-    <_description>XMPP/Jabber chat server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-printers</id>
-    <_name>Print server</_name>
-    <_description>Print management server (CUPS)</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-cups</packagereq>
-      <packagereq type="optional">nethserver-avahi</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-web</id>
-    <_name>Web server</_name>
-    <_description>Configuration tools for Apache web server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-mysql</id>
-    <_name>MySQL server</_name>
-    <_description>Configuration tools for MySQL</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mysql</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-bandwidth-monitor</id>
-    <_name>Bandwidth monitor</_name>
-    <_description>Configure and manage Ntopng</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-ntopng</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-nut</id>
-    <_name>UPS support</_name>
-    <_description>UPS management and monitoring configuration</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-nut</packagereq>
-      <packagereq type="optional">nethserver-collectd</packagereq>
-      <packagereq type="optional">collectd-nut</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>nethserver-statistics</id>
-    <_name>Statistics</_name>
-    <_description>Collect and analyse system statistics</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-collectd</packagereq>
-      <packagereq type="optional">nethserver-cgp</packagereq>
-      <packagereq type="optional">nethserver-collectd-web</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-web-proxy</id>
-    <_name>Web proxy</_name>
-    <_description>Squid web caching proxy configuration</_description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-squid</packagereq>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-web-filter</id>
-    <_name>Web filter</_name>
-    <_description>Squid web content and virus filter</_description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-squid</packagereq>
-      <packagereq type="mandatory">nethserver-squidguard</packagereq>
-      <packagereq type="mandatory">nethserver-squidclamav</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-vpn</id>
-    <name>VPN</name>
-    <_description>Configure remote-access and site-to-site Virtual Private Networks (VPN)</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-ipsec</packagereq>
-      <packagereq type="mandatory">nethserver-openvpn</packagereq>
-      <packagereq type="optional">nethserver-samba</packagereq>      
-    </packagelist>
-  </group>
-
-
+  
   <group>
     <id>centos-minimal</id>
     <name>CentOS-minimal</name>
@@ -481,6 +254,254 @@
     </packagelist> 
   </group>
 
+<!-- CENTOS GROUPS END -->
+
+<!-- NETHESIS GROUPS START -->
+
+  <group>
+    <id>nethserver-iso</id>
+    <name>ISO</name>
+    <_description>Additional ISO packages</_description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+      <packagereq type="mandatory">nethserver-ntp</packagereq>
+      <packagereq type="mandatory">nethserver-hosts</packagereq>
+      <packagereq type="mandatory">nethserver-openssh</packagereq>
+      <packagereq type="mandatory">nethserver-release</packagereq>
+      <packagereq type="mandatory">nethserver-smartd</packagereq>
+
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">man</packagereq>
+      <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">rsync</packagereq>
+      <packagereq type="mandatory">strace</packagereq>
+      <packagereq type="mandatory">tcpdump</packagereq>
+      <packagereq type="mandatory">usbutils</packagereq>
+      <packagereq type="mandatory">screen</packagereq>
+      <packagereq type="mandatory">wget</packagereq>
+      <packagereq type="mandatory">cpuspeed</packagereq>
+      <packagereq type="mandatory">wireless-tools</packagereq>
+    </packagelist>
+  </group>
+  
+  <group>
+    <id>nethserver-backup</id>
+    <_name>Backup</_name>
+    <_description>Backup of configuration and data</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-backup-data</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-dns-dhcp</id>
+    <_name>DNS and DHCP server</_name>
+    <_description>Daemons and tools for DHCP and DNS server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-fax-server</id>
+    <_name>Fax server</_name>
+    <_description>Configure HylaFax+ and manage IAX modems</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-hylafax</packagereq>
+      <packagereq type="mandatory">nethserver-iaxmodem</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-faxweb2</id>
+    <_name>Web-based fax client</_name>
+    <_description>Manage faxes from a simple web interface</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-faxweb2</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-firewall-base</id>
+    <_name>Basic firewall</_name>
+    <_description>Configure network adapters and basic firewall</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-firewall-base</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-file-server</id>
+    <_name>File server</_name>
+    <_description>Daemons and tools for network file sharing</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-ibays</packagereq>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-groupware</id>
+    <_name>Groupware</_name>
+    <_description>SOGo server and Thundebird extensions</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-sogo</packagereq>
+      <packagereq type="optional">nethserver-sogo-thunderbird</packagereq>
+      <packagereq type="optional">sogo-frontends</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-mail</id>
+    <_name>Email</_name>
+    <_description>Email server and filter</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail-server</packagereq>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
+      <packagereq type="optional">nethserver-roundcubemail</packagereq>
+      <packagereq type="optional">nethserver-fetchmail</packagereq>
+      <packagereq type="optional">mutt</packagereq>
+      <packagereq type="optional">ripole</packagereq>
+      <packagereq type="optional">lha</packagereq>
+      <packagereq type="optional">unrar</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-messaging</id>
+    <_name>Instant messaging</_name>
+    <_description>XMPP/Jabber chat server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-printers</id>
+    <_name>Print server</_name>
+    <_description>Print management server (CUPS)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-cups</packagereq>
+      <packagereq type="optional">nethserver-avahi</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-web</id>
+    <_name>Web server</_name>
+    <_description>Configuration tools for Apache web server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-bandwidth-monitor</id>
+    <_name>Bandwidth monitor</_name>
+    <_description>Configure and manage Ntopng</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ntopng</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-nut</id>
+    <_name>UPS support</_name>
+    <_description>UPS management and monitoring configuration</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nut</packagereq>
+      <packagereq type="optional">nethserver-collectd</packagereq>
+      <packagereq type="optional">collectd-nut</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-statistics</id>
+    <_name>Statistics</_name>
+    <_description>Collect and analyse system statistics</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-collectd</packagereq>
+      <packagereq type="optional">nethserver-cgp</packagereq>
+      <packagereq type="optional">nethserver-collectd-web</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-web-proxy</id>
+    <_name>Web proxy</_name>
+    <_description>Squid web caching proxy configuration</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-squid</packagereq>
+      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="optional">nethserver-lightsquid</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-web-filter</id>
+    <_name>Web filter</_name>
+    <_description>Squid web content and virus filter</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-squid</packagereq>
+      <packagereq type="mandatory">nethserver-squidguard</packagereq>
+      <packagereq type="mandatory">nethserver-squidclamav</packagereq>
+      <packagereq type="optional">nethserver-lightsquid</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-vpn</id>
+    <name>VPN</name>
+    <_description>Configure remote-access and site-to-site Virtual Private Networks (VPN)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ipsec</packagereq>
+      <packagereq type="mandatory">nethserver-openvpn</packagereq>
+      <packagereq type="optional">nethserver-samba</packagereq>      
+    </packagelist>
+  </group>
+
   <group>
     <id>nethserver-owncloud</id>
     <_name>ownCloud</_name>
@@ -491,6 +512,17 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-owncloud</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-mysql</id>
+    <_name>MySQL server</_name>
+    <_description>Configuration tools for MySQL</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mysql</packagereq>
     </packagelist>
   </group>
 
@@ -506,13 +538,25 @@
     </packagelist>
   </group>
 
+<!-- NETHESIS GROUPS END -->
+
+<!-- NETHESIS CATEGORIES START -->
+
   <category>
-    <id>NVOICENG0001</id>
-    <_name>NethVoice</_name>
-    <_description>Asterisk-based VOIP PBX</_description>
-    <display_order>2</display_order>
+    <id>BASENG0001</id>
+    <_name>Base system</_name>
+    <_description>Common packages to all products</_description>
+    <display_order>1</display_order>
     <grouplist>
-      <groupid>nethvoice</groupid>
+      <groupid>centos-minimal</groupid>
+      <groupid>buildsys-build</groupid>
+      <groupid>nethserver-iso</groupid>
+      <groupid>nethserver-backup</groupid>
+      <groupid>nethserver-nut</groupid>
+      <groupid>nethserver-ntp</groupid>
+      <groupid>nethserver-wireless-tools</groupid>
+      <groupid>nethserver-statistics</groupid>
+      <groupid>nethserver-dns-dhcp</groupid>
     </grouplist>
   </category>
 
@@ -520,28 +564,45 @@
     <id>NSERNG0001</id>
     <_name>NethService</_name>
     <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
-    <display_order>1</display_order>
+    <display_order>2</display_order>
     <grouplist>
-      <groupid>nethserver-nethvoice</groupid>
-      <groupid>nethserver-backup</groupid>
-      <groupid>nethserver-iso</groupid>
-      <groupid>nethserver-dns-dhcp</groupid>
-      <groupid>nethserver-fax-server</groupid>
-      <groupid>nethserver-firewall-base</groupid>
-      <groupid>nethserver-file-server</groupid>
-      <groupid>nethserver-groupware</groupid>
       <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
-      <groupid>nethserver-printers</groupid>
+      <groupid>nethserver-file-server</groupid>
+      <groupid>nethserver-fax-server</groupid>
       <groupid>nethserver-web</groupid>
+      <groupid>nethserver-faxweb2</groupid>
+      <groupid>nethserver-printers</groupid>
       <groupid>nethserver-mysql</groupid>
-      <groupid>nethserver-nut</groupid>
-      <groupid>nethserver-statistics</groupid>
-      <groupid>nethserver-wireless-tools</groupid>
+      <groupid>nethserver-owncloud</groupid>
+    </grouplist>
+  </category>
+
+  <category>
+    <id>NSECNG0001</id>
+    <_name>NethSecurity</_name>
+    <_description>UTM Firewall</_description>
+    <display_order>3</display_order>
+    <grouplist>
+      <groupid>nethserver-firewall-base</groupid>
       <groupid>nethserver-web-proxy</groupid>
       <groupid>nethserver-web-filter</groupid>
       <groupid>nethserver-vpn</groupid>
+      <groupid>nethserver-bandwidth-monitor</groupid>
     </grouplist>
   </category>
+
+  <category>
+    <id>NVOICENG0001</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk-based VOIP PBX</_description>
+    <display_order>4</display_order>
+    <grouplist>
+      <groupid>nethvoice</groupid>
+    </grouplist>
+  </category>
+
+<!-- NETHESIS CATEGORIES END -->
 
 </comps>

@@ -187,18 +187,37 @@ msgstr "Configura ownCloud - accesso completo ai propri file via web, computer o
 msgid "NethServer"
 msgstr "NethServer"
 
-#: ../nethservice-groups.xml.in.h:1
+#: ../nethserver-enterprise-groups.xml.in.h:1
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethservice-groups.xml.in.h:2
+#: ../nethserver-enterprise-groups.xml.in.h:2
 msgid "Asterisk-based VOIP PBX"
 msgstr "Centralino VOIP basato su Asterisk"
 
-#: ../nethservice-groups.xml.in.h:3
+#: ../nethserver-enterprise-groups.xml.in.h:3
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethservice-groups.xml.in.h:4
+#: ../nethserver-enterprise-groups.xml.in.h:4
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
+
+msgid "Web-based fax client"
+msgstr "Client fax web"
+
+msgid "Manage faxes from a simple web interface"
+msgstr "Gestione fax da una semplice pagina web"
+
+msgid "Base system"
+msgstr "Sistema base"
+
+msgid "Common packages to all products"
+msgstr "Pacchetti comuni a tutti i prodotti"
+
+msgid "NethSecurity"
+msgstr "NethSecurity"
+
+msgid "UTM Firewall"
+msgstr "Firewall UTM (Unified Threat Management)"
+
