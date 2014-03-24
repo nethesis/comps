@@ -545,6 +545,7 @@
       <groupid>nethserver-wireless-tools</groupid>
       <groupid>nethserver-statistics</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
+      <groupid>nethserver-web</groupid>
     </grouplist>
   </category>
 
@@ -559,7 +560,6 @@
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-fax-server</groupid>
-      <groupid>nethserver-web</groupid>
       <groupid>nethserver-faxweb2</groupid>
       <groupid>nethserver-printers</groupid>
       <groupid>nethserver-mysql</groupid>
