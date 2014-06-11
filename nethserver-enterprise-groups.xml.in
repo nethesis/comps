@@ -526,6 +526,39 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-nethvoice</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk PBX</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nethvoice</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethcalldebugger</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethcqr</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethpatton</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethvirtualtrunks</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
+      <packagereq type="optional">neth-queue-report</packagereq>
+      <packagereq type="optional">nethserver-phonebook-mysql</packagereq>
+      <packagereq type="optional">nethserver-iaxmodem</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-nethcti</id>
+    <_name>NethCTI</_name>
+    <_description>Computer Telephony Integration</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethcti</packagereq>
+      <packagereq type="mandatory">nethcti-server</packagereq>
+      <packagereq type="optional">nethserver-ejabberd</packagereq>
+    </packagelist>
+  </group>
+
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -578,6 +611,17 @@
       <groupid>nethserver-web-filter</groupid>
       <groupid>nethserver-vpn</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
+    </grouplist>
+  </category>
+
+  <category>
+    <id>NVOICENG0001</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk PBX</_description>
+    <display_order>4</display_order>
+    <grouplist>
+      <groupid>nethserver-nethvoice</groupid>
+      <groupid>nethserver-nethcti</groupid>
     </grouplist>
   </category>
 
