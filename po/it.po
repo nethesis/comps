@@ -185,7 +185,7 @@ msgstr "Strumenti di configurazione per MySQL"
 
 #: ../nethserver-enterprise-groups.xml.in.h:41
 msgid "NethVoice"
-msgstr "NethVoice"
+msgstr "NethVoice - Beta"
 
 #: ../nethserver-enterprise-groups.xml.in.h:42
 #, fuzzy
@@ -218,7 +218,7 @@ msgstr "Distribuzione Linux per la piccola e media impresa"
 
 #: ../nethserver-enterprise-groups.xml.in.h:49
 msgid "NethSecurity"
-msgstr "NethSecurity"
+msgstr "NethSecurity - Beta"
 
 #: ../nethserver-enterprise-groups.xml.in.h:50
 msgid "UTM Firewall"
