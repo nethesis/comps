@@ -540,7 +540,6 @@
       <packagereq type="mandatory">nethvoice-module-nethvirtualtrunks</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
       <packagereq type="optional">neth-queue-report</packagereq>
-      <packagereq type="optional">nethserver-phonebook-mysql</packagereq>
       <packagereq type="optional">nethserver-iaxmodem</packagereq>
     </packagelist>
   </group>
