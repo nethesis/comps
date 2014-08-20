@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-07 09:35+0200\n"
+"POT-Creation-Date: 2014-08-20 18:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,25 +204,33 @@ msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:47
-msgid "Base system"
+msgid "Intrusion Prevention System"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:48
-msgid "Common packages to all products"
+msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:49
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:50
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:51
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:52
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:53
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:54
 msgid "UTM Firewall"
 msgstr ""

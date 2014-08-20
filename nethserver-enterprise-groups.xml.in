@@ -571,6 +571,16 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-ips</id>
+    <_name>Intrusion Prevention System</_name>
+    <_description>Monitor and block network traffic for malicious activity</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-snort</packagereq>
+    </packagelist>
+  </group>
 
 <!-- NETHESIS GROUPS END -->
 
@@ -624,6 +634,7 @@
       <groupid>nethserver-web-filter</groupid>
       <groupid>nethserver-vpn</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
+      <groupid>nethserver-ips</groupid>
     </grouplist>
   </category>
 
