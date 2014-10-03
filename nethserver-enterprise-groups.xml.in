@@ -582,6 +582,18 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-p3scan</id>
+    <_name>POP3 proxy</_name>
+    <_description>Intercept POP3 connections and scan messages for virtus and spam</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-p3scan</packagereq>
+    </packagelist>
+  </group>
+
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -635,6 +647,7 @@
       <groupid>nethserver-vpn</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
       <groupid>nethserver-ips</groupid>
+      <groupid>nethserver-p3scan</groupid>
     </grouplist>
   </category>
 
