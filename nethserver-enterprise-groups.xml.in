@@ -543,16 +543,22 @@
     <_name>NethVoice</_name>
     <_description>Asterisk PBX</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nethvoice</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethcalldebugger</packagereq>
+      <packagereq type="mandatory">nethvoice-sounds</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethcqr</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethpatton</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethvirtualtrunks</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethvoipwizard</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
+      <packagereq type="optional">nethvoice-tftp</packagereq>
+      <packagereq type="optional">nethvoice-extra-modules</packagereq>
+      <packagereq type="optional">neth-cost-analysis</packagereq>
       <packagereq type="optional">neth-queue-report</packagereq>
-      <packagereq type="optional">nethserver-iaxmodem</packagereq>
+      <packagereq type="optional">neth-hotel</packagereq>
+      <packagereq type="optional">open-g729</packagereq>
     </packagelist>
   </group>
 
@@ -561,7 +567,7 @@
     <_name>NethCTI</_name>
     <_description>Computer Telephony Integration</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethcti</packagereq>
       <packagereq type="mandatory">nethcti-server</packagereq>
