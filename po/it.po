@@ -7,80 +7,175 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 11:54+0100\n"
+"POT-Creation-Date: 2014-11-14 16:04+0100\n"
 "PO-Revision-Date: 2014-08-20 18:52+0200\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it_IT\n"
 
 #: ../nethserver-enterprise-groups.xml.in.h:1
-msgid "Additional ISO packages"
-msgstr "Pacchetti aggiuntivi per la ISO"
-
-#: ../nethserver-enterprise-groups.xml.in.h:2
-msgid "Asterisk PBX"
-msgstr "Centralino VOIP basato su Asterisk"
-
-#: ../nethserver-enterprise-groups.xml.in.h:3
-msgid "Backup"
-msgstr "Backup"
-
-#: ../nethserver-enterprise-groups.xml.in.h:4
-msgid "Backup of configuration and data"
-msgstr "Backup della configurazione del sistema e dei dati"
-
-#: ../nethserver-enterprise-groups.xml.in.h:5
-msgid "Bandwidth monitor"
-msgstr "Monitoraggio banda"
-
-#: ../nethserver-enterprise-groups.xml.in.h:6
-msgid "Base system"
-msgstr "Sistema base"
-
-#: ../nethserver-enterprise-groups.xml.in.h:7
-msgid "Basic firewall"
-msgstr "Firewall base"
-
-#: ../nethserver-enterprise-groups.xml.in.h:8
 msgid "Build system"
 msgstr "Build system"
 
+#: ../nethserver-enterprise-groups.xml.in.h:2
+msgid "Tools for building RPMs"
+msgstr "Strumenti per fare gli RPM"
+
+#: ../nethserver-enterprise-groups.xml.in.h:3
+msgid "Additional ISO packages"
+msgstr "Pacchetti aggiuntivi per la ISO"
+
+#: ../nethserver-enterprise-groups.xml.in.h:4
+msgid "Backup"
+msgstr "Backup"
+
+#: ../nethserver-enterprise-groups.xml.in.h:5
+msgid "Backup of configuration and data"
+msgstr "Backup della configurazione del sistema e dei dati"
+
+#: ../nethserver-enterprise-groups.xml.in.h:6
+msgid "DNS and DHCP server"
+msgstr "Server DNS e DHCP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:7
+msgid "Daemons and tools for DHCP and DNS server"
+msgstr "Demoni e strumenti per i servizi DNS e DHCP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:8
+msgid "Fax server"
+msgstr "Fax server"
+
 #: ../nethserver-enterprise-groups.xml.in.h:9
-msgid "Collect and analyse system statistics"
-msgstr "Registra e analizza le statistiche del sistema"
-
-#: ../nethserver-enterprise-groups.xml.in.h:10
-msgid "Common packages to all products"
-msgstr "Pacchetti comuni a tutti i prodotti"
-
-#: ../nethserver-enterprise-groups.xml.in.h:11
-msgid "Computer Telephony Integration"
-msgstr "Integrazione sistema telefonico aziendale"
-
-#: ../nethserver-enterprise-groups.xml.in.h:12
-msgid "Configuration tools for Apache web server"
-msgstr "Strumenti di configurazione per il server web Apache"
-
-#: ../nethserver-enterprise-groups.xml.in.h:13
-msgid "Configuration tools for MySQL"
-msgstr "Strumenti di configurazione per MySQL"
-
-#: ../nethserver-enterprise-groups.xml.in.h:14
 msgid "Configure HylaFax+ and manage IAX modems"
 msgstr "Configura HylaFax+ e gestisce i modem IAX"
 
-#: ../nethserver-enterprise-groups.xml.in.h:15
-msgid "Configure and manage Ntopng"
-msgstr "Configurazione e gestione di Ntopng"
+#: ../nethserver-enterprise-groups.xml.in.h:10
+msgid "Web-based fax client"
+msgstr "Client fax web"
 
-#: ../nethserver-enterprise-groups.xml.in.h:16
+#: ../nethserver-enterprise-groups.xml.in.h:11
+msgid "Manage faxes from a simple web interface"
+msgstr "Gestione fax da una semplice pagina web"
+
+#: ../nethserver-enterprise-groups.xml.in.h:12
+msgid "Basic firewall"
+msgstr "Firewall base"
+
+#: ../nethserver-enterprise-groups.xml.in.h:13
 msgid "Configure network adapters and basic firewall"
 msgstr "Configura le interfacce di rete e il firewall base"
 
+#: ../nethserver-enterprise-groups.xml.in.h:14
+msgid "FTP server"
+msgstr "Server FTP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:15
+msgid "Configure the FTP server (vsftpd)"
+msgstr "Configura il server FTP (vsftpd)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:16
+msgid "File server"
+msgstr "File server"
+
 #: ../nethserver-enterprise-groups.xml.in.h:17
+msgid "Daemons and tools for network file sharing"
+msgstr "Demoni e strumenti per la condivisione file in rete"
+
+#: ../nethserver-enterprise-groups.xml.in.h:18
+msgid "Groupware"
+msgstr "Groupware"
+
+#: ../nethserver-enterprise-groups.xml.in.h:19
+msgid "SOGo server and Thundebird extensions"
+msgstr "Server SOGo ed estensioni per Thunderbird"
+
+#: ../nethserver-enterprise-groups.xml.in.h:20
+msgid "Email"
+msgstr "Email"
+
+#: ../nethserver-enterprise-groups.xml.in.h:21
+msgid "Email server and filter"
+msgstr "Server e filtri di posta elettronica"
+
+#: ../nethserver-enterprise-groups.xml.in.h:22
+msgid "Instant messaging"
+msgstr "Messaggistica istantanea"
+
+#: ../nethserver-enterprise-groups.xml.in.h:23
+msgid "XMPP/Jabber chat server"
+msgstr "Server di chat XMPP/Jabber"
+
+#: ../nethserver-enterprise-groups.xml.in.h:24
+msgid "Print server"
+msgstr "Server di stampa"
+
+#: ../nethserver-enterprise-groups.xml.in.h:25
+msgid "Print management server (CUPS)"
+msgstr "Servizio di gestione stampanti (CUPS)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:26
+msgid "Web server"
+msgstr "Server Web"
+
+#: ../nethserver-enterprise-groups.xml.in.h:27
+msgid "Configuration tools for Apache web server"
+msgstr "Strumenti di configurazione per il server web Apache"
+
+#: ../nethserver-enterprise-groups.xml.in.h:28
+msgid "Bandwidth monitor"
+msgstr "Monitoraggio banda"
+
+#: ../nethserver-enterprise-groups.xml.in.h:29
+msgid "Configure and manage Ntopng"
+msgstr "Configurazione e gestione di Ntopng"
+
+#: ../nethserver-enterprise-groups.xml.in.h:30
+msgid "UPS support"
+msgstr "Supporto UPS"
+
+#: ../nethserver-enterprise-groups.xml.in.h:31
+msgid "UPS management and monitoring configuration"
+msgstr ""
+"Configurazione della gestione e del monitoraggio dei gruppi di continuità"
+
+#: ../nethserver-enterprise-groups.xml.in.h:32
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: ../nethserver-enterprise-groups.xml.in.h:33
+msgid "Collect and analyse system statistics"
+msgstr "Registra e analizza le statistiche del sistema"
+
+#: ../nethserver-enterprise-groups.xml.in.h:34
+msgid "Web proxy"
+msgstr "Proxy web"
+
+#: ../nethserver-enterprise-groups.xml.in.h:35
+msgid "Squid web caching proxy configuration"
+msgstr "Configurazione Squid (web caching proxy)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:36
+msgid "Web filter"
+msgstr "Filtro web"
+
+#: ../nethserver-enterprise-groups.xml.in.h:37
+msgid "Squid web content and virus filter"
+msgstr "Filtro web per contenuti e virus"
+
+#: ../nethserver-enterprise-groups.xml.in.h:38
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr ""
+"Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
+"remote"
+
+#: ../nethserver-enterprise-groups.xml.in.h:39
+msgid "ownCloud"
+msgstr "ownCloud"
+
+#: ../nethserver-enterprise-groups.xml.in.h:40
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
@@ -88,164 +183,73 @@ msgstr ""
 "Configura ownCloud - accesso completo ai propri file via web, computer o "
 "dispositivi mobili - da qualsiasi luogo"
 
-#: ../nethserver-enterprise-groups.xml.in.h:18
-msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+#: ../nethserver-enterprise-groups.xml.in.h:41
+msgid "MySQL server"
+msgstr "Server MySQL"
+
+#: ../nethserver-enterprise-groups.xml.in.h:42
+msgid "Configuration tools for MySQL"
+msgstr "Strumenti di configurazione per MySQL"
+
+#: ../nethserver-enterprise-groups.xml.in.h:43
+msgid "NethVoice"
+msgstr "NethVoice"
+
+#: ../nethserver-enterprise-groups.xml.in.h:44
+msgid "Asterisk PBX"
+msgstr "Centralino VOIP basato su Asterisk"
+
+#: ../nethserver-enterprise-groups.xml.in.h:45
+msgid "NethCTI"
+msgstr "NethCTI"
+
+#: ../nethserver-enterprise-groups.xml.in.h:46
+msgid "Computer Telephony Integration"
+msgstr "Integrazione sistema telefonico aziendale"
+
+#: ../nethserver-enterprise-groups.xml.in.h:47
+msgid "Intrusion Prevention System"
+msgstr "Intrusion Prevention System"
+
+#: ../nethserver-enterprise-groups.xml.in.h:48
+msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
-"Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
-"remote"
+"Controlla e blocca il traffico di rete proveniente da attività malevoli"
 
-#: ../nethserver-enterprise-groups.xml.in.h:19
-msgid "Configure the FTP server (vsftpd)"
-msgstr "Configura il server FTP (vsftpd)"
+#: ../nethserver-enterprise-groups.xml.in.h:49
+msgid "POP3 proxy"
+msgstr "Proxy POP3"
 
-#: ../nethserver-enterprise-groups.xml.in.h:20
-msgid "DNS and DHCP server"
-msgstr "Server DNS e DHCP"
-
-#: ../nethserver-enterprise-groups.xml.in.h:21
-msgid "Daemons and tools for DHCP and DNS server"
-msgstr "Demoni e strumenti per i servizi DNS e DHCP"
-
-#: ../nethserver-enterprise-groups.xml.in.h:22
-msgid "Daemons and tools for network file sharing"
-msgstr "Demoni e strumenti per la condivisione file in rete"
-
-#: ../nethserver-enterprise-groups.xml.in.h:23
-msgid "Email"
-msgstr "Email"
-
-#: ../nethserver-enterprise-groups.xml.in.h:24
-msgid "Email server and filter"
-msgstr "Server e filtri di posta elettronica"
-
-#: ../nethserver-enterprise-groups.xml.in.h:25
-msgid "FTP server"
-msgstr "Server FTP"
-
-#: ../nethserver-enterprise-groups.xml.in.h:26
-msgid "Fax server"
-msgstr "Fax server"
-
-#: ../nethserver-enterprise-groups.xml.in.h:27
-msgid "File server"
-msgstr "File server"
-
-#: ../nethserver-enterprise-groups.xml.in.h:28
-msgid "Groupware"
-msgstr "Groupware"
-
-#: ../nethserver-enterprise-groups.xml.in.h:29
-msgid "Instant messaging"
-msgstr "Messaggistica istantanea"
-
-#: ../nethserver-enterprise-groups.xml.in.h:30
+#: ../nethserver-enterprise-groups.xml.in.h:50
 msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 "Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus "
 "e spam"
 
-#: ../nethserver-enterprise-groups.xml.in.h:31
-msgid "Intrusion Prevention System"
-msgstr "Intrusion Prevention System"
+#: ../nethserver-enterprise-groups.xml.in.h:51
+msgid "NethBox hardware support"
+msgstr "Support hardware per NethBox"
 
-#: ../nethserver-enterprise-groups.xml.in.h:32
-msgid "Manage faxes from a simple web interface"
-msgstr "Gestione fax da una semplice pagina web"
+#: ../nethserver-enterprise-groups.xml.in.h:52
+msgid "Base system"
+msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:33
-msgid "Monitor and block network traffic for malicious activity"
-msgstr ""
-"Controlla e blocca il traffico di rete proveniente da attività malevoli"
+#: ../nethserver-enterprise-groups.xml.in.h:53
+msgid "Common packages to all products"
+msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:34
-msgid "MySQL server"
-msgstr "Server MySQL"
-
-#: ../nethserver-enterprise-groups.xml.in.h:35
-msgid "NethCTI"
-msgstr "NethCTI"
-
-#: ../nethserver-enterprise-groups.xml.in.h:36
-msgid "NethSecurity"
-msgstr "NethSecurity"
-
-#: ../nethserver-enterprise-groups.xml.in.h:37
+#: ../nethserver-enterprise-groups.xml.in.h:54
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:38
-msgid "NethVoice"
-msgstr "NethVoice"
-
-#: ../nethserver-enterprise-groups.xml.in.h:39
-msgid "POP3 proxy"
-msgstr "Proxy POP3"
-
-#: ../nethserver-enterprise-groups.xml.in.h:40
-msgid "Print management server (CUPS)"
-msgstr "Servizio di gestione stampanti (CUPS)"
-
-#: ../nethserver-enterprise-groups.xml.in.h:41
-msgid "Print server"
-msgstr "Server di stampa"
-
-#: ../nethserver-enterprise-groups.xml.in.h:42
-msgid "SOGo server and Thundebird extensions"
-msgstr "Server SOGo ed estensioni per Thunderbird"
-
-#: ../nethserver-enterprise-groups.xml.in.h:43
+#: ../nethserver-enterprise-groups.xml.in.h:55
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:44
-msgid "Squid web caching proxy configuration"
-msgstr "Configurazione Squid (web caching proxy)"
+#: ../nethserver-enterprise-groups.xml.in.h:56
+msgid "NethSecurity"
+msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:45
-msgid "Squid web content and virus filter"
-msgstr "Filtro web per contenuti e virus"
-
-#: ../nethserver-enterprise-groups.xml.in.h:46
-msgid "Statistics"
-msgstr "Statistiche"
-
-#: ../nethserver-enterprise-groups.xml.in.h:47
-msgid "Tools for building RPMs"
-msgstr "Strumenti per fare gli RPM"
-
-#: ../nethserver-enterprise-groups.xml.in.h:48
-msgid "UPS management and monitoring configuration"
-msgstr ""
-"Configurazione della gestione e del monitoraggio dei gruppi di continuità"
-
-#: ../nethserver-enterprise-groups.xml.in.h:49
-msgid "UPS support"
-msgstr "Supporto UPS"
-
-#: ../nethserver-enterprise-groups.xml.in.h:50
+#: ../nethserver-enterprise-groups.xml.in.h:57
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
-
-#: ../nethserver-enterprise-groups.xml.in.h:51
-msgid "Web filter"
-msgstr "Filtro web"
-
-#: ../nethserver-enterprise-groups.xml.in.h:52
-msgid "Web proxy"
-msgstr "Proxy web"
-
-#: ../nethserver-enterprise-groups.xml.in.h:53
-msgid "Web server"
-msgstr "Server Web"
-
-#: ../nethserver-enterprise-groups.xml.in.h:54
-msgid "Web-based fax client"
-msgstr "Client fax web"
-
-#: ../nethserver-enterprise-groups.xml.in.h:55
-msgid "XMPP/Jabber chat server"
-msgstr "Server di chat XMPP/Jabber"
-
-#: ../nethserver-enterprise-groups.xml.in.h:56
-msgid "ownCloud"
-msgstr "ownCloud"

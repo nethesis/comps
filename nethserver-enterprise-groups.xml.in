@@ -599,6 +599,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-nethbox</id>
+    <_name>NethBox hardware support</_name>
+    <_description>NethBox hardware support</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">kmod-leds-apu</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
