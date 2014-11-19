@@ -402,6 +402,18 @@
   </group>
 
   <group>
+     <id>nethserver-pop3connector</id>
+     <_name>POP3 connector</_name>
+     <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-fetchmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-messaging</id>
     <_name>Instant messaging</_name>
     <_description>XMPP/Jabber chat server</_description>
@@ -641,6 +653,7 @@
     <display_order>2</display_order>
     <grouplist>
       <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
