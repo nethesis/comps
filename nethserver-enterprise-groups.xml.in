@@ -364,7 +364,7 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-ibays</packagereq>
-      <packagereq type="optional">nethserver-samba</packagereq>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
       <packagereq type="optional">nethserver-samba-audit</packagereq>
     </packagelist>
   </group>
