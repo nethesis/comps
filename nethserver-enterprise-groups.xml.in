@@ -565,6 +565,7 @@
       <packagereq type="mandatory">nethvoice-module-nethvirtualtrunks</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethvoipwizard</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
+      <packagereq type="mandatory">nethserver-nethvoice-enterprise</packagereq>
       <packagereq type="optional">nethvoice-tftp</packagereq>
       <packagereq type="optional">nethvoice-extra-modules</packagereq>
       <packagereq type="optional">neth-cost-analysis</packagereq>
