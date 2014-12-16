@@ -271,6 +271,7 @@
       <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">nethserver-smartd</packagereq>
+      <packagereq type="mandatory">nethserver-phonehome</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">man</packagereq>
