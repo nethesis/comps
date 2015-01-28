@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-19 10:01+0100\n"
+"POT-Creation-Date: 2015-01-28 17:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,25 +232,33 @@ msgid "NethBox hardware support"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:54
-msgid "Base system"
+msgid "Virtual machines manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:55
-msgid "Common packages to all products"
+msgid "Web interface for KVM virtual machines"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:56
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:57
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:58
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:59
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:60
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:61
 msgid "UTM Firewall"
 msgstr ""
