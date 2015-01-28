@@ -409,6 +409,18 @@
   </group>
 
   <group>
+    <id>nethserver-phonebook</id>
+    <_name>Phonebook</_name>
+    <_description>Centralized Phonebook</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-phonebook-mysql</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
      <id>nethserver-pop3connector</id>
      <_name>POP3 connector</_name>
      <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
@@ -657,6 +669,7 @@
       <groupid>nethserver-backup</groupid>
       <groupid>nethserver-nut</groupid>
       <groupid>nethserver-ntp</groupid>
+      <groupid>nethserver-phonebook</groupid>
       <groupid>nethserver-wireless-tools</groupid>
       <groupid>nethserver-statistics</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
