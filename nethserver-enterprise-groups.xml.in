@@ -653,6 +653,18 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-hotspot-portal</id>
+    <_name>Centralized HotSpot</_name>
+    <_description>Portal for centralized hotspot configuration</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-hotspot-portal</packagereq>
+    </packagelist>
+  </group>
+
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -710,6 +722,7 @@
       <groupid>nethserver-bandwidth-monitor</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-p3scan</groupid>
+      <groupid>nethserver-hotspot-portal</groupid>
     </grouplist>
   </category>
 

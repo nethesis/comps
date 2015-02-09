@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-28 17:26+0100\n"
+"POT-Creation-Date: 2015-02-09 15:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,54 +239,42 @@ msgstr ""
 msgid "NethBox hardware support"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:54
+#: ../nethserver-enterprise-groups.xml.in.h:56
 msgid "Virtual machines manager"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:55
+#: ../nethserver-enterprise-groups.xml.in.h:57
 msgid "Web interface for KVM virtual machines"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:56
-msgid "Base system"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:57
-msgid "Common packages to all products"
-msgstr ""
-
 #: ../nethserver-enterprise-groups.xml.in.h:58
-msgid "NethService"
+msgid "Centralized HotSpot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:59
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Portal for centralized hotspot configuration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:60
-msgid "NethSecurity"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:56
 msgid "Base system"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:57
-msgid "Common packages to all products"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:58
-msgid "NethService"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:59
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:60
-msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:61
+msgid "Common packages to all products"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:62
+msgid "NethService"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:63
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:64
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:65
 msgid "UTM Firewall"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-28 17:26+0100\n"
+"POT-Creation-Date: 2015-02-09 15:28+0100\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -246,34 +246,43 @@ msgstr ""
 msgid "NethBox hardware support"
 msgstr "Support hardware per NethBox"
 
-#: ../nethserver-enterprise-groups.xml.in.h:54
+#: ../nethserver-enterprise-groups.xml.in.h:56
 msgid "Virtual machines manager"
 msgstr "Gestore macchine virtuali"
 
-#: ../nethserver-enterprise-groups.xml.in.h:55
+#: ../nethserver-enterprise-groups.xml.in.h:57
 msgid "Web interface for KVM virtual machines"
 msgstr "Interfaccia web per macchine virtuali KVM"
 
-#: ../nethserver-enterprise-groups.xml.in.h:56
+#: ../nethserver-enterprise-groups.xml.in.h:58
+#, fuzzy
+msgid "Centralized HotSpot"
+msgstr "Hotspot centralizzato"
+
+#: ../nethserver-enterprise-groups.xml.in.h:59
+msgid "Portal for centralized hotspot configuration"
+msgstr "Portale per la configurazione dell'hotspot centralizzato"
+
+#: ../nethserver-enterprise-groups.xml.in.h:60
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:57
+#: ../nethserver-enterprise-groups.xml.in.h:61
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:58
+#: ../nethserver-enterprise-groups.xml.in.h:62
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:59
+#: ../nethserver-enterprise-groups.xml.in.h:63
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:60
+#: ../nethserver-enterprise-groups.xml.in.h:64
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:61
+#: ../nethserver-enterprise-groups.xml.in.h:65
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
