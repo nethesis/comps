@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-09 15:28+0100\n"
+"POT-Creation-Date: 2015-02-12 17:16+0100\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -264,25 +264,30 @@ msgid "Portal for centralized hotspot configuration"
 msgstr "Portale per la configurazione dell'hotspot centralizzato"
 
 #: ../nethserver-enterprise-groups.xml.in.h:60
+#, fuzzy
+msgid "SMTP proxy"
+msgstr "Proxy SMTP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:61
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:61
+#: ../nethserver-enterprise-groups.xml.in.h:62
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:62
+#: ../nethserver-enterprise-groups.xml.in.h:63
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:63
+#: ../nethserver-enterprise-groups.xml.in.h:64
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:64
+#: ../nethserver-enterprise-groups.xml.in.h:65
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:65
+#: ../nethserver-enterprise-groups.xml.in.h:66
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"

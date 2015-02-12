@@ -664,6 +664,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-smtp-proxy</id>
+    <_name>SMTP proxy</_name>
+    <_description>SMTP proxy</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -723,6 +734,7 @@
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-hotspot-portal</groupid>
+      <groupid>nethserver-smtp-proxy</groupid>
     </grouplist>
   </category>
 
