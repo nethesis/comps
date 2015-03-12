@@ -675,6 +675,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-flashstart</id>
+    <_name>Cloud content filter</_name>
+    <_description>Cloud-based web content filter</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-flashstart</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -735,6 +746,7 @@
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
+      <groupid>nethserver-flashstart</groupid>
     </grouplist>
   </category>
 
