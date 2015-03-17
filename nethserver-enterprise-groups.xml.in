@@ -293,6 +293,7 @@
       <packagereq type="mandatory">cpuspeed</packagereq>
       <packagereq type="mandatory">wireless-tools</packagereq>
       <packagereq type="mandatory">yum-presto</packagereq>
+      <packagereq type="mandatory">yum-plugin-downloadonly</packagereq>
     </packagelist>
   </group>
   
