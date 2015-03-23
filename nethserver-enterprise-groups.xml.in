@@ -675,6 +675,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-firewall-base</packagereq>
     </packagelist>
   </group>
 
