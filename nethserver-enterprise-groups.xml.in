@@ -690,6 +690,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-report</id>
+    <_name>Weekly report</_name>
+    <_description>Weekly report about system status</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-report</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -712,6 +723,7 @@
       <groupid>nethserver-statistics</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
       <groupid>nethserver-web</groupid>
+      <groupid>nethserver-report</groupid>
     </grouplist>
   </category>
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-12 10:58+0100\n"
+"POT-Creation-Date: 2015-03-25 17:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,25 +268,33 @@ msgid "Cloud-based web content filter"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:63
-msgid "Base system"
+msgid "Weekly report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:64
-msgid "Common packages to all products"
+msgid "Weekly report about system status"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:65
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:66
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:67
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:68
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:69
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:70
 msgid "UTM Firewall"
 msgstr ""
