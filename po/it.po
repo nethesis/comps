@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 16:28+0100\n"
+"POT-Creation-Date: 2015-04-09 10:14+0200\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -287,25 +287,35 @@ msgid "Weekly report about system status"
 msgstr "Report settimanale sullo stato del sistema"
 
 #: ../nethserver-enterprise-groups.xml.in.h:65
+#, fuzzy
+msgid "SNMP server"
+msgstr "Server SNMP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:66
+#, fuzzy
+msgid "Configure the SNMP server"
+msgstr "Configura il server SNMP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:67
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:66
+#: ../nethserver-enterprise-groups.xml.in.h:68
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:67
+#: ../nethserver-enterprise-groups.xml.in.h:69
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:68
+#: ../nethserver-enterprise-groups.xml.in.h:70
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:69
+#: ../nethserver-enterprise-groups.xml.in.h:71
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:70
+#: ../nethserver-enterprise-groups.xml.in.h:72
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"

@@ -706,6 +706,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-net-snmp</id>
+    <_name>SNMP server</_name>
+    <_description>Configure the SNMP server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-net-snmp</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -729,6 +740,7 @@
       <groupid>nethserver-dns-dhcp</groupid>
       <groupid>nethserver-web</groupid>
       <groupid>nethserver-report</groupid>
+      <groupid>nethserver-net-snmp</groupid>
     </grouplist>
   </category>
 
