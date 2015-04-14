@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-09 10:14+0200\n"
+"POT-Creation-Date: 2015-04-14 09:43+0200\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -297,25 +297,34 @@ msgid "Configure the SNMP server"
 msgstr "Configura il server SNMP"
 
 #: ../nethserver-enterprise-groups.xml.in.h:67
+msgid "Email smarthost (SMTP)"
+msgstr "Smarthost email (SMTP)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:68
+#, fuzzy
+msgid "Configure the smarthost for the SMTP mail server"
+msgstr "Configura un server smarthost per l'invio posta SMTP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:69
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:68
+#: ../nethserver-enterprise-groups.xml.in.h:70
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:69
+#: ../nethserver-enterprise-groups.xml.in.h:71
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:70
+#: ../nethserver-enterprise-groups.xml.in.h:72
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:71
+#: ../nethserver-enterprise-groups.xml.in.h:73
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:72
+#: ../nethserver-enterprise-groups.xml.in.h:74
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"

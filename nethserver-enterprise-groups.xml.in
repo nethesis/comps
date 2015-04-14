@@ -717,6 +717,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-smarthost</id>
+    <_name>Email smarthost (SMTP)</_name>
+    <_description>Configure the smarthost for the SMTP mail server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-common</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -741,6 +752,7 @@
       <groupid>nethserver-web</groupid>
       <groupid>nethserver-report</groupid>
       <groupid>nethserver-net-snmp</groupid>
+      <groupid>nethserver-smarthost</groupid>
     </grouplist>
   </category>
 
