@@ -753,6 +753,7 @@
       <groupid>nethserver-report</groupid>
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-smarthost</groupid>
+      <groupid>nethserver-nethbox</groupid>
     </grouplist>
   </category>
 
