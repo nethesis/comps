@@ -756,6 +756,7 @@
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-smarthost</groupid>
       <groupid>nethserver-nethbox</groupid>
+      <groupid>nethserver-mysql</groupid>
     </grouplist>
   </category>
 
