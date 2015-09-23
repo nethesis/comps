@@ -730,6 +730,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-ftp</id>
+    <_name>FTP server</_name>
+    <_description>Configure the FTP server (vsftpd)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-vsftpd</packagereq>
+    </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -776,6 +787,7 @@
       <groupid>nethserver-printers</groupid>
       <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-webvirtmgr</groupid>
+      <groupid>nethserver-ftp</groupid>
     </grouplist>
   </category>
 
