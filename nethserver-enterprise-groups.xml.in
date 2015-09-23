@@ -774,7 +774,6 @@
       <groupid>nethserver-fax-server</groupid>
       <groupid>nethserver-faxweb2</groupid>
       <groupid>nethserver-printers</groupid>
-      <groupid>nethserver-mysql</groupid>
       <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-webvirtmgr</groupid>
     </grouplist>
