@@ -356,7 +356,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-firewall-base</packagereq>
+      <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
     </packagelist>
   </group>
 
