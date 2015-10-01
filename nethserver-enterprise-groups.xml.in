@@ -599,6 +599,7 @@
       <packagereq type="mandatory">nethvoice-module-nethttsrecordings</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethttsannouncement</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethbulkextensions</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethnight</packagereq>
       <packagereq type="optional">nethvoice-module-nethfailover</packagereq>
       <packagereq type="optional">nethvoice-tftp</packagereq>
       <packagereq type="optional">nethvoice-extra-modules</packagereq>
