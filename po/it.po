@@ -85,8 +85,8 @@ msgid "Daemons and tools for network file sharing"
 msgstr "Demoni e strumenti per la condivisione file in rete"
 
 #: ../nethserver-enterprise-groups.xml.in.h:18
-msgid "Groupware"
-msgstr "Groupware"
+msgid "SOGo groupware"
+msgstr "Groupware SOGo"
 
 #: ../nethserver-enterprise-groups.xml.in.h:19
 msgid "SOGo server and Thundebird extensions"
@@ -328,3 +328,6 @@ msgstr "NethSecurity"
 #: ../nethserver-enterprise-groups.xml.in.h:74
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
+
+msgid "WebTop groupware"
+msgstr "Groupware WebTop"

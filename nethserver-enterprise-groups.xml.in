@@ -387,7 +387,7 @@
 
   <group>
     <id>nethserver-groupware</id>
-    <_name>Groupware</_name>
+    <_name>SOGo groupware</_name>
     <_description>SOGo server and Thundebird extensions</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -397,6 +397,18 @@
       <packagereq type="optional">sogo-frontends</packagereq>
     </packagelist>
   </group>
+
+  <group>
+    <id>nethserver-webtop-groupware</id>
+    <_name>WebTop groupware</_name>
+    <_description>WebTop groupware</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nethtop</packagereq>
+    </packagelist>
+  </group>
+
 
   <group>
     <id>nethserver-mail</id>
@@ -786,6 +798,7 @@
       <groupid>nethserver-mail</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-groupware</groupid>
+      <groupid>nethserver-webtop-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-fax-server</groupid>
