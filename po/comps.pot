@@ -86,7 +86,7 @@ msgid "Daemons and tools for network file sharing"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:18
-msgid "Groupware"
+msgid "SOGo groupware"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:19
@@ -313,4 +313,7 @@ msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:74
 msgid "UTM Firewall"
+msgstr ""
+
+msgid "WebTop groupware"
 msgstr ""
