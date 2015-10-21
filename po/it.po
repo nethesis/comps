@@ -331,3 +331,6 @@ msgstr "Firewall UTM (Unified Threat Management)"
 
 msgid "WebTop groupware"
 msgstr "Groupware WebTop"
+
+msgid "Hotel Management Interface"
+msgstr "Interfaccia Gestione Hotel"

@@ -618,7 +618,6 @@
       <packagereq type="optional">nethvoice-extra-modules</packagereq>
       <packagereq type="optional">neth-cost-analysis</packagereq>
       <packagereq type="optional">neth-queue-report</packagereq>
-      <packagereq type="optional">neth-hotel</packagereq>
       <packagereq type="optional">open-g729</packagereq>
     </packagelist>
   </group>
@@ -635,6 +634,21 @@
       <packagereq type="optional">neth-oppanel</packagereq>
       <packagereq type="optional">neth-queueman</packagereq>
       <packagereq type="optional">nethserver-ejabberd</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>neth-hotel</id>
+    <_name>NethHotel</_name>
+    <_description>Hotel Management Interface</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">neth-hotel</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-fr-gsm</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-ru-gsm</packagereq>
+      <packagereq type="optional">neth-hotel-fias</packagereq>
     </packagelist>
   </group>
 
@@ -838,6 +852,7 @@
     <grouplist>
       <groupid>nethserver-nethvoice</groupid>
       <groupid>nethserver-nethcti</groupid>
+      <groupid>neth-hotel</groupid>
     </grouplist>
   </category>
 
