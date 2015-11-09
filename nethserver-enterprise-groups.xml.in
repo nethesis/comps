@@ -774,6 +774,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-nethmonitor</id>
+    <_name>Monitoring and inventorying</_name>
+    <_description>Automated monitoring and inventorying of network devices (servers, PCs, printers, routers...)</_description>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-nethmonitor</packagereq>
+    </packagelist>
+  </group>
+
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -855,6 +866,17 @@
       <groupid>neth-hotel</groupid>
     </grouplist>
   </category>
+
+  <category>
+    <id>NMONNG0001</id>
+    <_name>NethMonitor</_name>
+    <_description>Monitoring suite</_description>
+    <display_order>5</display_order>
+    <grouplist>
+      <groupid>nethserver-nethmonitor</groupid>
+    </grouplist>
+  </category>
+
 
 <!-- NETHESIS CATEGORIES END -->
 
