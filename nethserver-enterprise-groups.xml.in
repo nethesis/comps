@@ -536,7 +536,7 @@
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid-enterprise</packagereq>
     </packagelist>
   </group>
 
@@ -550,7 +550,7 @@
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-squidguard</packagereq>
       <packagereq type="mandatory">nethserver-squidclamav</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid-enterprise</packagereq>
     </packagelist>
   </group>
 
