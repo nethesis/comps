@@ -616,6 +616,7 @@
       <packagereq type="optional">nethvoice-module-nethfailover</packagereq>
       <packagereq type="optional">nethvoice-tftp</packagereq>
       <packagereq type="optional">nethvoice-extra-modules</packagereq>
+      <packagereq type="optional">neth-inbound-report</packagereq>
       <packagereq type="optional">neth-cost-analysis</packagereq>
       <packagereq type="optional">neth-queue-report</packagereq>
       <packagereq type="optional">open-g729</packagereq>
