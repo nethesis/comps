@@ -273,7 +273,6 @@
       <packagereq type="mandatory">nethserver-smartd</packagereq>
       <packagereq type="mandatory">nethserver-phonehome</packagereq>
       <packagereq type="mandatory">nethserver-duc</packagereq>
-      <packagereq type="mandatory">nethserver-password</packagereq>
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
