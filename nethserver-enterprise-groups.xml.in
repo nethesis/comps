@@ -536,6 +536,7 @@
       <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-lightsquid-enterprise</packagereq>
+      <packagereq type="optional">nethserver-directory</packagereq>
     </packagelist>
   </group>
 
