@@ -620,6 +620,40 @@
       <packagereq type="optional">neth-cost-analysis</packagereq>
       <packagereq type="optional">neth-queue-report</packagereq>
       <packagereq type="optional">open-g729</packagereq>
+      <packagereq type="mandatory">nethserver-directory</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-nethvoice-ha</id>
+    <_name>NethVoice HA</_name>
+    <_description>Asterisk PBX HA</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nethvoice</packagereq>
+      <packagereq type="mandatory">nethvoice-ha</packagereq>
+      <packagereq type="mandatory">nethserver-nethvoice-enterprise</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethcalldebugger</packagereq>
+      <packagereq type="mandatory">nethvoice-sounds</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethcqr</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethgateway</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethvirtualtrunks</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethvoipwizard</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
+      <packagereq type="mandatory">nethserver-backup-data</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethvplan</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethttsrecordings</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethttsannouncement</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethbulkextensions</packagereq>
+      <packagereq type="mandatory">nethvoice-module-nethnight</packagereq>
+      <packagereq type="optional">nethvoice-module-nethfailover</packagereq>
+      <packagereq type="optional">nethvoice-tftp</packagereq>
+      <packagereq type="optional">nethvoice-extra-modules</packagereq>
+      <packagereq type="optional">neth-inbound-report</packagereq>
+      <packagereq type="optional">neth-cost-analysis</packagereq>
+      <packagereq type="optional">neth-queue-report</packagereq>
+      <packagereq type="optional">open-g729</packagereq>
     </packagelist>
   </group>
 
@@ -863,6 +897,7 @@
     <display_order>4</display_order>
     <grouplist>
       <groupid>nethserver-nethvoice</groupid>
+      <groupid>nethserver-nethvoice-ha</groupid>
       <groupid>nethserver-nethcti</groupid>
       <groupid>neth-hotel</groupid>
     </grouplist>

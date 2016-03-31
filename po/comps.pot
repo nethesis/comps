@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10 10:37+0100\n"
+"POT-Creation-Date: 2016-03-31 18:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,131 +216,139 @@ msgid "Asterisk PBX"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:50
-msgid "NethCTI"
+msgid "NethVoice HA"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:51
-msgid "Computer Telephony Integration"
+msgid "Asterisk PBX HA"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:52
-msgid "NethHotel"
+msgid "NethCTI"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:53
-msgid "Hotel Management Interface"
+msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:54
-msgid "Intrusion Prevention System"
+msgid "NethHotel"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:55
-msgid "Monitor and block network traffic for malicious activity"
+msgid "Hotel Management Interface"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:56
-msgid "POP3 proxy"
+msgid "Intrusion Prevention System"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:57
-msgid "Intercept POP3 connections and scan messages for virtus and spam"
+msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:58
-msgid "NethBox hardware support"
+msgid "POP3 proxy"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:59
-msgid "Virtual machines manager"
+msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:60
-msgid "Web interface for KVM virtual machines"
+msgid "NethBox hardware support"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:61
-msgid "Centralized HotSpot"
+msgid "Virtual machines manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:62
-msgid "Portal for centralized hotspot configuration"
+msgid "Web interface for KVM virtual machines"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:63
-msgid "SMTP proxy"
+msgid "Centralized HotSpot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:64
-msgid "Cloud content filter"
+msgid "Portal for centralized hotspot configuration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:65
-msgid "Cloud-based web content filter"
+msgid "SMTP proxy"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:66
-msgid "Weekly report"
+msgid "Cloud content filter"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:67
-msgid "Weekly report about system status"
+msgid "Cloud-based web content filter"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:68
-msgid "SNMP server"
+msgid "Weekly report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:69
-msgid "Configure the SNMP server"
+msgid "Weekly report about system status"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:70
-msgid "Email smarthost (SMTP)"
+msgid "SNMP server"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:71
-msgid "Configure the smarthost for the SMTP mail server"
+msgid "Configure the SNMP server"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:72
-msgid "Monitoring and inventorying"
+msgid "Email smarthost (SMTP)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:73
+msgid "Configure the smarthost for the SMTP mail server"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:74
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:75
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:74
+#: ../nethserver-enterprise-groups.xml.in.h:76
 msgid "Base system"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:75
+#: ../nethserver-enterprise-groups.xml.in.h:77
 msgid "Common packages to all products"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:76
+#: ../nethserver-enterprise-groups.xml.in.h:78
 msgid "NethService"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:77
+#: ../nethserver-enterprise-groups.xml.in.h:79
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:78
+#: ../nethserver-enterprise-groups.xml.in.h:80
 msgid "NethSecurity"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:79
+#: ../nethserver-enterprise-groups.xml.in.h:81
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:80
+#: ../nethserver-enterprise-groups.xml.in.h:82
 msgid "NethMonitor"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:81
+#: ../nethserver-enterprise-groups.xml.in.h:83
 msgid "Monitoring suite"
 msgstr ""
