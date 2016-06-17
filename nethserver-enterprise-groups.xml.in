@@ -520,8 +520,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-collectd</packagereq>
-      <packagereq type="optional">nethserver-cgp</packagereq>
-      <packagereq type="optional">nethserver-collectd-web</packagereq>
+      <packagereq type="mandatory">nethserver-cgp</packagereq>
     </packagelist>
   </group>
 
