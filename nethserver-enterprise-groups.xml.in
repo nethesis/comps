@@ -406,6 +406,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nethtop</packagereq>
+      <packagereq type="mandatory">nethserver-webtop4</packagereq>
     </packagelist>
   </group>
 
