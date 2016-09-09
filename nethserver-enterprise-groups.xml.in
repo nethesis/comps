@@ -582,6 +582,17 @@
   </group>
 
   <group>
+    <id>nethserver-reverse-proxy</id>
+    <_name>Reverse proxy</_name>
+    <_description>Configure Apache ProxyPass functionality</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-proxypass</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-bandwidth-monitor</id>
     <_name>Bandwidth monitor</_name>
     <_description>Configure and manage Ntopng</_description>
@@ -936,7 +947,6 @@
       <groupid>nethserver-report</groupid>
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-smarthost</groupid>
-      <groupid>nethserver-nethbox</groupid>
       <groupid>nethserver-mysql</groupid>
     </grouplist>
   </category>
@@ -954,11 +964,11 @@
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-fax-server</groupid>
-      <groupid>nethserver-faxweb2</groupid>
       <groupid>nethserver-printers</groupid>
-      <groupid>nethserver-owncloud</groupid>
-      <groupid>nethserver-webvirtmgr</groupid>
+      <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-ftp</groupid>
+      <groupid>nethserver-dc</groupid>
+      <groupid>nethserver-directory</groupid>
     </grouplist>
   </category>
 
@@ -971,39 +981,38 @@
       <groupid>nethserver-firewall-base</groupid>
       <groupid>nethserver-web-proxy</groupid>
       <groupid>nethserver-web-filter</groupid>
-      <groupid>nethserver-vpn</groupid>
+      <groupid>nethserver-openvpn</groupid>
+      <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
+      <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-flashstart</groupid>
+      <groupid>nethserver-reverse-proxy</groupid>
     </grouplist>
   </category>
 
   <category>
-    <id>NVOICENG0001</id>
-    <_name>NethVoice</_name>
-    <_description>Asterisk PBX</_description>
+    <id>server-manager-languages</id>
+    <_name>Languages</_name>
+    <_description>Localization of the Server Manager web interface</_description>
     <display_order>4</display_order>
     <grouplist>
-      <groupid>nethserver-nethvoice</groupid>
-      <groupid>nethserver-nethvoice-ha</groupid>
-      <groupid>nethserver-nethcti</groupid>
-      <groupid>neth-hotel</groupid>
+      <groupid>nethserver-l10n-de</groupid>
+      <groupid>nethserver-l10n-el</groupid>
+      <groupid>nethserver-l10n-es</groupid>
+      <groupid>nethserver-l10n-fr</groupid>
+      <groupid>nethserver-l10n-hu</groupid>
+      <groupid>nethserver-l10n-it</groupid>
+      <groupid>nethserver-l10n-nl</groupid>
+      <groupid>nethserver-l10n-pt</groupid>
+      <groupid>nethserver-l10n-ru</groupid>
+      <groupid>nethserver-l10n-tr</groupid>
+      <groupid>nethserver-l10n-sr</groupid>
     </grouplist>
   </category>
-
-  <category>
-    <id>NMONNG0001</id>
-    <_name>NethMonitor</_name>
-    <_description>Monitoring suite</_description>
-    <display_order>5</display_order>
-    <grouplist>
-      <groupid>nethserver-nethmonitor</groupid>
-    </grouplist>
-  </category>
-
 
 <!-- NETHESIS CATEGORIES END -->
 
