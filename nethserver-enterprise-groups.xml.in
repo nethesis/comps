@@ -32,6 +32,7 @@
       <packagereq type="default">perl</packagereq>
       <packagereq type="default">python</packagereq>
       <packagereq type="default">redhat-release</packagereq>
+      <packagereq type="default">epel-release</packagereq>
       <packagereq type="default">redhat-release-server</packagereq>
       <packagereq type="default">redhat-rpm-config</packagereq>
       <packagereq type="default">rpm-build</packagereq>
@@ -53,177 +54,266 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type='mandatory'>acl</packagereq>
-      <packagereq type='mandatory'>attr</packagereq>
-      <packagereq type='mandatory'>audit-libs</packagereq>
+      <packagereq type='mandatory'>aic94xx-firmware</packagereq>
+      <packagereq type='mandatory'>alsa-firmware</packagereq>
+      <packagereq type='mandatory'>alsa-lib</packagereq>
+      <packagereq type='mandatory'>alsa-tools-firmware</packagereq>
       <packagereq type='mandatory'>audit</packagereq>
+      <packagereq type='mandatory'>audit-libs</packagereq>
       <packagereq type='mandatory'>authconfig</packagereq>
-      <packagereq type='mandatory'>b43-openfwwf</packagereq>
+      <packagereq type='mandatory'>avahi-autoipd</packagereq>
+      <packagereq type='mandatory'>avahi-libs</packagereq>
       <packagereq type='mandatory'>basesystem</packagereq>
       <packagereq type='mandatory'>bash</packagereq>
+      <packagereq type='mandatory'>bind-libs-lite</packagereq>
+      <packagereq type='mandatory'>bind-license</packagereq>
       <packagereq type='mandatory'>binutils</packagereq>
-      <packagereq type='mandatory'>bridge-utils</packagereq>
+      <packagereq type='mandatory'>biosdevname</packagereq>
+      <packagereq type='mandatory'>btrfs-progs</packagereq>
       <packagereq type='mandatory'>bzip2-libs</packagereq>
-      <packagereq type='mandatory'>bzip2</packagereq>
       <packagereq type='mandatory'>ca-certificates</packagereq>
+      <packagereq type='mandatory'>centos-logos</packagereq>
       <packagereq type='mandatory'>centos-release</packagereq>
-      <packagereq type='mandatory'>checkpolicy</packagereq>
       <packagereq type='mandatory'>chkconfig</packagereq>
-      <packagereq type='mandatory'>coreutils-libs</packagereq>
       <packagereq type='mandatory'>coreutils</packagereq>
       <packagereq type='mandatory'>cpio</packagereq>
-      <packagereq type='mandatory'>cracklib-dicts</packagereq>
       <packagereq type='mandatory'>cracklib</packagereq>
-      <packagereq type='mandatory'>cronie-anacron</packagereq>
+      <packagereq type='mandatory'>cracklib-dicts</packagereq>
       <packagereq type='mandatory'>cronie</packagereq>
+      <packagereq type='mandatory'>cronie-anacron</packagereq>
       <packagereq type='mandatory'>crontabs</packagereq>
-      <packagereq type='mandatory'>cryptsetup-luks-libs</packagereq>
-      <packagereq type='mandatory'>cryptsetup-luks</packagereq>
+      <packagereq type='mandatory'>cryptsetup-libs</packagereq>
       <packagereq type='mandatory'>curl</packagereq>
       <packagereq type='mandatory'>cyrus-sasl-lib</packagereq>
-      <packagereq type='mandatory'>cyrus-sasl</packagereq>
-      <packagereq type='mandatory'>dash</packagereq>
-      <packagereq type='mandatory'>db4</packagereq>
-      <packagereq type='mandatory'>db4-utils</packagereq>
+      <packagereq type='mandatory'>dbus</packagereq>
       <packagereq type='mandatory'>dbus-glib</packagereq>
       <packagereq type='mandatory'>dbus-libs</packagereq>
-      <packagereq type='mandatory'>device-mapper-event-libs</packagereq>
-      <packagereq type='mandatory'>device-mapper-event</packagereq>
-      <packagereq type='mandatory'>device-mapper-libs</packagereq>
-      <packagereq type='mandatory'>device-mapper-multipath-libs</packagereq>
-      <packagereq type='mandatory'>device-mapper-multipath</packagereq>
+      <packagereq type='mandatory'>dbus-python</packagereq>
       <packagereq type='mandatory'>device-mapper</packagereq>
+      <packagereq type='mandatory'>device-mapper-event</packagereq>
+      <packagereq type='mandatory'>device-mapper-event-libs</packagereq>
+      <packagereq type='mandatory'>device-mapper-libs</packagereq>
       <packagereq type='mandatory'>device-mapper-persistent-data</packagereq>
       <packagereq type='mandatory'>dhclient</packagereq>
       <packagereq type='mandatory'>dhcp-common</packagereq>
+      <packagereq type='mandatory'>dhcp-libs</packagereq>
       <packagereq type='mandatory'>diffutils</packagereq>
-      <packagereq type='mandatory'>dracut-kernel</packagereq>
+      <packagereq type='mandatory'>dmidecode</packagereq>
+      <packagereq type='mandatory'>dnsmasq</packagereq>
       <packagereq type='mandatory'>dracut</packagereq>
-      <packagereq type='mandatory'>e2fsprogs-libs</packagereq>
+      <packagereq type='mandatory'>dracut-config-rescue</packagereq>
+      <packagereq type='mandatory'>dracut-network</packagereq>
       <packagereq type='mandatory'>e2fsprogs</packagereq>
-      <packagereq type='mandatory'>efibootmgr</packagereq>
+      <packagereq type='mandatory'>e2fsprogs-libs</packagereq>
+      <packagereq type='mandatory'>ebtables</packagereq>
       <packagereq type='mandatory'>elfutils-libelf</packagereq>
+      <packagereq type='mandatory'>elfutils-libs</packagereq>
       <packagereq type='mandatory'>ethtool</packagereq>
       <packagereq type='mandatory'>expat</packagereq>
-      <packagereq type='mandatory'>file-libs</packagereq>
       <packagereq type='mandatory'>file</packagereq>
+      <packagereq type='mandatory'>file-libs</packagereq>
       <packagereq type='mandatory'>filesystem</packagereq>
       <packagereq type='mandatory'>findutils</packagereq>
-      <packagereq type='mandatory'>fipscheck-lib</packagereq>
       <packagereq type='mandatory'>fipscheck</packagereq>
-      <packagereq type='mandatory'>fuse</packagereq>
-      <packagereq type='mandatory'>gamin</packagereq>
+      <packagereq type='mandatory'>fipscheck-lib</packagereq>
+      <packagereq type='mandatory'>firewalld</packagereq>
+      <packagereq type='mandatory'>freetype</packagereq>
+      <packagereq type='mandatory'>fxload</packagereq>
       <packagereq type='mandatory'>gawk</packagereq>
       <packagereq type='mandatory'>gdbm</packagereq>
+      <packagereq type='mandatory'>gettext</packagereq>
+      <packagereq type='mandatory'>gettext-libs</packagereq>
       <packagereq type='mandatory'>glib2</packagereq>
-      <packagereq type='mandatory'>glibc-common</packagereq>
       <packagereq type='mandatory'>glibc</packagereq>
+      <packagereq type='mandatory'>glibc-common</packagereq>
+      <packagereq type='mandatory'>glib-networking</packagereq>
       <packagereq type='mandatory'>gmp</packagereq>
       <packagereq type='mandatory'>gnupg2</packagereq>
+      <packagereq type='mandatory'>gnutls</packagereq>
+      <packagereq type='mandatory'>gobject-introspection</packagereq>
       <packagereq type='mandatory'>gpgme</packagereq>
       <packagereq type='mandatory'>grep</packagereq>
-      <packagereq type='mandatory'>groff</packagereq>
+      <packagereq type='mandatory'>groff-base</packagereq>
+      <packagereq type='mandatory'>grub2</packagereq>
+      <packagereq type='mandatory'>grub2-tools</packagereq>
       <packagereq type='mandatory'>grubby</packagereq>
-      <packagereq type='mandatory'>grub</packagereq>
+      <packagereq type='mandatory'>gsettings-desktop-schemas</packagereq>
       <packagereq type='mandatory'>gzip</packagereq>
+      <packagereq type='mandatory'>hardlink</packagereq>
+      <packagereq type='mandatory'>hostname</packagereq>
       <packagereq type='mandatory'>hwdata</packagereq>
       <packagereq type='mandatory'>info</packagereq>
       <packagereq type='mandatory'>initscripts</packagereq>
       <packagereq type='mandatory'>iproute</packagereq>
-      <packagereq type='mandatory'>iptables-ipv6</packagereq>
+      <packagereq type='mandatory'>iprutils</packagereq>
       <packagereq type='mandatory'>iptables</packagereq>
       <packagereq type='mandatory'>iputils</packagereq>
-      <packagereq type='mandatory'>iscsi-initiator-utils</packagereq>
-      <packagereq type='mandatory'>kbd-misc</packagereq>
+      <packagereq type='mandatory'>irqbalance</packagereq>
+      <packagereq type='mandatory'>ivtv-firmware</packagereq>
+      <packagereq type='mandatory'>iwl1000-firmware</packagereq>
+      <packagereq type='mandatory'>iwl100-firmware</packagereq>
+      <packagereq type='mandatory'>iwl105-firmware</packagereq>
+      <packagereq type='mandatory'>iwl135-firmware</packagereq>
+      <packagereq type='mandatory'>iwl2000-firmware</packagereq>
+      <packagereq type='mandatory'>iwl2030-firmware</packagereq>
+      <packagereq type='mandatory'>iwl3160-firmware</packagereq>
+      <packagereq type='mandatory'>iwl3945-firmware</packagereq>
+      <packagereq type='mandatory'>iwl4965-firmware</packagereq>
+      <packagereq type='mandatory'>iwl5000-firmware</packagereq>
+      <packagereq type='mandatory'>iwl5150-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6000-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6000g2a-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6000g2b-firmware</packagereq>
+      <packagereq type='mandatory'>iwl6050-firmware</packagereq>
+      <packagereq type='mandatory'>iwl7260-firmware</packagereq>
+      <packagereq type='mandatory'>jansson</packagereq>
+      <packagereq type='mandatory'>json-c</packagereq>
       <packagereq type='mandatory'>kbd</packagereq>
-      <packagereq type='mandatory'>kernel-firmware</packagereq>
+      <packagereq type='mandatory'>kbd-legacy</packagereq>
+      <packagereq type='mandatory'>kbd-misc</packagereq>
       <packagereq type='mandatory'>kernel</packagereq>
+      <packagereq type='mandatory'>kernel-tools</packagereq>
+      <packagereq type='mandatory'>kernel-tools-libs</packagereq>
+      <packagereq type='mandatory'>kexec-tools</packagereq>
       <packagereq type='mandatory'>keyutils-libs</packagereq>
+      <packagereq type='mandatory'>kmod</packagereq>
+      <packagereq type='mandatory'>kmod-libs</packagereq>
       <packagereq type='mandatory'>kpartx</packagereq>
       <packagereq type='mandatory'>krb5-libs</packagereq>
       <packagereq type='mandatory'>less</packagereq>
       <packagereq type='mandatory'>libacl</packagereq>
       <packagereq type='mandatory'>libaio</packagereq>
+      <packagereq type='mandatory'>libassuan</packagereq>
       <packagereq type='mandatory'>libattr</packagereq>
       <packagereq type='mandatory'>libblkid</packagereq>
-      <packagereq type='mandatory'>libcap-ng</packagereq>
       <packagereq type='mandatory'>libcap</packagereq>
+      <packagereq type='mandatory'>libcap-ng</packagereq>
       <packagereq type='mandatory'>libcom_err</packagereq>
+      <packagereq type='mandatory'>libcroco</packagereq>
       <packagereq type='mandatory'>libcurl</packagereq>
+      <packagereq type='mandatory'>libdaemon</packagereq>
+      <packagereq type='mandatory'>libdb</packagereq>
+      <packagereq type='mandatory'>libdb-utils</packagereq>
       <packagereq type='mandatory'>libdrm</packagereq>
       <packagereq type='mandatory'>libedit</packagereq>
+      <packagereq type='mandatory'>libestr</packagereq>
       <packagereq type='mandatory'>libffi</packagereq>
       <packagereq type='mandatory'>libgcc</packagereq>
       <packagereq type='mandatory'>libgcrypt</packagereq>
+      <packagereq type='mandatory'>libgomp</packagereq>
       <packagereq type='mandatory'>libgpg-error</packagereq>
+      <packagereq type='mandatory'>libgudev1</packagereq>
       <packagereq type='mandatory'>libidn</packagereq>
-      <packagereq type='mandatory'>libnih</packagereq>
+      <packagereq type='mandatory'>libmnl</packagereq>
+      <packagereq type='mandatory'>libmodman</packagereq>
+      <packagereq type='mandatory'>libmount</packagereq>
+      <packagereq type='mandatory'>libndp</packagereq>
+      <packagereq type='mandatory'>libnetfilter_conntrack</packagereq>
+      <packagereq type='mandatory'>libnfnetlink</packagereq>
+      <packagereq type='mandatory'>libnl3</packagereq>
+      <packagereq type='mandatory'>libnl3-cli</packagereq>
+      <packagereq type='mandatory'>libpcap</packagereq>
       <packagereq type='mandatory'>libpciaccess</packagereq>
+      <packagereq type='mandatory'>libpipeline</packagereq>
+      <packagereq type='mandatory'>libproxy</packagereq>
+      <packagereq type='mandatory'>libpwquality</packagereq>
       <packagereq type='mandatory'>libselinux</packagereq>
+      <packagereq type='mandatory'>libselinux-python</packagereq>
       <packagereq type='mandatory'>libselinux-utils</packagereq>
       <packagereq type='mandatory'>libsemanage</packagereq>
       <packagereq type='mandatory'>libsepol</packagereq>
-      <packagereq type='mandatory'>libssh2</packagereq>
+      <packagereq type='mandatory'>libsoup</packagereq>
       <packagereq type='mandatory'>libss</packagereq>
+      <packagereq type='mandatory'>libssh2</packagereq>
       <packagereq type='mandatory'>libstdc++</packagereq>
-      <packagereq type='mandatory'>libudev</packagereq>
-      <packagereq type='mandatory'>libusb</packagereq>
+      <packagereq type='mandatory'>libsysfs</packagereq>
+      <packagereq type='mandatory'>libtasn1</packagereq>
+      <packagereq type='mandatory'>libteam</packagereq>
+      <packagereq type='mandatory'>libunistring</packagereq>
       <packagereq type='mandatory'>libuser</packagereq>
       <packagereq type='mandatory'>libutempter</packagereq>
       <packagereq type='mandatory'>libuuid</packagereq>
+      <packagereq type='mandatory'>libverto</packagereq>
       <packagereq type='mandatory'>libxml2</packagereq>
+      <packagereq type='mandatory'>linux-firmware</packagereq>
       <packagereq type='mandatory'>logrotate</packagereq>
       <packagereq type='mandatory'>lua</packagereq>
-      <packagereq type='mandatory'>lvm2-libs</packagereq>
       <packagereq type='mandatory'>lvm2</packagereq>
-      <packagereq type='mandatory'>m4</packagereq>
-      <packagereq type='mandatory'>MAKEDEV</packagereq>
-      <packagereq type='mandatory'>mdadm</packagereq>
-      <packagereq type='mandatory'>mingetty</packagereq>
-      <packagereq type='mandatory'>module-init-tools</packagereq>
-      <packagereq type='mandatory'>mysql-libs</packagereq>
+      <packagereq type='mandatory'>lvm2-libs</packagereq>
+      <packagereq type='mandatory'>lzo</packagereq>
+      <packagereq type='mandatory'>make</packagereq>
+      <packagereq type='mandatory'>man-db</packagereq>
+      <packagereq type='mandatory'>mariadb-libs</packagereq>
+      <packagereq type='mandatory'>microcode_ctl</packagereq>
+      <packagereq type='mandatory'>mozjs17</packagereq>
+      <packagereq type='mandatory'>ncurses</packagereq>
       <packagereq type='mandatory'>ncurses-base</packagereq>
       <packagereq type='mandatory'>ncurses-libs</packagereq>
-      <packagereq type='mandatory'>ncurses</packagereq>
-      <packagereq type='mandatory'>net-tools</packagereq>
+      <packagereq type='mandatory'>nettle</packagereq>
+      <packagereq type='mandatory'>NetworkManager</packagereq>
+      <packagereq type='mandatory'>NetworkManager-libnm</packagereq>
+      <packagereq type='mandatory'>NetworkManager-tui</packagereq>
       <packagereq type='mandatory'>newt</packagereq>
       <packagereq type='mandatory'>newt-python</packagereq>
       <packagereq type='mandatory'>nspr</packagereq>
       <packagereq type='mandatory'>nss</packagereq>
-      <packagereq type='mandatory'>nss-softokn-freebl</packagereq>
       <packagereq type='mandatory'>nss-softokn</packagereq>
+      <packagereq type='mandatory'>nss-softokn-freebl</packagereq>
       <packagereq type='mandatory'>nss-sysinit</packagereq>
       <packagereq type='mandatory'>nss-tools</packagereq>
       <packagereq type='mandatory'>nss-util</packagereq>
+      <packagereq type='mandatory'>numactl-libs</packagereq>
       <packagereq type='mandatory'>openldap</packagereq>
-      <packagereq type='mandatory'>openssh-clients</packagereq>
       <packagereq type='mandatory'>openssh</packagereq>
+      <packagereq type='mandatory'>openssh-clients</packagereq>
       <packagereq type='mandatory'>openssh-server</packagereq>
       <packagereq type='mandatory'>openssl</packagereq>
+      <packagereq type='mandatory'>openssl-libs</packagereq>
+      <packagereq type='mandatory'>os-prober</packagereq>
+      <packagereq type='mandatory'>p11-kit</packagereq>
+      <packagereq type='mandatory'>p11-kit-trust</packagereq>
       <packagereq type='mandatory'>pam</packagereq>
+      <packagereq type='mandatory'>parted</packagereq>
       <packagereq type='mandatory'>passwd</packagereq>
       <packagereq type='mandatory'>pciutils-libs</packagereq>
       <packagereq type='mandatory'>pcre</packagereq>
       <packagereq type='mandatory'>pinentry</packagereq>
-      <packagereq type='mandatory'>plymouth-core-libs</packagereq>
+      <packagereq type='mandatory'>pkgconfig</packagereq>
       <packagereq type='mandatory'>plymouth</packagereq>
+      <packagereq type='mandatory'>plymouth-core-libs</packagereq>
       <packagereq type='mandatory'>plymouth-scripts</packagereq>
       <packagereq type='mandatory'>policycoreutils</packagereq>
+      <packagereq type='mandatory'>polkit</packagereq>
+      <packagereq type='mandatory'>polkit-pkla-compat</packagereq>
       <packagereq type='mandatory'>popt</packagereq>
       <packagereq type='mandatory'>postfix</packagereq>
-      <packagereq type='mandatory'>procps</packagereq>
-      <packagereq type='mandatory'>psmisc</packagereq>
+      <packagereq type='mandatory'>ppp</packagereq>
+      <packagereq type='mandatory'>procps-ng</packagereq>
       <packagereq type='mandatory'>pth</packagereq>
+      <packagereq type='mandatory'>pygobject3-base</packagereq>
       <packagereq type='mandatory'>pygpgme</packagereq>
+      <packagereq type='mandatory'>pyliblzma</packagereq>
+      <packagereq type='mandatory'>python</packagereq>
+      <packagereq type='mandatory'>python-backports</packagereq>
+      <packagereq type='mandatory'>python-backports-ssl_match_hostname</packagereq>
+      <packagereq type='mandatory'>python-configobj</packagereq>
+      <packagereq type='mandatory'>python-decorator</packagereq>
       <packagereq type='mandatory'>python-iniparse</packagereq>
       <packagereq type='mandatory'>python-libs</packagereq>
-      <packagereq type='mandatory'>python</packagereq>
       <packagereq type='mandatory'>python-pycurl</packagereq>
+      <packagereq type='mandatory'>python-pyudev</packagereq>
+      <packagereq type='mandatory'>python-setuptools</packagereq>
+      <packagereq type='mandatory'>python-slip</packagereq>
+      <packagereq type='mandatory'>python-slip-dbus</packagereq>
       <packagereq type='mandatory'>python-urlgrabber</packagereq>
+      <packagereq type='mandatory'>pyxattr</packagereq>
+      <packagereq type='mandatory'>qrencode-libs</packagereq>
+      <packagereq type='mandatory'>rdma</packagereq>
       <packagereq type='mandatory'>readline</packagereq>
-      <packagereq type='mandatory'>redhat-logos</packagereq>
       <packagereq type='mandatory'>rootfiles</packagereq>
-      <packagereq type='mandatory'>rpm-libs</packagereq>
       <packagereq type='mandatory'>rpm</packagereq>
+      <packagereq type='mandatory'>rpm-build-libs</packagereq>
+      <packagereq type='mandatory'>rpm-libs</packagereq>
       <packagereq type='mandatory'>rpm-python</packagereq>
       <packagereq type='mandatory'>rsyslog</packagereq>
       <packagereq type='mandatory'>sed</packagereq>
@@ -231,30 +321,39 @@
       <packagereq type='mandatory'>selinux-policy-targeted</packagereq>
       <packagereq type='mandatory'>setup</packagereq>
       <packagereq type='mandatory'>shadow-utils</packagereq>
+      <packagereq type='mandatory'>shared-mime-info</packagereq>
       <packagereq type='mandatory'>slang</packagereq>
+      <packagereq type='mandatory'>snappy</packagereq>
       <packagereq type='mandatory'>sqlite</packagereq>
       <packagereq type='mandatory'>sudo</packagereq>
-      <packagereq type='mandatory'>system-config-firewall-base</packagereq>
+      <packagereq type='mandatory'>systemd</packagereq>
+      <packagereq type='mandatory'>systemd-libs</packagereq>
+      <packagereq type='mandatory'>systemd-sysv</packagereq>
       <packagereq type='mandatory'>sysvinit-tools</packagereq>
       <packagereq type='mandatory'>tar</packagereq>
       <packagereq type='mandatory'>tcp_wrappers-libs</packagereq>
+      <packagereq type='mandatory'>teamd</packagereq>
+      <packagereq type='mandatory'>trousers</packagereq>
+      <packagereq type='mandatory'>tuned</packagereq>
       <packagereq type='mandatory'>tzdata</packagereq>
-      <packagereq type='mandatory'>udev</packagereq>
-      <packagereq type='mandatory'>upstart</packagereq>
       <packagereq type='mandatory'>ustr</packagereq>
-      <packagereq type='mandatory'>util-linux-ng</packagereq>
+      <packagereq type='mandatory'>util-linux</packagereq>
       <packagereq type='mandatory'>vim-minimal</packagereq>
+      <packagereq type='mandatory'>virt-what</packagereq>
       <packagereq type='mandatory'>which</packagereq>
+      <packagereq type='mandatory'>wpa_supplicant</packagereq>
       <packagereq type='mandatory'>xfsprogs</packagereq>
+      <packagereq type='mandatory'>xz</packagereq>
       <packagereq type='mandatory'>xz-libs</packagereq>
-      <packagereq type='mandatory'>yum-metadata-parser</packagereq>
       <packagereq type='mandatory'>yum</packagereq>
+      <packagereq type='mandatory'>yum-metadata-parser</packagereq>
       <packagereq type='mandatory'>yum-plugin-fastestmirror</packagereq>
       <packagereq type='mandatory'>zlib</packagereq>
     </packagelist> 
   </group>
 
 <!-- CENTOS GROUPS END -->
+
 
 <!-- NETHESIS GROUPS START -->
 
@@ -274,6 +373,12 @@
       <packagereq type="mandatory">nethserver-phonehome</packagereq>
       <packagereq type="mandatory">nethserver-duc</packagereq>
       <packagereq type="mandatory">nethserver-firewall-base</packagereq>
+      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-sssd</packagereq>
+      <packagereq type="mandatory">nethserver-nethforge-release</packagereq>
+      <packagereq type="mandatory">nethserver-letsencrypt</packagereq>
+      <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
@@ -282,8 +387,8 @@
       <packagereq type="mandatory">nethserver-nethserverenterprise-branding</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
 
+    
       <packagereq type="mandatory">lsof</packagereq>
-      <packagereq type="mandatory">man</packagereq>
       <packagereq type="mandatory">patch</packagereq>
       <packagereq type="mandatory">pciutils</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
@@ -292,13 +397,11 @@
       <packagereq type="mandatory">usbutils</packagereq>
       <packagereq type="mandatory">screen</packagereq>
       <packagereq type="mandatory">wget</packagereq>
-      <packagereq type="mandatory">cpuspeed</packagereq>
-      <packagereq type="mandatory">wireless-tools</packagereq>
-      <packagereq type="mandatory">yum-presto</packagereq>
-      <packagereq type="mandatory">yum-plugin-downloadonly</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">tmpwatch</packagereq>
       <packagereq type="mandatory">traceroute</packagereq>
+      <packagereq type="mandatory">deltarpm</packagereq>
+      <packagereq type="mandatory">epel-release</packagereq>
     </packagelist>
   </group>
   
@@ -317,17 +420,6 @@
   </group>
 
   <group>
-    <id>nethserver-dns-dhcp</id>
-    <_name>DNS and DHCP server</_name>
-    <_description>Daemons and tools for DHCP and DNS server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-fax-server</id>
     <_name>Fax server</_name>
     <_description>Configure HylaFax+ and manage IAX modems</_description>
@@ -336,17 +428,6 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-hylafax</packagereq>
       <packagereq type="mandatory">nethserver-iaxmodem</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-faxweb2</id>
-    <_name>Web-based fax client</_name>
-    <_description>Manage faxes from a simple web interface</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-faxweb2</packagereq>
     </packagelist>
   </group>
 
@@ -362,6 +443,18 @@
   </group>
 
   <group>
+    <id>nethserver-file-server</id>
+    <_name>File server</_name>
+    <_description>Daemons and tools for network file sharing</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
+      <packagereq type="optional">nethserver-samba-audit</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-ftp</id>
     <_name>FTP server</_name>
     <_description>Configure the FTP server (vsftpd)</_description>
@@ -373,29 +466,24 @@
   </group>
 
   <group>
-    <id>nethserver-file-server</id>
-    <_name>File server</_name>
-    <_description>Daemons and tools for network file sharing</_description>
+    <id>nethserver-directory</id>
+    <_name>Account provider: OpenLDAP</_name>
+    <_description>Configure users and groups on OpenLDAP</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="mandatory">nethserver-ibays</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
-      <packagereq type="optional">nethserver-samba-audit</packagereq>
+      <packagereq type="mandatory">nethserver-directory</packagereq>
     </packagelist>
   </group>
 
   <group>
-    <id>nethserver-groupware</id>
-    <_name>SOGo groupware</_name>
-    <_description>SOGo server and Thundebird extensions</_description>
+    <id>nethserver-dc</id>
+    <_name>Account provider: Samba Active Directory</_name>
+    <_description>Configure users and groups on Samba Active Directory</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-sogo</packagereq>
-      <packagereq type="optional">nethserver-sogo-thunderbird</packagereq>
-      <packagereq type="optional">sogo-frontends</packagereq>
+      <packagereq type="mandatory">nethserver-dc</packagereq>
     </packagelist>
   </group>
 
@@ -411,7 +499,6 @@
     </packagelist>
   </group>
 
-
   <group>
     <id>nethserver-mail</id>
     <_name>Email</_name>
@@ -421,38 +508,32 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
+      <packagereq type="optional">nethserver-getmail</packagereq>
       <packagereq type="optional">nethserver-roundcubemail</packagereq>
-      <packagereq type="optional">nethserver-fetchmail</packagereq>
-      <packagereq type="optional">mutt</packagereq>
-      <packagereq type="optional">ripole</packagereq>
-      <packagereq type="optional">lha</packagereq>
-      <packagereq type="optional">unrar</packagereq>
     </packagelist>
   </group>
 
   <group>
-    <id>nethserver-phonebook</id>
-    <_name>Phonebook</_name>
-    <_description>Centralized Phonebook</_description>
+    <id>nethserver-roundcubemail</id>
+    <_name>Roundcube web mail</_name>
+    <_description>Roundcube web mail</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-phonebook-mysql</packagereq>
+      <packagereq type="mandatory">nethserver-roundcubemail</packagereq>
     </packagelist>
   </group>
 
-
   <group>
-     <id>nethserver-pop3connector</id>
-     <_name>POP3 connector</_name>
-     <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
-     <default>false</default>
-     <uservisible>true</uservisible>
-     <packagelist>
-        <packagereq type="mandatory">nethserver-fetchmail</packagereq>
-        <packagereq type="mandatory">nethserver-mail-filter</packagereq>
-     </packagelist>
+    <id>nethserver-smtp-proxy</id>
+    <_name>SMTP proxy</_name>
+    <_description>SMTP proxy</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
+    </packagelist>
   </group>
 
   <group>
@@ -463,7 +544,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-ejabberd</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
     </packagelist>
   </group>
 
@@ -475,7 +555,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-cups</packagereq>
-      <packagereq type="optional">nethserver-avahi</packagereq>
+      <packagereq type="mandatory">nethserver-avahi</packagereq>
     </packagelist>
   </group>
 
@@ -487,6 +567,17 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-virtualhosts</packagereq>
+      <packagereq type="optional">php-gd</packagereq>
+      <packagereq type="optional">php-imap</packagereq>
+      <packagereq type="optional">php-ldap</packagereq>
+      <packagereq type="optional">php-mbstring</packagereq>
+      <packagereq type="optional">php-mcrypt</packagereq>
+      <packagereq type="optional">php-mysql</packagereq>
+      <packagereq type="optional">php-pecl-apcu</packagereq>
+      <packagereq type="optional">php-pecl-memcached</packagereq>
+      <packagereq type="optional">php-pecl-redis</packagereq>
+      <packagereq type="optional">php-smbclient</packagereq>
     </packagelist>
   </group>
 
@@ -500,6 +591,18 @@
       <packagereq type="mandatory">nethserver-ntopng</packagereq>
     </packagelist>
   </group>
+
+  <group>
+    <id>nethserver-bandwidthd</id>
+    <_name>Simple bandwidth monitor</_name>
+    <_description>Configure and manage Bandwidthd</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-bandwidthd</packagereq>
+    </packagelist>
+  </group>
+
 
   <group>
     <id>nethserver-nut</id>
@@ -534,14 +637,12 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="mandatory">nethserver-lightsquid-enterprise</packagereq>
-      <packagereq type="optional">nethserver-directory</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
 
-  <group>
+ <group>
     <id>nethserver-web-filter</id>
     <_name>Web filter</_name>
     <_description>Squid web content and virus filter</_description>
@@ -551,44 +652,230 @@
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-squidguard</packagereq>
       <packagereq type="mandatory">nethserver-squidclamav</packagereq>
-      <packagereq type="mandatory">nethserver-lightsquid-enterprise</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
 
   <group>
-    <id>nethserver-vpn</id>
-    <name>VPN</name>
-    <_description>Configure remote-access and site-to-site Virtual Private Networks (VPN)</_description>
+    <id>nethserver-openvpn</id>
+    <name>OpenVPN</name>
+    <_description>Configure remote-access and site-to-site Virtual Private Networks (VPN) using OpenVPN</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-ipsec</packagereq>
       <packagereq type="mandatory">nethserver-openvpn</packagereq>
-      <packagereq type="optional">nethserver-samba</packagereq>      
     </packagelist>
   </group>
 
   <group>
-    <id>nethserver-owncloud</id>
-    <_name>ownCloud</_name>
-    <_description>Configure ownCloud, universal access to your files
-    via the web, your computer or your mobile devices - wherever you
-    are</_description>
+    <id>nethserver-ipsec-tunnels</id>
+    <_name>IPsec tunnels</_name>
+    <_description>Site-to-site Virtual Private Networks (VPN) using IPsec</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-owncloud</packagereq>
+      <packagereq type="mandatory">nethserver-ipsec-tunnels</packagereq>
     </packagelist>
   </group>
 
   <group>
     <id>nethserver-mysql</id>
-    <_name>MySQL server</_name>
-    <_description>Configuration tools for MySQL</_description>
+    <_name>MariaDB (MySQL) server</_name>
+    <_description>Configuration tools for MariaDB (MySQL)</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-mysql</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-ips</id>
+    <_name>Intrusion Prevention System</_name>
+    <_description>Monitor and block network traffic for malicious activity</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-snort</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-p3scan</id>
+    <_name>POP3 proxy</_name>
+    <_description>Intercept POP3 connections and scan messages for virtus and spam</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-p3scan</packagereq>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-net-snmp</id>
+    <_name>SNMP server</_name>
+    <_description>Configure the SNMP server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-net-snmp</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-nextcloud</id>
+    <_name>Nextcloud</_name>
+    <_description>Configure Nextcloud, universal access to your files
+    via the web, your computer or your mobile devices - wherever you
+    are</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nextcloud</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+     <id>nethserver-pop3connector</id>
+     <_name>POP3 connector</_name>
+     <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-getmail</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-de</id>
+    <_name>German language</_name>
+    <_description>Server Manager German localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-de</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-el</id>
+    <_name>Greek language</_name>
+    <_description>Server Manager Greek localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-el</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-es</id>
+    <_name>Spanish language</_name>
+    <_description>Server Manager Spanish localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-es</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-fr</id>
+    <_name>French language</_name>
+    <_description>Server Manager French localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-fr</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-hu</id>
+    <_name>Hungarian language</_name>
+    <_description>Server Manager Hungarian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-hu</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-it</id>
+    <_name>Italian language</_name>
+    <_description>Server Manager Italian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-it</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-nl</id>
+    <_name>Dutch language</_name>
+    <_description>Server Manager Dutch localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-nl</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-pt</id>
+    <_name>Portuguese language</_name>
+    <_description>Server Manager Portuguese localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-pt</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-ru</id>
+    <_name>Russian language</_name>
+    <_description>Server Manager Russian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-ru</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-tr</id>
+    <_name>Turkish language</_name>
+    <_description>Server Manager Turkish localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-tr</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-l10n-sr</id>
+    <_name>Serbian language</_name>
+    <_description>Server Manager Serbian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-sr</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-phonebook</id>
+    <_name>Phonebook</_name>
+    <_description>Centralized Phonebook</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-phonebook-mysql</packagereq>
     </packagelist>
   </group>
 
@@ -689,28 +976,6 @@
   </group>
 
   <group>
-    <id>nethserver-ips</id>
-    <_name>Intrusion Prevention System</_name>
-    <_description>Monitor and block network traffic for malicious activity</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-snort</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-p3scan</id>
-    <_name>POP3 proxy</_name>
-    <_description>Intercept POP3 connections and scan messages for virtus and spam</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-p3scan</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-nethbox</id>
     <_name>NethBox hardware support</_name>
     <_description>NethBox hardware support</_description>
@@ -722,17 +987,6 @@
   </group>
 
   <group>
-    <id>nethserver-webvirtmgr</id>
-    <_name>Virtual machines manager</_name>
-    <_description>Web interface for KVM virtual machines</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-webvirtmgr</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-hotspot-portal</id>
     <_name>Centralized HotSpot</_name>
     <_description>Portal for centralized hotspot configuration</_description>
@@ -740,18 +994,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-hotspot-portal</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-smtp-proxy</id>
-    <_name>SMTP proxy</_name>
-    <_description>SMTP proxy</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
-      <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
     </packagelist>
   </group>
 
@@ -776,51 +1018,6 @@
       <packagereq type="mandatory">nethserver-report</packagereq>
     </packagelist>
   </group>
-
-  <group>
-    <id>nethserver-net-snmp</id>
-    <_name>SNMP server</_name>
-    <_description>Configure the SNMP server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-net-snmp</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-smarthost</id>
-    <_name>Email smarthost (SMTP)</_name>
-    <_description>Configure the smarthost for the SMTP mail server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mail-common</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-ftp</id>
-    <_name>FTP server</_name>
-    <_description>Configure the FTP server (vsftpd)</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-vsftpd</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-nethmonitor</id>
-    <_name>Monitoring and inventorying</_name>
-    <_description>Automated monitoring and inventorying of network devices (servers, PCs, printers, routers...)</_description>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type='mandatory'>nethserver-nethmonitor</packagereq>
-    </packagelist>
-  </group>
-
-
 
 <!-- NETHESIS GROUPS END -->
 
