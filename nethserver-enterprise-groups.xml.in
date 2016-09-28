@@ -951,6 +951,7 @@
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-smarthost</groupid>
       <groupid>nethserver-mysql</groupid>
+      <groupid>nethserver-directory</groupid>
     </grouplist>
   </category>
 
@@ -971,7 +972,6 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-dc</groupid>
-      <groupid>nethserver-directory</groupid>
     </grouplist>
   </category>
 
