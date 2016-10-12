@@ -18,4 +18,5 @@ validate: $(XMLFILES) comps.rng
 	./update-comps $@
 
 link:	
-	ln -sf nethserver-enterprise-groups.xml nethserver-groups.xml
+	ln -sf nethserver-enterprise-groups.xml nethesis-updates-groups.xml
+
