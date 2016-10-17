@@ -4,7 +4,7 @@
 
 2. Eseguire: `make`
 
-3. Se necessario, in po/ directory: make <lang>.po
+3. Se necessario, in po/ directory: `make <lang>.po`
 
 # Pubblicare
 
