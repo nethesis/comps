@@ -404,6 +404,7 @@
       <packagereq type="mandatory">traceroute</packagereq>
       <packagereq type="mandatory">deltarpm</packagereq>
       <packagereq type="mandatory">epel-release</packagereq>
+      <packagereq type="mandatory">centos-release-scl</packagereq>
       <packagereq type="mandatory">vim</packagereq>
     </packagelist>
   </group>
