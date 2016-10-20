@@ -430,18 +430,18 @@ msgstr "Lingue"
 
 #: ../nethserver-enterprise-groups.xml.in.h:98
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Traduzioni per Server Manager"
 
-#~ msgid "NethCTI"
-#~ msgstr "NethCTI"
+msgid "NethCTI (Beta)"
+msgstr "NethCTI (Beta)"
 
-#~ msgid "Computer Telephony Integration"
-#~ msgstr "Integrazione sistema telefonico aziendale"
+msgid "Computer Telephony Integration"
+msgstr "Integrazione sistema telefonico aziendale"
 
-#~ msgid "NethHotel"
-#~ msgstr "NethHotel"
+msgid "NethHotel (Beta)"
+msgstr "NethHotel (Beta)"
 
-#~ msgid "Hotel Management Interface"
-#~ msgstr "Interfaccia Gestione Hotel"
+msgid "Hotel Management Interface"
+msgstr "Interfaccia Gestione Hotel"
 
 
