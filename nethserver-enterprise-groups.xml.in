@@ -1031,6 +1031,18 @@
   </category>
 
   <category>
+    <id>NVOICENG0001</id>
+    <_name>NethVoice</_name>
+    <_description>Asterisk PBX</_description>
+    <display_order>4</display_order>
+    <grouplist>
+      <groupid>nethserver-nethvoice</groupid>
+      <groupid>nethserver-nethcti</groupid>
+      <groupid>neth-hotel</groupid>
+    </grouplist>
+  </category>
+
+  <category>
     <id>server-manager-languages</id>
     <_name>Languages</_name>
     <_description>Localization of the Server Manager web interface</_description>
