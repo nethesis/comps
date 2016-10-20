@@ -896,7 +896,7 @@
 
   <group>
     <id>nethserver-hotspot-portal</id>
-    <_name>Centralized HotSpot</_name>
+    <_name>Centralized HotSpot (beta)</_name>
     <_description>Portal for centralized hotspot configuration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
