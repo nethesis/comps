@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-20 16:45+0200\n"
+"POT-Creation-Date: 2016-10-21 11:40+0200\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -364,7 +364,7 @@ msgstr "Rubrica Centralizzata"
 
 #: ../nethserver-enterprise-groups.xml.in.h:82
 #, fuzzy
-msgid "Centralized HotSpot (Beta)"
+msgid "Centralized HotSpot (beta)"
 msgstr "Hotspot centralizzato (Beta)"
 
 #: ../nethserver-enterprise-groups.xml.in.h:83
@@ -397,51 +397,53 @@ msgid "Asterisk PBX"
 msgstr "Centralino VOIP basato su Asterisk"
 
 #: ../nethserver-enterprise-groups.xml.in.h:90
-msgid "Base system"
-msgstr "Sistema base"
-
-#: ../nethserver-enterprise-groups.xml.in.h:91
-msgid "Common packages to all products"
-msgstr "Pacchetti comuni a tutti i prodotti"
-
-#: ../nethserver-enterprise-groups.xml.in.h:92
-msgid "NethService"
-msgstr "NethService"
-
-#: ../nethserver-enterprise-groups.xml.in.h:93
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
-msgstr "Distribuzione Linux per la piccola e media impresa"
-
-#: ../nethserver-enterprise-groups.xml.in.h:94
-msgid "NethSecurity"
-msgstr "NethSecurity"
-
-#: ../nethserver-enterprise-groups.xml.in.h:95
-msgid "UTM Firewall"
-msgstr "Firewall UTM (Unified Threat Management)"
-
-#: ../nethserver-enterprise-groups.xml.in.h:96
-msgid "NethVoice"
-msgstr "NethVoice"
-
-#: ../nethserver-enterprise-groups.xml.in.h:97
-msgid "Languages"
-msgstr "Lingue"
-
-#: ../nethserver-enterprise-groups.xml.in.h:98
-msgid "Localization of the Server Manager web interface"
-msgstr "Traduzioni per Server Manager"
-
 msgid "NethCTI (Beta)"
 msgstr "NethCTI (Beta)"
 
+#: ../nethserver-enterprise-groups.xml.in.h:91
 msgid "Computer Telephony Integration"
 msgstr "Integrazione sistema telefonico aziendale"
 
+#: ../nethserver-enterprise-groups.xml.in.h:92
 msgid "NethHotel (Beta)"
 msgstr "NethHotel (Beta)"
 
+#: ../nethserver-enterprise-groups.xml.in.h:93
 msgid "Hotel Management Interface"
 msgstr "Interfaccia Gestione Hotel"
 
+#: ../nethserver-enterprise-groups.xml.in.h:94
+msgid "Base system"
+msgstr "Sistema base"
 
+#: ../nethserver-enterprise-groups.xml.in.h:95
+msgid "Common packages to all products"
+msgstr "Pacchetti comuni a tutti i prodotti"
+
+#: ../nethserver-enterprise-groups.xml.in.h:96
+msgid "NethService"
+msgstr "NethService"
+
+#: ../nethserver-enterprise-groups.xml.in.h:97
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgstr "Distribuzione Linux per la piccola e media impresa"
+
+#: ../nethserver-enterprise-groups.xml.in.h:98
+msgid "NethSecurity"
+msgstr "NethSecurity"
+
+#: ../nethserver-enterprise-groups.xml.in.h:99
+msgid "UTM Firewall"
+msgstr "Firewall UTM (Unified Threat Management)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:100
+msgid "NethVoice"
+msgstr "NethVoice"
+
+#: ../nethserver-enterprise-groups.xml.in.h:101
+msgid "Languages"
+msgstr "Lingue"
+
+#: ../nethserver-enterprise-groups.xml.in.h:102
+msgid "Localization of the Server Manager web interface"
+msgstr "Traduzioni per Server Manager"
