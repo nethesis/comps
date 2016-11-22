@@ -968,6 +968,8 @@
     <packagelist>
       <packagereq type="mandatory">nethcti</packagereq>
       <packagereq type="mandatory">nethcti-server</packagereq>
+      <packagereq type="optional">neth-oppanel</packagereq>
+      <packagereq type="optional">neth-queueman</packagereq>
       <packagereq type="optional">nethserver-ejabberd</packagereq>
     </packagelist>
   </group>
