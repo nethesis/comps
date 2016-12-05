@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:44
 msgid "IPsec tunnels"
-msgstr "Tunell IPsec"
+msgstr "Tunnell IPsec"
 
 #: ../nethserver-enterprise-groups.xml.in.h:45
 #, fuzzy
