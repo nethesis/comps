@@ -10,10 +10,10 @@
 
 1. Eseguire:
 ```
-echo -e "cd nsent/7.2.1511\nput nethesis-updates-groups.xml" | sftp -b - packages.nethesis.it
+echo -e "cd nsent/7.3.1611\nput nethesis-updates-groups.xml" | sftp -b - packages.nethesis.it
 ```
 
 2. Collegarsi al server ed eseguire:
 ```
-repobuild 7.2.1511/nethesis-updates/x86_64
+repobuild 7.3.1611/nethesis-updates/x86_64
 ```
