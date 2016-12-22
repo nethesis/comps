@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-21 11:40+0200\n"
+"POT-Creation-Date: 2016-12-22 10:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,215 +216,223 @@ msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:50
-msgid "POP3 proxy"
+msgid "Deep packet inspection (DPI)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:51
-msgid "Intercept POP3 connections and scan messages for virtus and spam"
+msgid "Filter network traffic by analyzing the packets payload"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:52
-msgid "SNMP server"
+msgid "POP3 proxy"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:53
-msgid "Configure the SNMP server"
+msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:54
-msgid "Nextcloud"
+msgid "SNMP server"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:55
+msgid "Configure the SNMP server"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:56
+msgid "Nextcloud"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:57
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:56
+#: ../nethserver-enterprise-groups.xml.in.h:58
 msgid "POP3 connector"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:57
+#: ../nethserver-enterprise-groups.xml.in.h:59
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:58
+#: ../nethserver-enterprise-groups.xml.in.h:60
 msgid "German language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:59
+#: ../nethserver-enterprise-groups.xml.in.h:61
 msgid "Server Manager German localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:60
+#: ../nethserver-enterprise-groups.xml.in.h:62
 msgid "Greek language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:61
+#: ../nethserver-enterprise-groups.xml.in.h:63
 msgid "Server Manager Greek localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:62
+#: ../nethserver-enterprise-groups.xml.in.h:64
 msgid "Spanish language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:63
+#: ../nethserver-enterprise-groups.xml.in.h:65
 msgid "Server Manager Spanish localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:64
+#: ../nethserver-enterprise-groups.xml.in.h:66
 msgid "French language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:65
+#: ../nethserver-enterprise-groups.xml.in.h:67
 msgid "Server Manager French localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:66
+#: ../nethserver-enterprise-groups.xml.in.h:68
 msgid "Hungarian language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:67
+#: ../nethserver-enterprise-groups.xml.in.h:69
 msgid "Server Manager Hungarian localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:68
+#: ../nethserver-enterprise-groups.xml.in.h:70
 msgid "Italian language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:69
+#: ../nethserver-enterprise-groups.xml.in.h:71
 msgid "Server Manager Italian localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:70
+#: ../nethserver-enterprise-groups.xml.in.h:72
 msgid "Dutch language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:71
+#: ../nethserver-enterprise-groups.xml.in.h:73
 msgid "Server Manager Dutch localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:72
+#: ../nethserver-enterprise-groups.xml.in.h:74
 msgid "Portuguese language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:73
+#: ../nethserver-enterprise-groups.xml.in.h:75
 msgid "Server Manager Portuguese localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:74
+#: ../nethserver-enterprise-groups.xml.in.h:76
 msgid "Russian language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:75
+#: ../nethserver-enterprise-groups.xml.in.h:77
 msgid "Server Manager Russian localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:76
+#: ../nethserver-enterprise-groups.xml.in.h:78
 msgid "Turkish language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:77
+#: ../nethserver-enterprise-groups.xml.in.h:79
 msgid "Server Manager Turkish localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:78
+#: ../nethserver-enterprise-groups.xml.in.h:80
 msgid "Serbian language"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:79
+#: ../nethserver-enterprise-groups.xml.in.h:81
 msgid "Server Manager Serbian localization"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:80
+#: ../nethserver-enterprise-groups.xml.in.h:82
 msgid "Phonebook"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:81
+#: ../nethserver-enterprise-groups.xml.in.h:83
 msgid "Centralized Phonebook"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:82
+#: ../nethserver-enterprise-groups.xml.in.h:84
 msgid "Centralized HotSpot (beta)"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:83
+#: ../nethserver-enterprise-groups.xml.in.h:85
 msgid "Portal for centralized hotspot configuration"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:84
+#: ../nethserver-enterprise-groups.xml.in.h:86
 msgid "Cloud content filter"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:85
+#: ../nethserver-enterprise-groups.xml.in.h:87
 msgid "Cloud-based web content filter"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:86
+#: ../nethserver-enterprise-groups.xml.in.h:88
 msgid "Weekly report"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:87
+#: ../nethserver-enterprise-groups.xml.in.h:89
 msgid "Weekly report about system status"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:88
+#: ../nethserver-enterprise-groups.xml.in.h:90
 msgid "NethVoice (Beta)"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:89
+#: ../nethserver-enterprise-groups.xml.in.h:91
 msgid "Asterisk PBX"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:90
+#: ../nethserver-enterprise-groups.xml.in.h:92
 msgid "NethCTI (Beta)"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:91
+#: ../nethserver-enterprise-groups.xml.in.h:93
 msgid "Computer Telephony Integration"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:92
+#: ../nethserver-enterprise-groups.xml.in.h:94
 msgid "NethHotel (Beta)"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:93
+#: ../nethserver-enterprise-groups.xml.in.h:95
 msgid "Hotel Management Interface"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:94
+#: ../nethserver-enterprise-groups.xml.in.h:96
 msgid "Base system"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:95
+#: ../nethserver-enterprise-groups.xml.in.h:97
 msgid "Common packages to all products"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:96
+#: ../nethserver-enterprise-groups.xml.in.h:98
 msgid "NethService"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:97
+#: ../nethserver-enterprise-groups.xml.in.h:99
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:98
+#: ../nethserver-enterprise-groups.xml.in.h:100
 msgid "NethSecurity"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:99
+#: ../nethserver-enterprise-groups.xml.in.h:101
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:100
+#: ../nethserver-enterprise-groups.xml.in.h:102
 msgid "NethVoice"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:101
+#: ../nethserver-enterprise-groups.xml.in.h:103
 msgid "Languages"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:102
+#: ../nethserver-enterprise-groups.xml.in.h:104
 msgid "Localization of the Server Manager web interface"
 msgstr ""
