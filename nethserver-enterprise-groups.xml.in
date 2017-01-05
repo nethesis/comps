@@ -666,6 +666,7 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-squidguard</packagereq>
+      <packagereq type="mandatory">nethserver-squidclamav</packagereq>
       <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
