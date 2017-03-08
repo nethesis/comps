@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-22 10:49+0100\n"
+"POT-Creation-Date: 2017-02-24 11:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -378,7 +378,7 @@ msgid "Weekly report about system status"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:90
-msgid "NethVoice (Beta)"
+msgid "NethVoice"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:91
@@ -386,7 +386,7 @@ msgid "Asterisk PBX"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:92
-msgid "NethCTI (Beta)"
+msgid "NethCTI"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:93
@@ -394,7 +394,7 @@ msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:94
-msgid "NethHotel (Beta)"
+msgid "NethHotel"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:95

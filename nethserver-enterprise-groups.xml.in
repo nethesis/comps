@@ -907,7 +907,7 @@
 
   <group>
     <id>nethserver-hotspot-portal</id>
-    <_name>Centralized HotSpot (beta)</_name>
+    <_name>Centralized HotSpot</_name>
     <_description>Portal for centralized hotspot configuration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -940,7 +940,7 @@
 
   <group>
     <id>nethserver-nethvoice</id>
-    <_name>NethVoice (Beta)</_name>
+    <_name>NethVoice</_name>
     <_description>Asterisk PBX</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -972,7 +972,7 @@
 
   <group>
     <id>nethserver-nethcti</id>
-    <_name>NethCTI (Beta)</_name>
+    <_name>NethCTI</_name>
     <_description>Computer Telephony Integration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -987,7 +987,7 @@
 
   <group>
     <id>neth-hotel</id>
-    <_name>NethHotel (Beta)</_name>
+    <_name>NethHotel</_name>
     <_description>Hotel Management Interface</_description>
     <default>false</default>
     <uservisible>true</uservisible>

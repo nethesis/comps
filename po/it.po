@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-22 10:49+0100\n"
+"POT-Creation-Date: 2017-02-24 11:28+0100\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -235,7 +235,6 @@ msgstr "Deep packet inspection (DPI)"
 msgid "Filter network traffic by analyzing the packets payload"
 msgstr "Filtra il traffico di rete analizzando il contenuto dei pacchetti"
 
-
 #: ../nethserver-enterprise-groups.xml.in.h:52
 msgid "POP3 proxy"
 msgstr "Proxy POP3"
@@ -373,8 +372,8 @@ msgstr "Rubrica Centralizzata"
 
 #: ../nethserver-enterprise-groups.xml.in.h:84
 #, fuzzy
-msgid "Centralized HotSpot (beta)"
-msgstr "Hotspot centralizzato (Beta)"
+msgid "Centralized HotSpot"
+msgstr "Hotspot centralizzato"
 
 #: ../nethserver-enterprise-groups.xml.in.h:85
 msgid "Portal for centralized hotspot configuration"
@@ -396,26 +395,21 @@ msgstr "Report settimanale"
 msgid "Weekly report about system status"
 msgstr "Report settimanale sullo stato del sistema"
 
-#: ../nethserver-enterprise-groups.xml.in.h:90
-#, fuzzy
-msgid "NethVoice (Beta)"
-msgstr "NethVoice (Beta)"
-
 #: ../nethserver-enterprise-groups.xml.in.h:91
 msgid "Asterisk PBX"
 msgstr "Centralino VOIP basato su Asterisk"
 
 #: ../nethserver-enterprise-groups.xml.in.h:92
-msgid "NethCTI (Beta)"
-msgstr "NethCTI (Beta)"
+msgid "NethCTI"
+msgstr "NethCTI"
 
 #: ../nethserver-enterprise-groups.xml.in.h:93
 msgid "Computer Telephony Integration"
 msgstr "Integrazione sistema telefonico aziendale"
 
 #: ../nethserver-enterprise-groups.xml.in.h:94
-msgid "NethHotel (Beta)"
-msgstr "NethHotel (Beta)"
+msgid "NethHotel"
+msgstr "NethHotel"
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
 msgid "Hotel Management Interface"
