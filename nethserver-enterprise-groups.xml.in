@@ -492,14 +492,25 @@
   </group>
 
   <group>
-    <id>nethserver-webtop-groupware</id>
-    <_name>WebTop groupware</_name>
-    <_description>WebTop groupware</_description>
+    <id>nethserver-webtop4-groupware</id>
+    <_name>WebTop 4 groupware</_name>
+    <_description>WebTop 4 groupware</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nethtop</packagereq>
       <packagereq type="mandatory">nethserver-webtop4</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-webtop5-groupware</id>
+    <_name>WebTop 5 groupware</_name>
+    <_description>WebTop 5 groupware</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-webtop-enterprise</packagereq>
     </packagelist>
   </group>
 
@@ -1039,7 +1050,8 @@
       <groupid>nethserver-mail</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-groupware</groupid>
-      <groupid>nethserver-webtop-groupware</groupid>
+      <groupid>nethserver-webtop4-groupware</groupid>
+      <groupid>nethserver-webtop5-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-fax-server</groupid>
