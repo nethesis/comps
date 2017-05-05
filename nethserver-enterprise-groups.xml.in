@@ -956,7 +956,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nethvoice</packagereq>
-      <packagereq type="mandatory">nethserver-nethvoice-enterprise</packagereq>
       <packagereq type="mandatory">nethvoice-sounds</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethcqr</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethgateway</packagereq>
