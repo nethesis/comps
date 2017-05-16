@@ -473,7 +473,7 @@
     <_name>Account provider: OpenLDAP</_name>
     <_description>Configure users and groups on OpenLDAP</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-directory</packagereq>
     </packagelist>
@@ -484,7 +484,7 @@
     <_name>Account provider: Samba Active Directory</_name>
     <_description>Configure users and groups on Samba Active Directory</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-dc</packagereq>
     </packagelist>
