@@ -384,6 +384,7 @@
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
       <packagereq type="mandatory">nethserver-nethbackup</packagereq>
       <packagereq type="mandatory">nethserver-register</packagereq>
+      <packagereq type="mandatory">nethserver-nethserverenterprise-branding</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
       <packagereq type="mandatory">nethserver-alerts</packagereq>
       <packagereq type="mandatory">nethserver-inventory</packagereq>
