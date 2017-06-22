@@ -382,7 +382,6 @@
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
-      <packagereq type="mandatory">nethserver-nethbackup</packagereq>
       <packagereq type="mandatory">nethserver-register</packagereq>
       <packagereq type="mandatory">nethserver-nethserverenterprise-branding</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
@@ -418,7 +417,6 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
       <packagereq type="mandatory">nethserver-backup-data</packagereq>
-      <packagereq type="mandatory">nethserver-nethbackup</packagereq>
       <packagereq type="mandatory">nethserver-restore-data</packagereq>
     </packagelist>
   </group>
