@@ -930,7 +930,7 @@
     <_name>Cloud content filter</_name>
     <_description>Cloud-based web content filter</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-flashstart</packagereq>
     </packagelist>
