@@ -948,6 +948,17 @@
   </group>
 
   <group>
+    <id>nethserver-migrate-firewall</id>
+    <_name>NethSecurity 1.5 migration</_name>
+    <_description>Migrations tools from NethSecurity 1.5</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-migrate-firewall</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-nethvoice</id>
     <_name>NethVoice</_name>
     <_description>Asterisk PBX</_description>
@@ -1079,6 +1090,7 @@
       <groupid>nethserver-flashstart</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
+      <groupid>nethserver-migrate-firewall</groupid>
     </grouplist>
   </category>
 
