@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-26 09:50+0200\n"
+"POT-Creation-Date: 2017-08-31 15:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -390,7 +390,7 @@ msgid "Migrations tools from NethSecurity 1.5"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:93
-msgid "NethVoice"
+msgid "NethVoice 11"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:94
@@ -398,49 +398,61 @@ msgid "Asterisk PBX"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
-msgid "NethCTI"
+msgid "NethVoice 14 with NethCTI 3"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:96
-msgid "Computer Telephony Integration"
+msgid "PBX configration with Computer Telephony Integration web application"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:97
-msgid "NethHotel"
+msgid "NethCTI 2"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:98
-msgid "Hotel Management Interface"
+msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:99
-msgid "Base system"
+msgid "NethHotel 11"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:100
-msgid "Common packages to all products"
+msgid "Hotel Management Interface"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:101
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:102
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:103
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:104
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:105
-msgid "Languages"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:106
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:107
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:108
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:109
 msgid "Localization of the Server Manager web interface"
 msgstr ""

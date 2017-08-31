@@ -961,7 +961,7 @@
 
   <group>
     <id>nethserver-nethvoice</id>
-    <_name>NethVoice</_name>
+    <_name>NethVoice 11</_name>
     <_description>Asterisk PBX</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -991,8 +991,22 @@
   </group>
 
   <group>
+    <id>nethserver-nethvoice14</id>
+    <_name>NethVoice 14 with NethCTI 3</_name>
+    <_description>PBX configration with Computer Telephony Integration web application</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nethvoice14</packagereq>
+      <packagereq type="mandatory">nethvoice-pnpserver</packagereq>
+      <packagereq type="mandatory">nethcti-server3</packagereq>
+      <packagereq type="mandatory">nethcti3</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-nethcti</id>
-    <_name>NethCTI</_name>
+    <_name>NethCTI 2</_name>
     <_description>Computer Telephony Integration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -1007,7 +1021,7 @@
 
   <group>
     <id>neth-hotel</id>
-    <_name>NethHotel</_name>
+    <_name>NethHotel 11</_name>
     <_description>Hotel Management Interface</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -1019,6 +1033,8 @@
       <packagereq type="optional">neth-hotel-fias</packagereq>
     </packagelist>
   </group>
+
+
 
 
 <!-- NETHESIS GROUPS END -->
@@ -1104,6 +1120,7 @@
       <groupid>nethserver-nethvoice</groupid>
       <groupid>nethserver-nethcti</groupid>
       <groupid>neth-hotel</groupid>
+      <groupid>nethserver-nethvoice14</groupid>
     </grouplist>
   </category>
 
