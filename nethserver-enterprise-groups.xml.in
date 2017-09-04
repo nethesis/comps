@@ -1001,6 +1001,7 @@
       <packagereq type="mandatory">nethvoice-pnpserver</packagereq>
       <packagereq type="mandatory">nethcti-server3</packagereq>
       <packagereq type="mandatory">nethcti3</packagereq>
+      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
     </packagelist>
   </group>
 
