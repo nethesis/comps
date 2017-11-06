@@ -710,6 +710,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-suricata</packagereq>
+      <packagereq type="mandatory">nethserver-evebox</packagereq>
     </packagelist>
   </group>
 
