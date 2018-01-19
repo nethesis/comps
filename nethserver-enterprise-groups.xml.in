@@ -1013,6 +1013,19 @@
     </packagelist>
   </group>
 
+    <group>
+    <id>neth-hotel14</id>
+    <_name>NethHotel 14</_name>
+    <_description>Hotel Management Interface</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">neth-hotel14</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-fr-gsm</packagereq>
+      <packagereq type="mandatory">asterisk-sounds-core-ru-gsm</packagereq>
+    </packagelist>
+  </group>
 
 
 
@@ -1099,6 +1112,7 @@
       <groupid>nethserver-nethcti</groupid>
       <groupid>neth-hotel</groupid>
       <groupid>nethserver-nethvoice14</groupid>
+      <groupid>neth-hotel14</groupid>
     </grouplist>
   </category>
 
