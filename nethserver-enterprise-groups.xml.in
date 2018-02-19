@@ -979,6 +979,7 @@
       <packagereq type="mandatory">nethcti-server3</packagereq>
       <packagereq type="mandatory">nethcti3</packagereq>
       <packagereq type="mandatory">nethserver-ejabberd</packagereq>
+      <packagereq type="mandatory">nethvoice-lang-it</packagereq>
       <packagereq type="optional">queuereport</packagereq>
     </packagelist>
   </group>
