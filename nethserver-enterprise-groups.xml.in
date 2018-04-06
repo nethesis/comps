@@ -1039,6 +1039,17 @@
      </packagelist>
   </group>
 
+  <group>
+     <id>nethserver-hotspot</id>
+     <_name>NethSpot</_name>
+     <_description>Nethesis Hotspot</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-dedalo</packagereq>
+     </packagelist>
+  </group>
+
 
 <!-- NETHESIS GROUPS END -->
 
@@ -1111,6 +1122,7 @@
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
       <groupid>nethserver-migrate-firewall</groupid>
+      <groupid>nethserver-hotspot</groupid>
     </grouplist>
   </category>
 
