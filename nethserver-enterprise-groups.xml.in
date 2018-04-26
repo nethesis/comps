@@ -568,8 +568,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="mandatory">nethserver-virtualhosts</packagereq>
+      <packagereq type="mandatory">nethserver-httpd-virtualhosts</packagereq>
       <packagereq type="optional">php-gd</packagereq>
       <packagereq type="optional">php-imap</packagereq>
       <packagereq type="optional">php-ldap</packagereq>
