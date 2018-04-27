@@ -1,3 +1,4 @@
+SHELL = /bin/bash
 XMLINFILES=$(wildcard *.xml.in)
 XMLFILES = $(patsubst %.xml.in,%.xml,$(XMLINFILES))
 
@@ -13,8 +14,9 @@ validate: $(XMLFILES) comps.rng
 	for f in $(XMLFILES); do xmllint --noout --relaxng comps.rng $$f; done
 
 %.xml: %.xml.in
+	@echo $$SHELL
 	@python -c 'import libxml2; libxml2.parseFile("$<")'
-	@if test ".$(CLEANUP)" == .yes; then xsltproc --novalid -o $< comps-cleanup.xsl $<; fi
+	@if [[ ".$(CLEANUP)" == .yes ]] ; then xsltproc --novalid -o $< comps-cleanup.xsl $<; fi
 	./update-comps $@
 
 link:	
