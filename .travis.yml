@@ -15,8 +15,9 @@ before_install:
 script: make
 
 deploy:
+    skip_cleanup: true
     provider: script
-    script: make upload
+    script: bash scripts/upload.sh
     on:
         branch: master
 
