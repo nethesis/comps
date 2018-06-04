@@ -501,15 +501,26 @@
 
   <group>
     <id>nethserver-mail</id>
+    <_name>Email (obsolete)</_name>
+    <_description>Email server and filter based on amavisd</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail-server</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-mail2</id>
     <_name>Email</_name>
     <_description>Email server and filter</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
-      <packagereq type="mandatory">nethserver-mail-server</packagereq>
-      <packagereq type="optional">nethserver-getmail</packagereq>
-      <packagereq type="optional">nethserver-roundcubemail</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-server</packagereq>
+      <packagereq type="optional">nethserver-mail2-disclaimer</packagereq>
     </packagelist>
   </group>
 
@@ -526,12 +537,24 @@
 
   <group>
     <id>nethserver-smtp-proxy</id>
+    <_name>SMTP proxy (obsolete)</_name>
+    <_description>SMTP proxy based on amavisd</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-smtp-proxy2</id>
     <_name>SMTP proxy</_name>
-    <_description>SMTP proxy</_description>
+    <_description>Filter SMTP traffic with ClamAV and Rspamd</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
       <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
     </packagelist>
   </group>
@@ -712,13 +735,25 @@
 
   <group>
     <id>nethserver-p3scan</id>
-    <_name>POP3 proxy</_name>
-    <_description>Intercept POP3 connections and scan messages for virtus and spam</_description>
+    <_name>POP3 proxy (obsolete)</_name>
+    <_description>Intercept POP3 connections and scan messages for virus and spam with amavisd</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-p3scan</packagereq>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-p3scan2</id>
+    <_name>POP3 proxy</_name>
+    <_description>Intercept POP3 connections and scan messages for virus and spam</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail2-p3scan</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
     </packagelist>
   </group>
 
@@ -748,12 +783,27 @@
 
   <group>
      <id>nethserver-pop3connector</id>
+     <_name>POP3 connector (obsolete)</_name>
+     <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
+     <default>false</default>
+     <uservisible>false</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-getmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail-server</packagereq>
+        <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
+     <id>nethserver-pop3connector2</id>
      <_name>POP3 connector</_name>
      <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
      <default>false</default>
      <uservisible>true</uservisible>
      <packagelist>
-        <packagereq type="mandatory">nethserver-getmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail2-getmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail2-server</packagereq>
+        <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
      </packagelist>
   </group>
 
@@ -1084,7 +1134,9 @@
     <display_order>2</display_order>
     <grouplist>
       <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-mail2</groupid>
       <groupid>nethserver-pop3connector</groupid>
+      <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-groupware</groupid>
       <groupid>nethserver-webtop5-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
@@ -1113,6 +1165,7 @@
       <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-p3scan</groupid>
+      <groupid>nethserver-p3scan2</groupid>
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-flashstart</groupid>
