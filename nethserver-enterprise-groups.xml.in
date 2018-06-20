@@ -988,7 +988,7 @@
     <_name>NethVoice 11</_name>
     <_description>Asterisk PBX</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nethvoice</packagereq>
       <packagereq type="mandatory">nethvoice-sounds</packagereq>
@@ -1036,7 +1036,7 @@
     <_name>NethCTI 2</_name>
     <_description>Computer Telephony Integration</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethcti</packagereq>
       <packagereq type="mandatory">nethcti-server</packagereq>
@@ -1051,7 +1051,7 @@
     <_name>NethHotel 11</_name>
     <_description>Hotel Management Interface</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">neth-hotel</packagereq>
       <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
