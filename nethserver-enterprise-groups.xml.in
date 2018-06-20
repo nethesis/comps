@@ -984,37 +984,6 @@
   </group>
 
   <group>
-    <id>nethserver-nethvoice</id>
-    <_name>NethVoice 11</_name>
-    <_description>Asterisk PBX</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-nethvoice</packagereq>
-      <packagereq type="mandatory">nethvoice-sounds</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethcqr</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethgateway</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethvoipwizard</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
-      <packagereq type="mandatory">nethserver-backup-data</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethvplan11</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethbulkextensions</packagereq>
-      <packagereq type="mandatory">nethvoice-module-nethnight</packagereq>
-      <packagereq type="optional">nethvoice-module-nethvirtualtrunks</packagereq>
-      <packagereq type="optional">nethvoice-module-nethcalldebugger</packagereq>
-      <packagereq type="optional">nethvoice-module-nethttsrecordings</packagereq>
-      <packagereq type="optional">nethvoice-module-nethttsannouncement</packagereq>
-      <packagereq type="optional">nethvoice-module-nethfailover</packagereq>
-      <packagereq type="optional">nethvoice-tftp</packagereq>
-      <packagereq type="optional">nethvoice-extra-modules</packagereq>
-      <packagereq type="optional">neth-inbound-report</packagereq>
-      <packagereq type="optional">neth-cost-analysis</packagereq>
-      <packagereq type="optional">neth-queue-report</packagereq>
-      <packagereq type="optional">open-g729</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-nethvoice14</id>
     <_name>NethVoice 14 with NethCTI 3</_name>
     <_description>PBX configration with Computer Telephony Integration web application</_description>
@@ -1028,50 +997,7 @@
       <packagereq type="mandatory">nethserver-ejabberd</packagereq>
       <packagereq type="mandatory">nethvoice-lang-it</packagereq>
       <packagereq type="optional">queuereport</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-nethcti</id>
-    <_name>NethCTI 2</_name>
-    <_description>Computer Telephony Integration</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethcti</packagereq>
-      <packagereq type="mandatory">nethcti-server</packagereq>
-      <packagereq type="optional">neth-oppanel</packagereq>
-      <packagereq type="optional">neth-queueman</packagereq>
-      <packagereq type="optional">nethserver-ejabberd</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>neth-hotel</id>
-    <_name>NethHotel 11</_name>
-    <_description>Hotel Management Interface</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">neth-hotel</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-fr-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-ru-gsm</packagereq>
-      <packagereq type="optional">neth-hotel-fias</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>neth-hotel14</id>
-    <_name>NethHotel 14</_name>
-    <_description>Hotel Management Interface</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">neth-hotel14</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-fr-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-ru-gsm</packagereq>
+      <packagereq type="optional">neth-hotel14</packagereq>
     </packagelist>
   </group>
 
