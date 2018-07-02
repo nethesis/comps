@@ -1033,6 +1033,21 @@
   </group>
 
   <group>
+    <id>qmanager</id>
+    <_name>NethCTI QManager (Beta)</_name>
+    <_description>Queue Manager is the application for queue supervisor</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethcti-queuemanager</packagereq>
+      <packagereq type="mandatory">nethcti-server3</packagereq>
+      <packagereq type="mandatory">nethcti3</packagereq>
+      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
+      <packagereq type="mandatory">nethvoice-lang-it</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-nethcti</id>
     <_name>NethCTI 2</_name>
     <_description>Computer Telephony Integration</_description>
