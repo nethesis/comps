@@ -1149,6 +1149,7 @@
     <grouplist>
       <groupid>nethserver-mail</groupid>
       <groupid>nethserver-mail2</groupid>
+      <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-groupware</groupid>
