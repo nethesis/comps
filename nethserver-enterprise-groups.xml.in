@@ -496,6 +496,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-webtop-enterprise</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-server</packagereq>
     </packagelist>
   </group>
 
@@ -532,6 +533,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-roundcubemail</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-server</packagereq>
     </packagelist>
   </group>
 
