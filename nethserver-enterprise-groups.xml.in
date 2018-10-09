@@ -970,7 +970,7 @@
   <group>
     <id>nethserver-nethvoice14</id>
     <_name>NethVoice 14 with NethCTI 3</_name>
-    <_description>PBX configration with Computer Telephony Integration web application</_description>
+    <_description>PBX configuration with Computer Telephony Integration web application</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>

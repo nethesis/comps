@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 10:30+0200\n"
+"POT-Creation-Date: 2018-10-09 10:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -394,7 +394,7 @@ msgid "NethVoice 14 with NethCTI 3"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:94
-msgid "PBX configration with Computer Telephony Integration web application"
+msgid "PBX configuration with Computer Telephony Integration web application"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
