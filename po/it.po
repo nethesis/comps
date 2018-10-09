@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-02 10:32+0200\n"
-"PO-Revision-Date: 2014-11-19 10:02+0100\n"
+"POT-Creation-Date: 2018-10-09 10:51+0200\n"
+"PO-Revision-Date: 2018-10-09 10:56+0200\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: ../nethserver-enterprise-groups.xml.in.h:1
 msgid "Build system"
@@ -85,461 +86,435 @@ msgid "Configure users and groups on Samba Active Directory"
 msgstr "Configura utenti e gruppi su Samba Active Directory"
 
 #: ../nethserver-enterprise-groups.xml.in.h:18
-#, fuzzy
 msgid "WebTop 5 groupware"
 msgstr "Groupware WebTop 5"
 
 #: ../nethserver-enterprise-groups.xml.in.h:19
-msgid "Email (obsolete)"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:20
-#, fuzzy
-msgid "Email server and filter based on amavisd"
-msgstr "Server e filtri di posta elettronica"
-
-#: ../nethserver-enterprise-groups.xml.in.h:21
 msgid "Email"
 msgstr "Email"
 
-#: ../nethserver-enterprise-groups.xml.in.h:22
+#: ../nethserver-enterprise-groups.xml.in.h:20
 msgid "Email server and filter"
 msgstr "Server e filtri di posta elettronica"
 
-#: ../nethserver-enterprise-groups.xml.in.h:23
+#: ../nethserver-enterprise-groups.xml.in.h:21
 msgid "Roundcube web mail"
-msgstr ""
+msgstr "Roundcube web mail"
 
-#: ../nethserver-enterprise-groups.xml.in.h:24
-#, fuzzy
-msgid "SMTP proxy (obsolete)"
-msgstr "Proxy SMTP"
-
-#: ../nethserver-enterprise-groups.xml.in.h:25
-msgid "SMTP proxy based on amavisd"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:26
+#: ../nethserver-enterprise-groups.xml.in.h:22
 msgid "SMTP proxy"
 msgstr "Proxy SMTP"
 
-#: ../nethserver-enterprise-groups.xml.in.h:27
+#: ../nethserver-enterprise-groups.xml.in.h:23
 msgid "Filter SMTP traffic with ClamAV and Rspamd"
-msgstr ""
+msgstr "Filtra il traffico SMTP con ClamAV e Rspamd"
 
-#: ../nethserver-enterprise-groups.xml.in.h:28
+#: ../nethserver-enterprise-groups.xml.in.h:24
 msgid "Instant messaging"
 msgstr "Messaggistica istantanea"
 
-#: ../nethserver-enterprise-groups.xml.in.h:29
+#: ../nethserver-enterprise-groups.xml.in.h:25
 msgid "XMPP/Jabber chat server"
 msgstr "Server di chat XMPP/Jabber"
 
-#: ../nethserver-enterprise-groups.xml.in.h:30
+#: ../nethserver-enterprise-groups.xml.in.h:26
 msgid "Print server"
 msgstr "Server di stampa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:31
+#: ../nethserver-enterprise-groups.xml.in.h:27
 msgid "Print management server (CUPS)"
 msgstr "Servizio di gestione stampanti (CUPS)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:32
+#: ../nethserver-enterprise-groups.xml.in.h:28
 msgid "Web server"
 msgstr "Server Web"
 
-#: ../nethserver-enterprise-groups.xml.in.h:33
+#: ../nethserver-enterprise-groups.xml.in.h:29
 msgid "Configuration tools for Apache web server"
 msgstr "Strumenti di configurazione per il server web Apache"
 
-#: ../nethserver-enterprise-groups.xml.in.h:34
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:30
 msgid "Reverse proxy"
-msgstr "Proxy web"
+msgstr "Reverse proxy"
 
-#: ../nethserver-enterprise-groups.xml.in.h:35
+#: ../nethserver-enterprise-groups.xml.in.h:31
 msgid "Configure Apache ProxyPass functionality"
-msgstr ""
+msgstr "Configura la funzione ProxyPass di Apache"
 
-#: ../nethserver-enterprise-groups.xml.in.h:36
+#: ../nethserver-enterprise-groups.xml.in.h:32
 msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
-#: ../nethserver-enterprise-groups.xml.in.h:37
+#: ../nethserver-enterprise-groups.xml.in.h:33
 msgid "Configure and manage Ntopng"
 msgstr "Configurazione e gestione di Ntopng"
 
-#: ../nethserver-enterprise-groups.xml.in.h:38
+#: ../nethserver-enterprise-groups.xml.in.h:34
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../nethserver-enterprise-groups.xml.in.h:39
+#: ../nethserver-enterprise-groups.xml.in.h:35
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../nethserver-enterprise-groups.xml.in.h:40
+#: ../nethserver-enterprise-groups.xml.in.h:36
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../nethserver-enterprise-groups.xml.in.h:41
+#: ../nethserver-enterprise-groups.xml.in.h:37
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../nethserver-enterprise-groups.xml.in.h:42
+#: ../nethserver-enterprise-groups.xml.in.h:38
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../nethserver-enterprise-groups.xml.in.h:43
+#: ../nethserver-enterprise-groups.xml.in.h:39
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:44
+#: ../nethserver-enterprise-groups.xml.in.h:40
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../nethserver-enterprise-groups.xml.in.h:45
+#: ../nethserver-enterprise-groups.xml.in.h:41
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 
-#: ../nethserver-enterprise-groups.xml.in.h:46
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:42
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
 msgstr ""
 "Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
-"remote"
+"remote utilizzando OpenVPN"
 
-#: ../nethserver-enterprise-groups.xml.in.h:47
+#: ../nethserver-enterprise-groups.xml.in.h:43
 msgid "IPsec tunnels"
 msgstr "Tunnell IPsec"
 
-#: ../nethserver-enterprise-groups.xml.in.h:48
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:44
 msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
 msgstr ""
-"Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
-"remote"
+"Configura le Virtual Private Network (VPN) site-to-site utilizzando IPsec"
 
-#: ../nethserver-enterprise-groups.xml.in.h:49
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:45
 msgid "MariaDB (MySQL) server"
 msgstr "Server MariaDB (MySQL)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:50
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:46
 msgid "Configuration tools for MariaDB (MySQL)"
-msgstr "Strumenti di configurazione per MySQL"
+msgstr "Strumenti di configurazione per MariaDB (MySQL)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:51
+#: ../nethserver-enterprise-groups.xml.in.h:47
 msgid "Intrusion Prevention System"
 msgstr "Intrusion Prevention System"
 
-#: ../nethserver-enterprise-groups.xml.in.h:52
+#: ../nethserver-enterprise-groups.xml.in.h:48
 msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 "Controlla e blocca il traffico di rete proveniente da attività malevoli"
 
-#: ../nethserver-enterprise-groups.xml.in.h:53
+#: ../nethserver-enterprise-groups.xml.in.h:49
 msgid "Deep packet inspection (DPI)"
 msgstr "Deep packet inspection (DPI)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:54
+#: ../nethserver-enterprise-groups.xml.in.h:50
 msgid "Filter network traffic by analyzing the packets payload"
 msgstr "Filtra il traffico di rete analizzando il contenuto dei pacchetti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:55
-#, fuzzy
-msgid "POP3 proxy (obsolete)"
-msgstr "Proxy POP3"
-
-#: ../nethserver-enterprise-groups.xml.in.h:56
-#, fuzzy
-msgid ""
-"Intercept POP3 connections and scan messages for virus and spam with amavisd"
-msgstr ""
-"Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus "
-"e spam"
-
-#: ../nethserver-enterprise-groups.xml.in.h:57
+#: ../nethserver-enterprise-groups.xml.in.h:51
 msgid "POP3 proxy"
 msgstr "Proxy POP3"
 
-#: ../nethserver-enterprise-groups.xml.in.h:58
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:52
 msgid "Intercept POP3 connections and scan messages for virus and spam"
 msgstr ""
-"Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus "
+"Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di virus "
 "e spam"
 
-#: ../nethserver-enterprise-groups.xml.in.h:59
+#: ../nethserver-enterprise-groups.xml.in.h:53
 msgid "SNMP server"
 msgstr "Server SNMP"
 
-#: ../nethserver-enterprise-groups.xml.in.h:60
+#: ../nethserver-enterprise-groups.xml.in.h:54
 msgid "Configure the SNMP server"
 msgstr "Configura il server SNMP"
 
-#: ../nethserver-enterprise-groups.xml.in.h:61
+#: ../nethserver-enterprise-groups.xml.in.h:55
 msgid "Nextcloud"
 msgstr "Nextcloud"
 
-#: ../nethserver-enterprise-groups.xml.in.h:62
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:56
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
-"Configura ownCloud - accesso completo ai propri file via web, computer o "
+"Configura NextCloud - accesso completo ai propri file via web, computer o "
 "dispositivi mobili - da qualsiasi luogo"
 
-#: ../nethserver-enterprise-groups.xml.in.h:63
-#, fuzzy
-msgid "POP3 connector (obsolete)"
-msgstr "Connettore POP3"
-
-#: ../nethserver-enterprise-groups.xml.in.h:64
-msgid "Fetch messages from external email accounts with POP3 or IMAP access"
-msgstr "Scarica i messaggi da un account email esterno con accesso POP3 o IMAP"
-
-#: ../nethserver-enterprise-groups.xml.in.h:65
+#: ../nethserver-enterprise-groups.xml.in.h:57
 msgid "POP3 connector"
 msgstr "Connettore POP3"
 
-#: ../nethserver-enterprise-groups.xml.in.h:66
+#: ../nethserver-enterprise-groups.xml.in.h:58
+msgid "Fetch messages from external email accounts with POP3 or IMAP access"
+msgstr "Scarica i messaggi da un account email esterno con accesso POP3 o IMAP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:59
 msgid "German language"
 msgstr "Lingua Tedesca"
 
-#: ../nethserver-enterprise-groups.xml.in.h:67
+#: ../nethserver-enterprise-groups.xml.in.h:60
 msgid "Server Manager German localization"
 msgstr "Traduzione Server Manager: Tedesco"
 
-#: ../nethserver-enterprise-groups.xml.in.h:68
+#: ../nethserver-enterprise-groups.xml.in.h:61
 msgid "Greek language"
 msgstr "Lingua Greca"
 
-#: ../nethserver-enterprise-groups.xml.in.h:69
+#: ../nethserver-enterprise-groups.xml.in.h:62
 msgid "Server Manager Greek localization"
 msgstr "Traduzione Server Manager: Greco"
 
-#: ../nethserver-enterprise-groups.xml.in.h:70
+#: ../nethserver-enterprise-groups.xml.in.h:63
 msgid "Spanish language"
 msgstr "Lingua Spagnola"
 
-#: ../nethserver-enterprise-groups.xml.in.h:71
+#: ../nethserver-enterprise-groups.xml.in.h:64
 msgid "Server Manager Spanish localization"
 msgstr "Traduzione Server Manager: Spagnolo"
 
-#: ../nethserver-enterprise-groups.xml.in.h:72
+#: ../nethserver-enterprise-groups.xml.in.h:65
 msgid "French language"
 msgstr "Lingua Francese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:73
+#: ../nethserver-enterprise-groups.xml.in.h:66
 msgid "Server Manager French localization"
 msgstr "Traduzione Server Manager: Francese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:74
+#: ../nethserver-enterprise-groups.xml.in.h:67
 msgid "Hungarian language"
 msgstr "Lingua Ungherese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:75
+#: ../nethserver-enterprise-groups.xml.in.h:68
 msgid "Server Manager Hungarian localization"
 msgstr "Traduzione Server Manager: Ungherese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:76
+#: ../nethserver-enterprise-groups.xml.in.h:69
 msgid "Italian language"
 msgstr "Lingua Italiana"
 
-#: ../nethserver-enterprise-groups.xml.in.h:77
+#: ../nethserver-enterprise-groups.xml.in.h:70
 msgid "Server Manager Italian localization"
 msgstr "Traduzione Server Manager: Italiano"
 
-#: ../nethserver-enterprise-groups.xml.in.h:78
+#: ../nethserver-enterprise-groups.xml.in.h:71
 msgid "Dutch language"
 msgstr "Lingua Olandese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:79
+#: ../nethserver-enterprise-groups.xml.in.h:72
 msgid "Server Manager Dutch localization"
 msgstr "Traduzione Server Manager: Olandese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:80
+#: ../nethserver-enterprise-groups.xml.in.h:73
 msgid "Portuguese language"
 msgstr "Lingua Portoghese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:81
+#: ../nethserver-enterprise-groups.xml.in.h:74
 msgid "Server Manager Portuguese localization"
 msgstr "Traduzione Server Manager: Portoghese"
 
-#: ../nethserver-enterprise-groups.xml.in.h:82
+#: ../nethserver-enterprise-groups.xml.in.h:75
 msgid "Russian language"
 msgstr "Lingua Russa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:83
+#: ../nethserver-enterprise-groups.xml.in.h:76
 msgid "Server Manager Russian localization"
 msgstr "Traduzione Server Manager: Russo"
 
-#: ../nethserver-enterprise-groups.xml.in.h:84
+#: ../nethserver-enterprise-groups.xml.in.h:77
 msgid "Turkish language"
 msgstr "Lingua Turca"
 
-#: ../nethserver-enterprise-groups.xml.in.h:85
+#: ../nethserver-enterprise-groups.xml.in.h:78
 msgid "Server Manager Turkish localization"
 msgstr "Traduzione Server Manager: Turco"
 
-#: ../nethserver-enterprise-groups.xml.in.h:86
+#: ../nethserver-enterprise-groups.xml.in.h:79
 msgid "Serbian language"
 msgstr "Lingua Serba"
 
-#: ../nethserver-enterprise-groups.xml.in.h:87
+#: ../nethserver-enterprise-groups.xml.in.h:80
 msgid "Server Manager Serbian localization"
 msgstr "Traduzione Server Manager: Serbo"
 
-#: ../nethserver-enterprise-groups.xml.in.h:88
+#: ../nethserver-enterprise-groups.xml.in.h:81
 msgid "Phonebook"
 msgstr "Rubrica"
 
-#: ../nethserver-enterprise-groups.xml.in.h:89
+#: ../nethserver-enterprise-groups.xml.in.h:82
 msgid "Centralized Phonebook"
 msgstr "Rubrica Centralizzata"
 
-#: ../nethserver-enterprise-groups.xml.in.h:90
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:83
 msgid "Centralized HotSpot"
 msgstr "Hotspot centralizzato"
 
-#: ../nethserver-enterprise-groups.xml.in.h:91
+#: ../nethserver-enterprise-groups.xml.in.h:84
 msgid "Portal for centralized hotspot configuration"
 msgstr "Portale per la configurazione dell'hotspot centralizzato"
 
-#: ../nethserver-enterprise-groups.xml.in.h:92
+#: ../nethserver-enterprise-groups.xml.in.h:85
 msgid "Cloud content filter"
 msgstr "Filtro contenuti cloud"
 
-#: ../nethserver-enterprise-groups.xml.in.h:93
+#: ../nethserver-enterprise-groups.xml.in.h:86
 msgid "Cloud-based web content filter"
 msgstr "Filtro contenuti web cloud"
 
-#: ../nethserver-enterprise-groups.xml.in.h:94
+#: ../nethserver-enterprise-groups.xml.in.h:87
 msgid "Weekly report"
 msgstr "Report settimanale"
 
-#: ../nethserver-enterprise-groups.xml.in.h:95
+#: ../nethserver-enterprise-groups.xml.in.h:88
 msgid "Weekly report about system status"
 msgstr "Report settimanale sullo stato del sistema"
 
-#: ../nethserver-enterprise-groups.xml.in.h:96
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:89
 msgid "NethSecurity 1.5 migration"
 msgstr "Migrazione NethSecurity 1.5"
 
-#: ../nethserver-enterprise-groups.xml.in.h:97
+#: ../nethserver-enterprise-groups.xml.in.h:90
 msgid "Migrations tools from NethSecurity 1.5"
 msgstr "Strumenti di migrazione da NethSecurity 1.5"
 
-#: ../nethserver-enterprise-groups.xml.in.h:98
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:91
 msgid "NethVoice 11"
 msgstr "NethVoice 11"
 
-#: ../nethserver-enterprise-groups.xml.in.h:99
+#: ../nethserver-enterprise-groups.xml.in.h:92
 msgid "Asterisk PBX"
 msgstr "Centralino VOIP basato su Asterisk"
 
-#: ../nethserver-enterprise-groups.xml.in.h:100
+#: ../nethserver-enterprise-groups.xml.in.h:93
 msgid "NethVoice 14 with NethCTI 3"
 msgstr "NethVoice 14 con NethCTI 3"
 
-#: ../nethserver-enterprise-groups.xml.in.h:101
-#, fuzzy
-msgid "PBX configration with Computer Telephony Integration web application"
-msgstr "Integrazione sistema telefonico aziendale"
-
-#: ../nethserver-enterprise-groups.xml.in.h:102
-msgid "NethCTI QManager (Beta)"
+#: ../nethserver-enterprise-groups.xml.in.h:94
+msgid "PBX configuration with Computer Telephony Integration web application"
 msgstr ""
+"Configurazione PBX con applicazione web di integrazione al sistema "
+"telefonico aziendale (CTI)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:103
+#: ../nethserver-enterprise-groups.xml.in.h:95
+msgid "NethCTI QManager (Beta)"
+msgstr "NethCTI QManager (Beta)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:96
 msgid "Queue Manager is the application for queue supervisor"
 msgstr "Queue Manager è l'applicazione per il supervisore delle code"
 
-#: ../nethserver-enterprise-groups.xml.in.h:104
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:97
 msgid "NethCTI 2"
 msgstr "NethCTI 2"
 
-#: ../nethserver-enterprise-groups.xml.in.h:105
+#: ../nethserver-enterprise-groups.xml.in.h:98
 msgid "Computer Telephony Integration"
 msgstr "Integrazione sistema telefonico aziendale"
 
-#: ../nethserver-enterprise-groups.xml.in.h:106
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:99
 msgid "NethHotel 11"
 msgstr "NethHotel 11"
 
-#: ../nethserver-enterprise-groups.xml.in.h:107
+#: ../nethserver-enterprise-groups.xml.in.h:100
 msgid "Hotel Management Interface"
 msgstr "Interfaccia Gestione Hotel"
 
-#: ../nethserver-enterprise-groups.xml.in.h:108
+#: ../nethserver-enterprise-groups.xml.in.h:101
 msgid "Mattermost"
-msgstr ""
+msgstr "Mattermost"
 
-#: ../nethserver-enterprise-groups.xml.in.h:109
+#: ../nethserver-enterprise-groups.xml.in.h:102
 msgid "Mattermost Team Edition"
-msgstr ""
+msgstr "Mattermost Team Edition"
 
-#: ../nethserver-enterprise-groups.xml.in.h:110
-#, fuzzy
+#: ../nethserver-enterprise-groups.xml.in.h:103
 msgid "NethSpot"
-msgstr "NethSecurity"
+msgstr "NethSpot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:111
+#: ../nethserver-enterprise-groups.xml.in.h:104
 msgid "Nethesis Hotspot"
-msgstr ""
+msgstr "Nethesis Hotspot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:112
+#: ../nethserver-enterprise-groups.xml.in.h:105
 msgid "Fail2ban"
-msgstr ""
+msgstr "Fail2ban"
 
-#: ../nethserver-enterprise-groups.xml.in.h:113
+#: ../nethserver-enterprise-groups.xml.in.h:106
 msgid "Fail2ban scans log files and bans IPs with failed login"
-msgstr ""
+msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:114
+#: ../nethserver-enterprise-groups.xml.in.h:107
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:115
+#: ../nethserver-enterprise-groups.xml.in.h:108
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:116
+#: ../nethserver-enterprise-groups.xml.in.h:109
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:117
+#: ../nethserver-enterprise-groups.xml.in.h:110
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:118
+#: ../nethserver-enterprise-groups.xml.in.h:111
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:119
+#: ../nethserver-enterprise-groups.xml.in.h:112
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:120
+#: ../nethserver-enterprise-groups.xml.in.h:113
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:121
+#: ../nethserver-enterprise-groups.xml.in.h:114
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:122
+#: ../nethserver-enterprise-groups.xml.in.h:115
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
+
+#, fuzzy
+#~ msgid "Email server and filter based on amavisd"
+#~ msgstr "Server e filtri di posta elettronica"
+
+#, fuzzy
+#~ msgid "SMTP proxy (obsolete)"
+#~ msgstr "Proxy SMTP"
+
+#, fuzzy
+#~ msgid "POP3 proxy (obsolete)"
+#~ msgstr "Proxy POP3"
+
+#, fuzzy
+#~ msgid ""
+#~ "Intercept POP3 connections and scan messages for virus and spam with "
+#~ "amavisd"
+#~ msgstr ""
+#~ "Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  "
+#~ "virus e spam"
+
+#, fuzzy
+#~ msgid "POP3 connector (obsolete)"
+#~ msgstr "Connettore POP3"
 
 #, fuzzy
 #~ msgid "NethHotel 14"
