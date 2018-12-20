@@ -384,6 +384,7 @@
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-register</packagereq>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
 
     
