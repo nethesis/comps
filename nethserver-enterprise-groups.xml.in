@@ -987,7 +987,7 @@
 
   <group>
     <id>qmanager</id>
-    <_name>NethCTI QManager (Beta)</_name>
+    <_name>NethCTI QManager</_name>
     <_description>Queue Manager is the application for queue supervisor</_description>
     <default>false</default>
     <uservisible>true</uservisible>

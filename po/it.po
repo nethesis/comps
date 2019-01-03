@@ -409,8 +409,8 @@ msgstr ""
 "telefonico aziendale (CTI)"
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
-msgid "NethCTI QManager (Beta)"
-msgstr "NethCTI QManager (Beta)"
+msgid "NethCTI QManager"
+msgstr "NethCTI QManager"
 
 #: ../nethserver-enterprise-groups.xml.in.h:96
 msgid "Queue Manager is the application for queue supervisor"
