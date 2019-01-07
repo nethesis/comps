@@ -384,7 +384,8 @@
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-register</packagereq>
-      <packagereq type="mandatory">nethserver-nethserverenterprise-branding</packagereq>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
+      <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
 
     
@@ -987,7 +988,7 @@
 
   <group>
     <id>qmanager</id>
-    <_name>NethCTI QManager (Beta)</_name>
+    <_name>NethCTI QManager</_name>
     <_description>Queue Manager is the application for queue supervisor</_description>
     <default>false</default>
     <uservisible>true</uservisible>
