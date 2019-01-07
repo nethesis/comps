@@ -398,7 +398,7 @@ msgid "PBX configuration with Computer Telephony Integration web application"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
-msgid "NethCTI QManager (Beta)"
+msgid "NethCTI QManager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:96
