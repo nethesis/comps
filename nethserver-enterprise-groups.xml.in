@@ -982,6 +982,7 @@
       <packagereq type="mandatory">nethvoice-lang-it</packagereq>
       <packagereq type="optional">queuereport</packagereq>
       <packagereq type="optional">neth-hotel14</packagereq>
+      <packagereq type="optional">inboundreport</packagereq>
     </packagelist>
   </group>
 
