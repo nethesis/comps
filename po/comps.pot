@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 10:51+0200\n"
+"POT-Creation-Date: 2019-01-08 16:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -446,37 +446,45 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:107
-msgid "Base system"
+msgid "New Server Manager (alpha)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:108
-msgid "Common packages to all products"
+msgid "New Server Manager based on Cockpit"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:110
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:113
-msgid "NethVoice"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:114
-msgid "Languages"
+msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:116
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:117
 msgid "Localization of the Server Manager web interface"
 msgstr ""

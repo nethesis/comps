@@ -1065,6 +1065,18 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-cockpit</id>
+    <_name>New Server Manager (alpha)</_name>
+    <_description>New Server Manager based on Cockpit</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
+      <packagereq type="optional">cockpit-dashboard</packagereq>
+    </packagelist>
+  </group>
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -1092,6 +1104,7 @@
       <groupid>nethserver-mysql</groupid>
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-fail2ban</groupid>
+      <groupid>nethserver-cockpit</groupid>
     </grouplist>
   </category>
 

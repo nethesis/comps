@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 10:51+0200\n"
+"POT-Creation-Date: 2019-01-08 16:15+0100\n"
 "PO-Revision-Date: 2018-10-09 10:56+0200\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -457,38 +457,46 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
 #: ../nethserver-enterprise-groups.xml.in.h:107
+msgid "New Server Manager (alpha)"
+msgstr "Nuovo Server Manager (alpha)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:108
+msgid "New Server Manager based on Cockpit"
+msgstr "Nuovo Server Manager basato su Cockpit"
+
+#: ../nethserver-enterprise-groups.xml.in.h:109
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:108
+#: ../nethserver-enterprise-groups.xml.in.h:110
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:109
+#: ../nethserver-enterprise-groups.xml.in.h:111
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:110
+#: ../nethserver-enterprise-groups.xml.in.h:112
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:111
+#: ../nethserver-enterprise-groups.xml.in.h:113
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:112
+#: ../nethserver-enterprise-groups.xml.in.h:114
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:113
+#: ../nethserver-enterprise-groups.xml.in.h:115
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:114
+#: ../nethserver-enterprise-groups.xml.in.h:116
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:115
+#: ../nethserver-enterprise-groups.xml.in.h:117
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
 
