@@ -1077,6 +1077,18 @@
     </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-netdata</id>
+      <_name>Netdata</_name>
+      <_description>Real-time performance monitoring</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-netdata</packagereq>
+      </packagelist>
+  </group>
+
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -1105,6 +1117,7 @@
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-fail2ban</groupid>
       <groupid>nethserver-cockpit</groupid>
+      <groupid>nethserver-netdata</groupid>
     </grouplist>
   </category>
 
