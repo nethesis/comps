@@ -950,7 +950,6 @@
       <packagereq type="mandatory">nethvoice-module-nethgateway</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethvoipwizard</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethwizard</packagereq>
-      <packagereq type="mandatory">nethserver-backup-data</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethvplan11</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethbulkextensions</packagereq>
       <packagereq type="mandatory">nethvoice-module-nethnight</packagereq>
