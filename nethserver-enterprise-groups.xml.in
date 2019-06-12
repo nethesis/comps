@@ -1050,7 +1050,19 @@
      <packagelist>
         <packagereq type="mandatory">nethserver-dedalo</packagereq>
      </packagelist>
-  </group>
+ </group>
+
+ <group>
+     <id>nethserver-hotspot-integrations</id>
+     <_name>NethSpot Integrations</_name>
+     <_description>NethSpot extra integrations</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-dedalo-enterprise</packagereq>
+     </packagelist>
+ </group>
+
 
   <group>
     <id>nethserver-fail2ban</id>
@@ -1166,6 +1178,7 @@
       <groupid>nethserver-dpi</groupid>
       <groupid>nethserver-migrate-firewall</groupid>
       <groupid>nethserver-hotspot</groupid>
+      <groupid>nethserver-hotspot-integrations</groupid>
     </grouplist>
   </category>
 

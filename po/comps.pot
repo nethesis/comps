@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 16:18+0100\n"
+"POT-Creation-Date: 2019-06-12 15:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -438,61 +438,69 @@ msgid "Nethesis Hotspot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:105
-msgid "Fail2ban"
+msgid "NethSpot Integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:106
-msgid "Fail2ban scans log files and bans IPs with failed login"
+msgid "NethSpot extra integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:107
-msgid "New Server Manager (alpha)"
+msgid "Fail2ban"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:108
-msgid "New Server Manager based on Cockpit"
+msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "Netdata"
+msgid "New Server Manager (alpha)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:110
-msgid "Real-time performance monitoring"
+msgid "New Server Manager based on Cockpit"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "Base system"
+msgid "Netdata"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
-msgid "Common packages to all products"
+msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:113
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:114
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "NethVoice"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "Languages"
+msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:119
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:120
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "Localization of the Server Manager web interface"
 msgstr ""
