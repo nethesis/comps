@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 15:17+0200\n"
+"POT-Creation-Date: 2019-07-03 15:50+0200\n"
 "PO-Revision-Date: 2018-10-09 10:56+0200\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -482,38 +482,48 @@ msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:113
+#, fuzzy
+msgid "Report (Beta)"
+msgstr "Report (Beta)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:114
+#, fuzzy
+msgid "Reports on system usage"
+msgstr "Report settimanale sullo stato del sistema"
+
+#: ../nethserver-enterprise-groups.xml.in.h:115
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:114
+#: ../nethserver-enterprise-groups.xml.in.h:116
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:115
+#: ../nethserver-enterprise-groups.xml.in.h:117
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:116
+#: ../nethserver-enterprise-groups.xml.in.h:118
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:117
+#: ../nethserver-enterprise-groups.xml.in.h:119
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:118
+#: ../nethserver-enterprise-groups.xml.in.h:120
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:119
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:120
+#: ../nethserver-enterprise-groups.xml.in.h:122
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:121
+#: ../nethserver-enterprise-groups.xml.in.h:123
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
 
