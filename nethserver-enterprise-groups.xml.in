@@ -1141,6 +1141,8 @@
       <groupid>nethserver-cockpit</groupid>
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-dante</groupid>
+      <groupid>nethserver-ftp</groupid>
+      <groupid>nethserver-reverse-proxy</groupid>
     </grouplist>
   </category>
 
@@ -1161,7 +1163,6 @@
       <groupid>nethserver-fax-server</groupid>
       <groupid>nethserver-printers</groupid>
       <groupid>nethserver-nextcloud</groupid>
-      <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-mattermost</groupid>
     </grouplist>
@@ -1186,7 +1187,6 @@
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-flashstart</groupid>
-      <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
       <groupid>nethserver-migrate-firewall</groupid>
       <groupid>nethserver-hotspot</groupid>
