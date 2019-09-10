@@ -454,7 +454,7 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "New Server Manager (alpha)"
+msgid "New Server Manager (Beta)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:110

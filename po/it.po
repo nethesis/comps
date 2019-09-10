@@ -466,8 +466,8 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "New Server Manager (alpha)"
-msgstr "Nuovo Server Manager (alpha)"
+msgid "New Server Manager (Beta)"
+msgstr "Nuovo Server Manager (Beta)"
 
 #: ../nethserver-enterprise-groups.xml.in.h:110
 msgid "New Server Manager based on Cockpit"

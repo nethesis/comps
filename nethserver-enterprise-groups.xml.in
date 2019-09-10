@@ -1078,7 +1078,7 @@
 
   <group>
     <id>nethserver-cockpit</id>
-    <_name>New Server Manager (alpha)</_name>
+    <_name>New Server Manager (Beta)</_name>
     <_description>New Server Manager based on Cockpit</_description>
     <default>false</default>
     <uservisible>true</uservisible>
