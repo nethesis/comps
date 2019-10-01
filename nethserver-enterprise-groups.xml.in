@@ -920,7 +920,7 @@
     <_name>Weekly report</_name>
     <_description>Weekly report about system status</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-report</packagereq>
     </packagelist>
