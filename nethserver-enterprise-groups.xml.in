@@ -417,6 +417,16 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
       <packagereq type="mandatory">nethserver-backup-data</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-restore-data</id>
+    <_name>Backup restore</_name>
+    <_description>Module to restore backup of data</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
       <packagereq type="mandatory">nethserver-restore-data</packagereq>
     </packagelist>
   </group>
@@ -1125,6 +1135,7 @@
       <groupid>buildsys-build</groupid>
       <groupid>nethserver-iso</groupid>
       <groupid>nethserver-backup</groupid>
+      <groupid>nethserver-restore-data</groupid>
       <groupid>nethserver-nut</groupid>
       <groupid>nethserver-ntp</groupid>
       <groupid>nethserver-phonebook</groupid>
