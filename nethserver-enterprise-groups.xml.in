@@ -898,7 +898,7 @@
     <_name>Centralized HotSpot</_name>
     <_description>Portal for centralized hotspot configuration</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-hotspot-portal</packagereq>
     </packagelist>
