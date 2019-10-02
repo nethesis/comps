@@ -1135,6 +1135,7 @@
       <groupid>buildsys-build</groupid>
       <groupid>nethserver-iso</groupid>
       <groupid>nethserver-backup</groupid>
+      <groupid>nethserver-restore-data</groupid>
       <groupid>nethserver-nut</groupid>
       <groupid>nethserver-ntp</groupid>
       <groupid>nethserver-phonebook</groupid>
