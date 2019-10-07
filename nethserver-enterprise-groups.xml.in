@@ -387,6 +387,8 @@
       <packagereq type="mandatory">nethserver-cockpit</packagereq>
       <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
       <packagereq type="mandatory">nethserver-lang-it</packagereq>
+      <packagereq type="mandatory">nethserver-restore-data</packagereq>
+      <packagereq type="mandatory">nethserver-dedalo</packagereq>
 
     
       <packagereq type="mandatory">lsof</packagereq>
