@@ -1096,7 +1096,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-cockpit</packagereq>
-      <packagereq type="optional">cockpit-dashboard</packagereq>
     </packagelist>
   </group>
 
