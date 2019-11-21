@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:06+0200\n"
+"POT-Creation-Date: 2019-11-21 15:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -486,37 +486,53 @@ msgid "Reports on system usage"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "Base system"
+msgid "PHP 7.1 by Software Collections"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "Common packages to all products"
+msgid "PHP needed dependencies for rh-php71-php"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "NethService"
+msgid "PHP 7.2 by Software Collections"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "PHP needed dependencies for rh-php72-php"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:121
-msgid "NethSecurity"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "UTM Firewall"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "NethVoice"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
-msgid "Languages"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:125
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:126
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:127
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:128
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:129
 msgid "Localization of the Server Manager web interface"
 msgstr ""
