@@ -1121,47 +1121,6 @@
       </packagelist>
   </group>
 
-  <group>
-      <id>rh-php71-php</id>
-      <_name>PHP 7.1 by Software Collections</_name>
-      <_description>PHP needed dependencies for rh-php71-php</_description>
-      <default>false</default>
-      <uservisible>false</uservisible>
-      <packagelist>
-        <packagereq type="mandatory">rh-php71-php-bcmath</packagereq>
-        <packagereq type="mandatory">rh-php71-php-gd</packagereq>
-        <packagereq type="mandatory">sclo-php71-php-imap</packagereq>
-        <packagereq type="mandatory">rh-php71-php-ldap</packagereq>
-        <packagereq type="mandatory">rh-php71-php-enchant</packagereq>
-        <packagereq type="mandatory">rh-php71-php-mbstring</packagereq>
-        <packagereq type="mandatory">rh-php71-php-pdo</packagereq>
-        <packagereq type="mandatory">sclo-php71-php-tidy</packagereq>
-        <packagereq type="mandatory">rh-php71-php-mysqlnd</packagereq>
-        <packagereq type="mandatory">rh-php71-php-soap</packagereq>
-        <packagereq type="mandatory">rh-php71-php-pgsql</packagereq>
-      </packagelist>
-  </group>
-
-  <group>
-      <id>rh-php72-php</id>
-      <_name>PHP 7.2 by Software Collections</_name>
-      <_description>PHP needed dependencies for rh-php72-php</_description>
-      <default>false</default>
-      <uservisible>false</uservisible>
-      <packagelist>
-        <packagereq type="mandatory">rh-php72-php-bcmath</packagereq>
-        <packagereq type="mandatory">rh-php72-php-gd</packagereq>
-        <packagereq type="mandatory">sclo-php72-php-imap</packagereq>
-        <packagereq type="mandatory">rh-php72-php-ldap</packagereq>
-        <packagereq type="mandatory">rh-php72-php-enchant</packagereq>
-        <packagereq type="mandatory">rh-php72-php-mbstring</packagereq>
-        <packagereq type="mandatory">rh-php72-php-pdo</packagereq>
-        <packagereq type="mandatory">sclo-php72-php-tidy</packagereq>
-        <packagereq type="mandatory">rh-php72-php-mysqlnd</packagereq>
-        <packagereq type="mandatory">rh-php72-php-soap</packagereq>
-        <packagereq type="mandatory">rh-php72-php-pgsql</packagereq>
-      </packagelist>
-  </group>
 
 <!-- NETHESIS GROUPS END -->
 
