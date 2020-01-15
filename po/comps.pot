@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31 18:00+0200\n"
+"POT-Creation-Date: 2020-01-15 17:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -322,33 +322,43 @@ msgid ""
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:76
-msgid "Base system"
+msgid "Upgrade tool"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:77
-msgid "Common packages to all products"
+msgid ""
+"Read carefully the manual page before running it!!! Upgrades the system to "
+"the next major distribution release"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:78
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:79
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:80
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:81
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:82
-msgid "NethMonitor"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:83
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:84
+msgid "NethMonitor"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:85
 msgid "Monitoring suite"
 msgstr ""

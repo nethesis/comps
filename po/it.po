@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31 18:00+0200\n"
+"POT-Creation-Date: 2020-01-15 17:28+0100\n"
 "PO-Revision-Date: 2014-11-19 10:02+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -333,33 +333,43 @@ msgstr ""
 "stampanti, router...)"
 
 #: ../nethserver-enterprise-groups.xml.in.h:76
+msgid "Upgrade tool"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:77
+msgid ""
+"Read carefully the manual page before running it!!! Upgrades the system to "
+"the next major distribution release"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:78
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:77
+#: ../nethserver-enterprise-groups.xml.in.h:79
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:78
+#: ../nethserver-enterprise-groups.xml.in.h:80
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:79
+#: ../nethserver-enterprise-groups.xml.in.h:81
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:80
+#: ../nethserver-enterprise-groups.xml.in.h:82
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:81
+#: ../nethserver-enterprise-groups.xml.in.h:83
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:82
+#: ../nethserver-enterprise-groups.xml.in.h:84
 msgid "NethMonitor"
 msgstr "NethMonitor"
 
-#: ../nethserver-enterprise-groups.xml.in.h:83
+#: ../nethserver-enterprise-groups.xml.in.h:85
 msgid "Monitoring suite"
 msgstr "Suite monitoraggio"
