@@ -822,7 +822,7 @@
 
   <group>
       <id>nethserver-upgrade-tool</id>
-      <_name>Upgrade tool (beta)</_name>
+      <_name>Upgrade tool</_name>
       <_description>Read carefully the manual page before running it!!! Upgrades the system to the next major distribution release</_description>
       <uservisible>true</uservisible>
       <packagelist>
