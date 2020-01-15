@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-15 17:28+0100\n"
-"PO-Revision-Date: 2014-11-19 10:02+0100\n"
+"PO-Revision-Date: 2020-01-15 17:31+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../nethserver-enterprise-groups.xml.in.h:1
 msgid "Build system"
@@ -334,13 +335,15 @@ msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:76
 msgid "Upgrade tool"
-msgstr ""
+msgstr "Upgrade tool"
 
 #: ../nethserver-enterprise-groups.xml.in.h:77
 msgid ""
 "Read carefully the manual page before running it!!! Upgrades the system to "
 "the next major distribution release"
 msgstr ""
+"Leggere attentamente il manuale prima di usarlo!!! Aggiorna il sistema alla "
+"major release successiva"
 
 #: ../nethserver-enterprise-groups.xml.in.h:78
 msgid "Base system"
