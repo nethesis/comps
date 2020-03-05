@@ -1139,6 +1139,16 @@
       </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-blacklist</id>
+      <_name>Threat shield</_name>
+      <_description>Block attacks using IP blacklists</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-blacklist</packagereq>
+      </packagelist>
+  </group>
 
 <!-- NETHESIS GROUPS END -->
 
@@ -1173,6 +1183,7 @@
       <groupid>nethserver-dante</groupid>
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
+      <groupid>nethserver-blacklist</groupid>
     </grouplist>
   </category>
 
