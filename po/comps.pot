@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 15:40+0100\n"
+"POT-Creation-Date: 2020-03-05 15:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -462,7 +462,7 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "New Server Manager (Beta)"
+msgid "New Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
@@ -478,7 +478,7 @@ msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
-msgid "Report (Beta)"
+msgid "Report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
@@ -486,53 +486,37 @@ msgid "Reports on system usage"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "PHP 7.1 by Software Collections"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "PHP needed dependencies for rh-php71-php"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "PHP 7.2 by Software Collections"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "PHP needed dependencies for rh-php72-php"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "Base system"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:122
+#: ../nethserver-enterprise-groups.xml.in.h:118
 msgid "Common packages to all products"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:123
+#: ../nethserver-enterprise-groups.xml.in.h:119
 msgid "NethService"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:124
+#: ../nethserver-enterprise-groups.xml.in.h:120
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:125
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "NethSecurity"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:126
+#: ../nethserver-enterprise-groups.xml.in.h:122
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:127
+#: ../nethserver-enterprise-groups.xml.in.h:123
 msgid "NethVoice"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:128
+#: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "Languages"
 msgstr ""
 
-#: ../nethserver-enterprise-groups.xml.in.h:129
+#: ../nethserver-enterprise-groups.xml.in.h:125
 msgid "Localization of the Server Manager web interface"
 msgstr ""

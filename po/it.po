@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 15:40+0100\n"
+"POT-Creation-Date: 2020-03-05 15:41+0100\n"
 "PO-Revision-Date: 2019-11-21 15:48+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -473,8 +473,9 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "New Server Manager (Beta)"
-msgstr "Nuovo Server Manager (Beta)"
+#, fuzzy
+msgid "New Server Manager"
+msgstr "Nuovo Server Manager"
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
 msgid "New Server Manager based on Cockpit"
@@ -489,64 +490,61 @@ msgid "Real-time performance monitoring"
 msgstr "Monitoraggio real-time delle performance"
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
-msgid "Report (Beta)"
-msgstr "Report (Beta)"
+#, fuzzy
+msgid "Report"
+msgstr "Report"
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
 msgid "Reports on system usage"
 msgstr "Report settimanale sullo stato del sistema"
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "PHP 7.1 by Software Collections"
-msgstr "PHP 7.1 di Software Collections"
-
-#: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "PHP needed dependencies for rh-php71-php"
-msgstr "Dipendenze PHP richieste da rh-php71-php"
-
-#: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "PHP 7.2 by Software Collections"
-msgstr "PHP 7.2 di Software Collections"
-
-#: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "PHP needed dependencies for rh-php72-php"
-msgstr "Dipendenze PHP richieste da rh-php72-php"
-
-#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:122
+#: ../nethserver-enterprise-groups.xml.in.h:118
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:123
+#: ../nethserver-enterprise-groups.xml.in.h:119
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:124
+#: ../nethserver-enterprise-groups.xml.in.h:120
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:125
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:126
+#: ../nethserver-enterprise-groups.xml.in.h:122
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:127
+#: ../nethserver-enterprise-groups.xml.in.h:123
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:128
+#: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:129
+#: ../nethserver-enterprise-groups.xml.in.h:125
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
+
+#~ msgid "PHP 7.1 by Software Collections"
+#~ msgstr "PHP 7.1 di Software Collections"
+
+#~ msgid "PHP needed dependencies for rh-php71-php"
+#~ msgstr "Dipendenze PHP richieste da rh-php71-php"
+
+#~ msgid "PHP 7.2 by Software Collections"
+#~ msgstr "PHP 7.2 di Software Collections"
+
+#~ msgid "PHP needed dependencies for rh-php72-php"
+#~ msgstr "Dipendenze PHP richieste da rh-php72-php"
 
 #, fuzzy
 #~ msgid "Email server and filter based on amavisd"
