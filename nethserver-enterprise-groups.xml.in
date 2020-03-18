@@ -1150,6 +1150,18 @@
       </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-yomi</id>
+      <_name>Yomi sandbox (Beta)</_name>
+      <_description>Scan mail attachments with Yomi sandbox</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-yomi</packagereq>
+      </packagelist>
+  </group>
+
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -1206,6 +1218,7 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-mattermost</groupid>
+      <groupid>nethserver-yomi</groupid>
     </grouplist>
   </category>
 
