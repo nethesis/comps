@@ -998,6 +998,24 @@
   </group>
 
   <group>
+    <id>nethserver-nethvoice14-beta</id>
+    <_name>NethVoice 14 with NethCTI 3 (Beta)</_name>
+    <_description>PBX configuration with Computer Telephony Integration web application</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nethvoice14</packagereq>
+      <packagereq type="mandatory">nethserver-tancredi</packagereq>
+      <packagereq type="mandatory">nethvoice-wizard-restapi</packagereq>
+      <packagereq type="mandatory">nethvoice-wizard-ui</packagereq>
+      <packagereq type="mandatory">nethcti-server3</packagereq>
+      <packagereq type="mandatory">nethcti3</packagereq>
+      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
+      <packagereq type="mandatory">nethvoice-lang-it</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>qmanager</id>
     <_name>NethCTI QManager</_name>
     <_description>Queue Manager is the application for queue supervisor</_description>
