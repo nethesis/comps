@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-05 15:41+0100\n"
+"POT-Creation-Date: 2020-03-23 11:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,117 +406,121 @@ msgid "PBX configuration with Computer Telephony Integration web application"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:97
-msgid "NethCTI QManager"
+msgid "NethVoice 14 with NethCTI 3 (Beta)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:98
-msgid "Queue Manager is the application for queue supervisor"
+msgid "NethCTI QManager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:99
-msgid "NethCTI 2"
+msgid "Queue Manager is the application for queue supervisor"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:100
-msgid "Computer Telephony Integration"
+msgid "NethCTI 2"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:101
-msgid "NethHotel 11"
+msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:102
-msgid "Hotel Management Interface"
+msgid "NethHotel 11"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:103
-msgid "Mattermost"
+msgid "Hotel Management Interface"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:104
-msgid "Mattermost Team Edition"
+msgid "Mattermost"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:105
-msgid "NethSpot"
+msgid "Mattermost Team Edition"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:106
-msgid "Nethesis Hotspot"
+msgid "NethSpot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:107
-msgid "NethSpot Integrations"
+msgid "Nethesis Hotspot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:108
-msgid "NethSpot extra integrations"
+msgid "NethSpot Integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "Fail2ban"
+msgid "NethSpot extra integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:110
-msgid "Fail2ban scans log files and bans IPs with failed login"
+msgid "Fail2ban"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "New Server Manager"
+msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
-msgid "New Server Manager based on Cockpit"
+msgid "New Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:113
-msgid "Netdata"
+msgid "New Server Manager based on Cockpit"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:114
-msgid "Real-time performance monitoring"
+msgid "Netdata"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
-msgid "Report"
+msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
-msgid "Reports on system usage"
+msgid "Report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "Base system"
+msgid "Reports on system usage"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "Common packages to all products"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "NethService"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:121
-msgid "NethSecurity"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "UTM Firewall"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "NethVoice"
+msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
-msgid "Languages"
+msgid "NethVoice"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:125
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:126
 msgid "Localization of the Server Manager web interface"
 msgstr ""

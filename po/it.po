@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-05 15:41+0100\n"
+"POT-Creation-Date: 2020-03-23 11:32+0100\n"
 "PO-Revision-Date: 2019-11-21 15:48+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -417,120 +417,124 @@ msgstr ""
 "telefonico aziendale (CTI)"
 
 #: ../nethserver-enterprise-groups.xml.in.h:97
+msgid "NethVoice 14 with NethCTI 3 (Beta)"
+msgstr "NethVoice 14 con NethCTI 3 (Beta)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:98
 msgid "NethCTI QManager"
 msgstr "NethCTI QManager"
 
-#: ../nethserver-enterprise-groups.xml.in.h:98
+#: ../nethserver-enterprise-groups.xml.in.h:99
 msgid "Queue Manager is the application for queue supervisor"
 msgstr "Queue Manager è l'applicazione per il supervisore delle code"
 
-#: ../nethserver-enterprise-groups.xml.in.h:99
+#: ../nethserver-enterprise-groups.xml.in.h:100
 msgid "NethCTI 2"
 msgstr "NethCTI 2"
 
-#: ../nethserver-enterprise-groups.xml.in.h:100
+#: ../nethserver-enterprise-groups.xml.in.h:101
 msgid "Computer Telephony Integration"
 msgstr "Integrazione sistema telefonico aziendale"
 
-#: ../nethserver-enterprise-groups.xml.in.h:101
+#: ../nethserver-enterprise-groups.xml.in.h:102
 msgid "NethHotel 11"
 msgstr "NethHotel 11"
 
-#: ../nethserver-enterprise-groups.xml.in.h:102
+#: ../nethserver-enterprise-groups.xml.in.h:103
 msgid "Hotel Management Interface"
 msgstr "Interfaccia Gestione Hotel"
 
-#: ../nethserver-enterprise-groups.xml.in.h:103
+#: ../nethserver-enterprise-groups.xml.in.h:104
 msgid "Mattermost"
 msgstr "Mattermost"
 
-#: ../nethserver-enterprise-groups.xml.in.h:104
+#: ../nethserver-enterprise-groups.xml.in.h:105
 msgid "Mattermost Team Edition"
 msgstr "Mattermost Team Edition"
 
-#: ../nethserver-enterprise-groups.xml.in.h:105
+#: ../nethserver-enterprise-groups.xml.in.h:106
 msgid "NethSpot"
 msgstr "NethSpot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:106
+#: ../nethserver-enterprise-groups.xml.in.h:107
 msgid "Nethesis Hotspot"
 msgstr "Nethesis Hotspot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:107
+#: ../nethserver-enterprise-groups.xml.in.h:108
 msgid "NethSpot Integrations"
 msgstr "Integrazioni NethSpot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:108
+#: ../nethserver-enterprise-groups.xml.in.h:109
 msgid "NethSpot extra integrations"
 msgstr "Integrazioni extra NethSpot"
 
-#: ../nethserver-enterprise-groups.xml.in.h:109
+#: ../nethserver-enterprise-groups.xml.in.h:110
 msgid "Fail2ban"
 msgstr "Fail2ban"
 
-#: ../nethserver-enterprise-groups.xml.in.h:110
+#: ../nethserver-enterprise-groups.xml.in.h:111
 msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:111
+#: ../nethserver-enterprise-groups.xml.in.h:112
 #, fuzzy
 msgid "New Server Manager"
 msgstr "Nuovo Server Manager"
 
-#: ../nethserver-enterprise-groups.xml.in.h:112
+#: ../nethserver-enterprise-groups.xml.in.h:113
 msgid "New Server Manager based on Cockpit"
 msgstr "Nuovo Server Manager basato su Cockpit"
 
-#: ../nethserver-enterprise-groups.xml.in.h:113
+#: ../nethserver-enterprise-groups.xml.in.h:114
 msgid "Netdata"
 msgstr "Netdata"
 
-#: ../nethserver-enterprise-groups.xml.in.h:114
+#: ../nethserver-enterprise-groups.xml.in.h:115
 msgid "Real-time performance monitoring"
 msgstr "Monitoraggio real-time delle performance"
 
-#: ../nethserver-enterprise-groups.xml.in.h:115
+#: ../nethserver-enterprise-groups.xml.in.h:116
 #, fuzzy
 msgid "Report"
 msgstr "Report"
 
-#: ../nethserver-enterprise-groups.xml.in.h:116
+#: ../nethserver-enterprise-groups.xml.in.h:117
 msgid "Reports on system usage"
 msgstr "Report settimanale sullo stato del sistema"
 
-#: ../nethserver-enterprise-groups.xml.in.h:117
+#: ../nethserver-enterprise-groups.xml.in.h:118
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:118
+#: ../nethserver-enterprise-groups.xml.in.h:119
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:119
+#: ../nethserver-enterprise-groups.xml.in.h:120
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:120
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:121
+#: ../nethserver-enterprise-groups.xml.in.h:122
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:122
+#: ../nethserver-enterprise-groups.xml.in.h:123
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:123
+#: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:124
+#: ../nethserver-enterprise-groups.xml.in.h:125
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:125
+#: ../nethserver-enterprise-groups.xml.in.h:126
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
 
