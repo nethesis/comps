@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-23 11:32+0100\n"
+"POT-Creation-Date: 2020-03-24 09:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -490,37 +490,45 @@ msgid "Reports on system usage"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "Base system"
+msgid "Threat shield"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "Common packages to all products"
+msgid "Block attacks using IP blacklists"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:121
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
-msgid "NethVoice"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:125
-msgid "Languages"
+msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:126
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:127
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:128
 msgid "Localization of the Server Manager web interface"
 msgstr ""
