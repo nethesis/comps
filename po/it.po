@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-23 11:32+0100\n"
+"POT-Creation-Date: 2020-03-24 09:07+0100\n"
 "PO-Revision-Date: 2019-11-21 15:48+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -503,38 +503,46 @@ msgid "Reports on system usage"
 msgstr "Report settimanale sullo stato del sistema"
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
+msgid "Threat shield"
+msgstr "Threat shield"
+
+#: ../nethserver-enterprise-groups.xml.in.h:119
+msgid "Block attacks using IP blacklists"
+msgstr "Blocca gli attacchi usando blacklist di IP"
+
+#: ../nethserver-enterprise-groups.xml.in.h:120
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-enterprise-groups.xml.in.h:119
+#: ../nethserver-enterprise-groups.xml.in.h:121
 msgid "Common packages to all products"
 msgstr "Pacchetti comuni a tutti i prodotti"
 
-#: ../nethserver-enterprise-groups.xml.in.h:120
+#: ../nethserver-enterprise-groups.xml.in.h:122
 msgid "NethService"
 msgstr "NethService"
 
-#: ../nethserver-enterprise-groups.xml.in.h:121
+#: ../nethserver-enterprise-groups.xml.in.h:123
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per la piccola e media impresa"
 
-#: ../nethserver-enterprise-groups.xml.in.h:122
+#: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "NethSecurity"
 msgstr "NethSecurity"
 
-#: ../nethserver-enterprise-groups.xml.in.h:123
+#: ../nethserver-enterprise-groups.xml.in.h:125
 msgid "UTM Firewall"
 msgstr "Firewall UTM (Unified Threat Management)"
 
-#: ../nethserver-enterprise-groups.xml.in.h:124
+#: ../nethserver-enterprise-groups.xml.in.h:126
 msgid "NethVoice"
 msgstr "NethVoice"
 
-#: ../nethserver-enterprise-groups.xml.in.h:125
+#: ../nethserver-enterprise-groups.xml.in.h:127
 msgid "Languages"
 msgstr "Lingue"
 
-#: ../nethserver-enterprise-groups.xml.in.h:126
+#: ../nethserver-enterprise-groups.xml.in.h:128
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
 
