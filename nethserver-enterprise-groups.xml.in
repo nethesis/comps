@@ -729,7 +729,7 @@
     <_name>POP3 proxy</_name>
     <_description>Intercept POP3 connections and scan messages for virus and spam</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-p3scan</packagereq>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
@@ -1224,7 +1224,6 @@
       <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-p3scan</groupid>
-      <groupid>nethserver-p3scan2</groupid>
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-flashstart</groupid>
