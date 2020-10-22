@@ -994,6 +994,7 @@
       <packagereq type="optional">queuereport</packagereq>
       <packagereq type="optional">neth-hotel14</packagereq>
       <packagereq type="optional">inboundreport</packagereq>
+      <packagereq type="optional">asterisk-codecs-g729</packagereq>
     </packagelist>
   </group>
 
