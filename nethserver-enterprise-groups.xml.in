@@ -1164,7 +1164,7 @@
 
   <group>
       <id>dahdi</id>
-      <_name>DAHDI divers and tools</_name>
+      <_name>DAHDI drivers and tools</_name>
       <_description>Support Digium Asterisk Hardware Device Interface</_description>
       <default>false</default>
       <uservisible>true</uservisible>
