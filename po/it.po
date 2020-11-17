@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 11:49+0100\n"
+"POT-Creation-Date: 2020-11-17 12:43+0100\n"
 "PO-Revision-Date: 2019-11-21 15:48+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: ITALIAN <support@nethesis.it>\n"
@@ -477,7 +477,6 @@ msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr "Fail2ban analizza i file di log e vieta gli IP con login falliti"
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
-#, fuzzy
 msgid "New Server Manager"
 msgstr "Nuovo Server Manager"
 
@@ -494,7 +493,6 @@ msgid "Real-time performance monitoring"
 msgstr "Monitoraggio real-time delle performance"
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
-#, fuzzy
 msgid "Report"
 msgstr "Report"
 
@@ -519,14 +517,12 @@ msgid "Scan mail attachments with Yomi sandbox"
 msgstr "Analizza gli allegati della posta usando la sandbox Yomi"
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-#, fuzzy
 msgid "Old Server Manager"
 msgstr "Vecchio Server Manager"
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-#, fuzzy
-msgid "Legacy Server Manager based on NethGUI"
-msgstr "Vecchio Server Manager basato su NethGUI"
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr "Applicazione web Nethgui Server Manager accessibile sulla porta HTTPS 980"
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "Base system"
@@ -564,54 +560,3 @@ msgstr "Lingue"
 msgid "Localization of the Server Manager web interface"
 msgstr "Traduzioni per Server Manager"
 
-#~ msgid "PHP 7.1 by Software Collections"
-#~ msgstr "PHP 7.1 di Software Collections"
-
-#~ msgid "PHP needed dependencies for rh-php71-php"
-#~ msgstr "Dipendenze PHP richieste da rh-php71-php"
-
-#~ msgid "PHP 7.2 by Software Collections"
-#~ msgstr "PHP 7.2 di Software Collections"
-
-#~ msgid "PHP needed dependencies for rh-php72-php"
-#~ msgstr "Dipendenze PHP richieste da rh-php72-php"
-
-#, fuzzy
-#~ msgid "Email server and filter based on amavisd"
-#~ msgstr "Server e filtri di posta elettronica"
-
-#, fuzzy
-#~ msgid "SMTP proxy (obsolete)"
-#~ msgstr "Proxy SMTP"
-
-#, fuzzy
-#~ msgid "POP3 proxy (obsolete)"
-#~ msgstr "Proxy POP3"
-
-#, fuzzy
-#~ msgid ""
-#~ "Intercept POP3 connections and scan messages for virus and spam with "
-#~ "amavisd"
-#~ msgstr ""
-#~ "Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  "
-#~ "virus e spam"
-
-#, fuzzy
-#~ msgid "POP3 connector (obsolete)"
-#~ msgstr "Connettore POP3"
-
-#, fuzzy
-#~ msgid "NethHotel 14"
-#~ msgstr "NethHotel 14"
-
-#, fuzzy
-#~ msgid "WebTop 4 groupware"
-#~ msgstr "Groupware WebTop 4"
-
-#, fuzzy
-#~ msgid "Simple bandwidth monitor"
-#~ msgstr "Monitoraggio banda"
-
-#, fuzzy
-#~ msgid "Configure and manage Bandwidthd"
-#~ msgstr "Configurazione e gestione di Ntopng"

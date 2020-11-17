@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 11:49+0100\n"
+"POT-Creation-Date: 2020-11-17 12:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -506,11 +506,11 @@ msgid "Scan mail attachments with Yomi sandbox"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "Nethgui Server Manager"
+msgid "Old Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "Legacy Server Manager web application on HTTPS port 980"
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
