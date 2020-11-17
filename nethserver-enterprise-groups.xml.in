@@ -380,6 +380,7 @@
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-netdata</packagereq>
       <packagereq type="mandatory">nethserver-cockpit</packagereq>
 
       <!-- Specific packages for NethServer Enterprise -->
