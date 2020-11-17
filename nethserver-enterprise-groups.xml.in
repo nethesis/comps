@@ -1165,7 +1165,7 @@
   <group>
     <id>nethserver-httpd-admin</id>
     <_name>Nethgui Server Manager</_name>
-    <_description>Legacy Server Manager based on NethGUI</_description>
+    <_description>Legacy Server Manager web application on HTTPS port 980</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>

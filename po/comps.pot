@@ -510,7 +510,7 @@ msgid "Nethgui Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "Legacy Server Manager based on NethGUI"
+msgid "Legacy Server Manager web application on HTTPS port 980"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
