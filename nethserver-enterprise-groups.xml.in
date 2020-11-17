@@ -364,7 +364,6 @@
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-ntp</packagereq>
       <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
@@ -381,6 +380,7 @@
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-register</packagereq>
@@ -1162,6 +1162,16 @@
       </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-httpd-admin</id>
+    <_name>Old Server Manager</_name>
+    <_description>Legacy Server Manager based on NethGUI</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+    </packagelist>
+  </group>
 
 <!-- NETHESIS GROUPS END -->
 
@@ -1192,6 +1202,7 @@
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-fail2ban</groupid>
       <groupid>nethserver-cockpit</groupid>
+      <groupid>nethserver-httpd-admin</groupid>
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-dante</groupid>
       <groupid>nethserver-ftp</groupid>
