@@ -1164,7 +1164,7 @@
 
   <group>
     <id>nethserver-httpd-admin</id>
-    <_name>Old Server Manager</_name>
+    <_name>Nethgui Server Manager</_name>
     <_description>Legacy Server Manager based on NethGUI</_description>
     <default>false</default>
     <uservisible>true</uservisible>

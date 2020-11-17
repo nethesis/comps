@@ -506,7 +506,7 @@ msgid "Scan mail attachments with Yomi sandbox"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "Old Server Manager"
+msgid "Nethgui Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
