@@ -524,6 +524,13 @@ msgstr "Vecchio Server Manager"
 msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr "Applicazione web Nethgui Server Manager accessibile sulla porta HTTPS 980"
 
+msgid "NethVoice report (beta)"
+msgstr "NethVoice report (beta)"
+
+#: ../nethserver-enterprise-groups.xml.in.h:123
+msgid "Queue and inbound report"
+msgstr "Report code e chiamate"
+
 #: ../nethserver-enterprise-groups.xml.in.h:124
 msgid "Base system"
 msgstr "Sistema base"
