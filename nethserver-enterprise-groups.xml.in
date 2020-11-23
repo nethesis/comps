@@ -364,7 +364,6 @@
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-ntp</packagereq>
       <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
@@ -381,6 +380,8 @@
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-netdata</packagereq>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
 
       <!-- Specific packages for NethServer Enterprise -->
       <packagereq type="mandatory">nethserver-register</packagereq>
@@ -1176,6 +1177,28 @@
       </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-httpd-admin</id>
+    <_name>Old Server Manager</_name>
+    <_description>Nethgui Server Manager web application available on HTTPS port 980</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethvoice-report</id>
+    <_name>NethVoice report (beta)</_name>
+    <_description>Queue and inbound report</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethvoice-report</packagereq>
+    </packagelist>
+  </group>
+
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -1205,6 +1228,7 @@
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-fail2ban</groupid>
       <groupid>nethserver-cockpit</groupid>
+      <groupid>nethserver-httpd-admin</groupid>
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-dante</groupid>
       <groupid>nethserver-ftp</groupid>
@@ -1274,6 +1298,7 @@
       <groupid>neth-hotel14</groupid>
       <groupid>qmanager</groupid>
       <groupid>dahdi</groupid>
+      <groupid>nethvoice-report</groupid>
     </grouplist>
   </category>
 
