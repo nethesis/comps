@@ -1193,7 +1193,7 @@
     <_name>NethVoice report (beta)</_name>
     <_description>Queue and inbound report</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethvoice-report</packagereq>
     </packagelist>
