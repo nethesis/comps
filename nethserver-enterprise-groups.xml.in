@@ -1234,6 +1234,7 @@
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-blacklist</groupid>
+      <groupid>nethserver-yomi</groupid>
     </grouplist>
   </category>
 
@@ -1256,7 +1257,6 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-mattermost</groupid>
-      <groupid>nethserver-yomi</groupid>
     </grouplist>
   </category>
 
