@@ -1164,20 +1164,6 @@
   </group>
 
   <group>
-      <id>dahdi</id>
-      <_name>DAHDI drivers and tools</_name>
-      <_description>Support Digium Asterisk Hardware Device Interface</_description>
-      <default>false</default>
-      <uservisible>true</uservisible>
-      <packagelist>
-        <packagereq type="mandatory">kmod-dahdi-linux</packagereq>
-        <packagereq type="mandatory">dahdi-linux</packagereq>
-        <packagereq type="mandatory">dahdi-firmware</packagereq>
-        <packagereq type="mandatory">dahdi-tools</packagereq>
-      </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-httpd-admin</id>
     <_name>Old Server Manager</_name>
     <_description>Nethgui Server Manager web application available on HTTPS port 980</_description>
@@ -1297,7 +1283,6 @@
       <groupid>nethserver-nethvoice14</groupid>
       <groupid>neth-hotel14</groupid>
       <groupid>qmanager</groupid>
-      <groupid>dahdi</groupid>
       <groupid>nethvoice-report</groupid>
     </grouplist>
   </category>
