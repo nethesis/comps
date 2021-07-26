@@ -1178,7 +1178,7 @@
 
   <group>
     <id>nethvoice-report</id>
-    <_name>NethVoice report (beta)</_name>
+    <_name>NethVoice report</_name>
     <_description>Queue and inbound report</_description>
     <default>false</default>
     <uservisible>true</uservisible>
