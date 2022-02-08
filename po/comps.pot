@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 18:01+0100\n"
+"POT-Creation-Date: 2022-02-08 16:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -498,60 +498,69 @@ msgid "Block attacks using IP blacklists"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "Yomi sandbox (Beta)"
+msgid "Log Manager agent"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:121
-msgid "Scan mail attachments with Yomi sandbox"
+msgid "Send logs to https://nar.nethesis.it"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "Old Server Manager"
+msgid "Yomi sandbox (Beta)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "Nethgui Server Manager web application available on HTTPS port 980"
-msgstr ""
-
-msgid "Nethvoice report (beta)"
-msgstr ""
-
-#: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "Queue and inbound report"
+msgid "Scan mail attachments with Yomi sandbox"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
-msgid "Base system"
+msgid "Old Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:125
-msgid "Common packages to all products"
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:126
-msgid "NethService"
+msgid "NethVoice report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:127
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Queue and inbound report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:128
-msgid "NethSecurity"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:129
-msgid "UTM Firewall"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:130
-msgid "NethVoice"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:131
-msgid "Languages"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:132
+msgid "NethSecurity"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:133
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:134
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:135
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:136
 msgid "Localization of the Server Manager web interface"
 msgstr ""

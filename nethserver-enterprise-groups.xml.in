@@ -1155,6 +1155,17 @@
   </group>
 
   <group>
+      <id>nethserver-lmagent</id>
+      <_name>Log Manager agent</_name>
+      <_description>Send logs to https://nar.nethesis.it</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-lmagent</packagereq>
+      </packagelist>
+  </group>
+
+  <group>
       <id>nethserver-yomi</id>
       <_name>Yomi sandbox (Beta)</_name>
       <_description>Scan mail attachments with Yomi sandbox</_description>
@@ -1223,6 +1234,7 @@
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-blacklist</groupid>
       <groupid>nethserver-yomi</groupid>
+      <groupid>nethserver-lmagent</groupid>
     </grouplist>
   </category>
 
