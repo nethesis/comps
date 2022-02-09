@@ -1156,8 +1156,8 @@
 
   <group>
       <id>nethserver-lmagent</id>
-      <_name>Log Manager agent</_name>
-      <_description>Send logs to https://nar.nethesis.it</_description>
+      <_name>Cloud Log Manager agent</_name>
+      <_description>Send logs to Log Manager server</_description>
       <default>false</default>
       <uservisible>true</uservisible>
       <packagelist>
