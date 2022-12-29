@@ -1,4 +1,6 @@
-# Upload via sftp
+#!/usr/bin/env bash
+
+set -e
 
 key_file=~/.ssh/id_rsa.comps
 sftp_opts="-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ${key_file}"
@@ -10,6 +12,7 @@ if [[ -f ${key_file} ]]; then
 fi
 trap 'rm -f ${key_file}; ssh-agent -k' EXIT
 
+mkdir -vp ~/.ssh
 touch ${key_file}
 chmod 600 ${key_file}
 curl -s "${SECRET_URL}" > ${key_file}
