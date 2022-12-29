@@ -1,0 +1,25 @@
+name: Build
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      NSVER: 7
+      ENDPOINTS_PACK: ${{ secrets.endpoints_pack }}
+      SECRET_URL: ${{ secrets.secret_url }}
+      SECRET: ${{ secrets.secret }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils xsltproc python3-libxml2 intltool expect
+      - name: Make package
+        run: make
+      - name: Publish
+        if: ${{ github.ref == 'refs/heads/master' && env.ENDPOINTS_PACK != '' && env.SECRET != '' }}
+        run: bash scripts/upload.sh
