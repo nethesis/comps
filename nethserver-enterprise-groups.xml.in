@@ -995,9 +995,19 @@
       <packagereq type="mandatory">freepbx</packagereq>
       <packagereq type="mandatory">nethvoice-lang-it</packagereq>
       <packagereq type="optional">queuereport</packagereq>
-      <packagereq type="optional">neth-hotel14</packagereq>
       <packagereq type="optional">inboundreport</packagereq>
       <packagereq type="optional">asterisk-codecs-g729</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>neth-hotel14</id>
+    <_name>NethHotel 14</_name>
+    <_description>Hotel Management Interface</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">neth-hotel14</packagereq>
     </packagelist>
   </group>
 
