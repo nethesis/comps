@@ -1008,9 +1008,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">neth-hotel14</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-es-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-fr-gsm</packagereq>
-      <packagereq type="mandatory">asterisk-sounds-core-ru-gsm</packagereq>
     </packagelist>
   </group>
 
