@@ -944,7 +944,7 @@
     <_name>NethSecurity 1.5 migration</_name>
     <_description>Migrations tools from NethSecurity 1.5</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-migrate-firewall</packagereq>
     </packagelist>
