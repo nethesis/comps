@@ -919,12 +919,23 @@
 
   <group>
     <id>nethserver-flashstart</id>
-    <_name>Cloud content filter</_name>
-    <_description>Cloud-based web content filter</_description>
+    <_name>FlashStart</_name>
+    <_description>Cloud content filter, Flashstart classic</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-flashstart</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-flashstart-hybrid</id>
+    <_name>FlashStart Pro Plus</_name>
+    <_description>Cloud content filter, Flashstart Pro</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-flashstart-hybrid</packagereq>
     </packagelist>
   </group>
 
