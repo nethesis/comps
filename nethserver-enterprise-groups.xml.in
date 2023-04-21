@@ -1299,6 +1299,7 @@
       <groupid>nethserver-hotspot-portal</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-flashstart</groupid>
+      <groupid>nethserver-flashstart-hybrid</groupid>
       <groupid>nethserver-dpi</groupid>
       <groupid>nethserver-migrate-firewall</groupid>
       <groupid>nethserver-hotspot</groupid>
