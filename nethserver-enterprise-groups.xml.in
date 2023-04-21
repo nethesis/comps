@@ -931,7 +931,7 @@
   <group>
     <id>nethserver-flashstart-hybrid</id>
     <_name>FlashStart Pro Plus</_name>
-    <_description>Cloud content filter, Flashstart Pro</_description>
+    <_description>Cloud content filter, Flashstart Pro Plus</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
