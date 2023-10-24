@@ -1219,6 +1219,16 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-firewall-migration</id>
+    <_name>Firewall migration tool (beta)</_name>
+    <_description>Migrate NS7 firewall to NethSecurity</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-firewall-migration</packagereq>
+    </packagelist>
+  </group>
 <!-- NETHESIS GROUPS END -->
 
 <!-- NETHESIS CATEGORIES START -->
@@ -1304,6 +1314,7 @@
       <groupid>nethserver-migrate-firewall</groupid>
       <groupid>nethserver-hotspot</groupid>
       <groupid>nethserver-hotspot-integrations</groupid>
+      <groupid>nethserver-firewall-migration</groupid>
     </grouplist>
   </category>
 
