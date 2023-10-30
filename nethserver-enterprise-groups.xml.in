@@ -1221,7 +1221,7 @@
 
   <group>
     <id>nethserver-firewall-migration</id>
-    <_name>Firewall migration tool (Alpha)</_name>
+    <_name>Firewall migration tool Beta</_name>
     <_description>Migrate NS7 firewall to NethSecurity 8 Alpha</_description>
     <default>false</default>
     <uservisible>true</uservisible>
