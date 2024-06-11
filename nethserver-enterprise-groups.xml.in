@@ -962,6 +962,17 @@
   </group>
 
   <group>
+    <id>nethserver-ns8-migration</id>
+    <_name>NS8 migration tool</_name>
+    <_description>Migrate NethServer 7 applications to NethServer 8</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ns8-migration</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-nethvoice</id>
     <_name>NethVoice 11</_name>
     <_description>Asterisk PBX</_description>
@@ -1288,6 +1299,7 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-mattermost</groupid>
+      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
@@ -1331,6 +1343,7 @@
       <groupid>neth-hotel14</groupid>
       <groupid>qmanager</groupid>
       <groupid>nethvoice-report</groupid>
+      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
