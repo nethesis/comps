@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 14:21+0100\n"
+"POT-Creation-Date: 2024-06-11 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -398,189 +398,197 @@ msgid "Migrations tools from NethSecurity 1.5"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:95
-msgid "NethVoice 11"
+msgid "NS8 migration tool"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:96
-msgid "Asterisk PBX"
+msgid "Migrate NethServer 7 applications to NethServer 8"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:97
-msgid "NethVoice 14 with NethCTI 3"
+msgid "NethVoice 11"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:98
-msgid "PBX configuration with Computer Telephony Integration web application"
+msgid "Asterisk PBX"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:99
-msgid "NethHotel 14"
+msgid "NethVoice 14 with NethCTI 3"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:100
-msgid "Hotel Management Interface"
+msgid "PBX configuration with Computer Telephony Integration web application"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:101
-msgid "NethVoice 14 with NethCTI 3 (Beta)"
+msgid "NethHotel 14"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:102
-msgid "NethCTI QManager"
+msgid "Hotel Management Interface"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:103
-msgid "Queue Manager is the application for queue supervisor"
+msgid "NethVoice 14 with NethCTI 3 (Beta)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:104
-msgid "NethCTI 2"
+msgid "NethCTI QManager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:105
-msgid "Computer Telephony Integration"
+msgid "Queue Manager is the application for queue supervisor"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:106
-msgid "NethHotel 11"
+msgid "NethCTI 2"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:107
-msgid "Mattermost"
+msgid "Computer Telephony Integration"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:108
-msgid "Mattermost Team Edition"
+msgid "NethHotel 11"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:109
-msgid "NethSpot"
+msgid "Mattermost"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:110
-msgid "Nethesis Hotspot"
+msgid "Mattermost Team Edition"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:111
-msgid "NethSpot Integrations"
+msgid "NethSpot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:112
-msgid "NethSpot extra integrations"
+msgid "Nethesis Hotspot"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:113
-msgid "Fail2ban"
+msgid "NethSpot Integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:114
-msgid "Fail2ban scans log files and bans IPs with failed login"
+msgid "NethSpot extra integrations"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:115
-msgid "New Server Manager"
+msgid "Fail2ban"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:116
-msgid "New Server Manager based on Cockpit"
+msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:117
-msgid "Netdata"
+msgid "New Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:118
-msgid "Real-time performance monitoring"
+msgid "New Server Manager based on Cockpit"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:119
-msgid "Report"
+msgid "Netdata"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:120
-msgid "Reports on system usage"
+msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:121
-msgid "Threat shield"
+msgid "Report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:122
-msgid "Block attacks using IP blacklists"
+msgid "Reports on system usage"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:123
-msgid "Cloud Log Manager agent"
+msgid "Threat shield"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:124
-msgid "Send logs to Log Manager server"
+msgid "Block attacks using IP blacklists"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:125
-msgid "Yomi sandbox (Beta)"
+msgid "Cloud Log Manager agent"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:126
-msgid "Scan mail attachments with Yomi sandbox"
+msgid "Send logs to Log Manager server"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:127
-msgid "Old Server Manager"
+msgid "Yomi sandbox (Beta)"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:128
-msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgid "Scan mail attachments with Yomi sandbox"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:129
-msgid "NethVoice report"
+msgid "Old Server Manager"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:130
-msgid "Queue and inbound report"
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:131
-msgid "Firewall migration tool"
+msgid "NethVoice report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:132
-msgid "Migrate NS7 firewall to NethSecurity 8"
+msgid "Queue and inbound report"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:133
-msgid "Base system"
+msgid "Firewall migration tool"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:134
-msgid "Common packages to all products"
+msgid "Migrate NS7 firewall to NethSecurity 8"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:135
-msgid "NethService"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:136
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
+msgid "Common packages to all products"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:137
-msgid "NethSecurity"
+msgid "NethService"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:138
-msgid "UTM Firewall"
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:139
-msgid "NethVoice"
+msgid "NethSecurity"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:140
-msgid "Languages"
+msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-enterprise-groups.xml.in.h:141
+msgid "NethVoice"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:142
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-enterprise-groups.xml.in.h:143
 msgid "Localization of the Server Manager web interface"
 msgstr ""
