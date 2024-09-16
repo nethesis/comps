@@ -1277,6 +1277,7 @@
       <groupid>nethserver-blacklist</groupid>
       <groupid>nethserver-yomi</groupid>
       <groupid>nethserver-lmagent</groupid>
+      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
@@ -1299,7 +1300,6 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-mattermost</groupid>
-      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
@@ -1343,7 +1343,6 @@
       <groupid>neth-hotel14</groupid>
       <groupid>qmanager</groupid>
       <groupid>nethvoice-report</groupid>
-      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
